@@ -1280,8 +1280,8 @@ body {
 
 .event-aside {
 	padding-left: 20px;
-	border-left: 1px dashed #CACACA;
-	height: 100%;
+	border-left : 1px dashed #CACACA;
+	height      : 100%;
 }
 
 .aside__title {
@@ -1300,8 +1300,8 @@ body {
 }
 
 .small-info .image {
-	width : 327px;
-	height: 230.32px;
+	width          : 327px;
+	height         : 230.32px;
 	background-size: cover;
 }
 
@@ -1380,4 +1380,148 @@ body {
 	position           : absolute;
 	top                : 10px;
 	left               : 0;
+}
+
+.aplication {}
+
+.aplication label {
+	display       : flex;
+	align-items   : center;
+	height        : 100%;
+	font-family   : "Segoe UI";
+	font-weight   : 600;
+	font-size     : 18px;
+	letter-spacing: -0.01em;
+	line-height   : 22px;
+	text-align    : left;
+	color         : #3c3c3c;
+
+}
+
+.aplication .form-control {
+	height       : 55px;
+	border-radius: 5px;
+	border       : 1px solid #D0D0D0;
+	box-shadow   : inset 0 3px 6px rgba(0, 0, 0, 0.16);
+	padding-right: 50px;
+
+}
+
+.aplication .form-control.unchecked {
+	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='26' viewBox='0 0 25 26'%3E%3Ctext id='Fabric_Icons' data-name='Fabric Icons' transform='translate(0 25)' fill='%23D0D0D0' font-size='25' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets' letter-spacing='1em'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+	background-repeat  : no-repeat;
+	background-position: calc(100% - 17px) 50%;
+}
+
+.aplication .form-group {
+	margin-bottom: 30px;
+}
+
+.aplication .form-control {
+	font-family   : "Segoe UI";
+	font-weight   : normal;
+	font-size     : 18px;
+	letter-spacing: -0.01em;
+	text-align    : left;
+	color         : #666;
+}
+
+.aplication .form-control.checked {
+	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='26' viewBox='0 0 25 26'%3E%3Ctext id='Fabric_Icons' data-name='Fabric Icons' transform='translate(0 25)' fill='%23107c10' font-size='25' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets' letter-spacing='1em'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+	background-repeat  : no-repeat;
+	background-position: calc(100% - 17px) 50%;
+}
+
+.aplication select.form-control {
+	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='26' viewBox='0 0 25 26'%3E%3Ctext id='Fabric_Icons' data-name='Fabric Icons' transform='translate(0 25)' fill='%230078d4' font-size='25' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets' letter-spacing='1em'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+	background-repeat  : no-repeat;
+	background-position: calc(100% - 17px) 50%;
+}
+
+.aplication .form-check {
+	margin-bottom: 23px;
+	padding-left : 0;
+}
+
+.aplication .form-check:last-child {
+	margin-bottom: 0;
+}
+
+.aplication .form-check input[type=radio] {
+	opacity : 0;
+	position: absolute;
+	z-index : -1;
+}
+
+.aplication .form-check input[type=radio]:checked+label::after {
+	content: '';
+}
+
+.aplication .form-check-label {
+	font-family   : "Segoe UI";
+	font-weight   : normal;
+	font-size     : 18px;
+	letter-spacing: -0.02em;
+	text-align    : left;
+	color         : #212121;
+	position      : relative;
+	padding-left  : 30px;
+	cursor        : pointer;
+}
+
+.aplication .form-check-label::before {
+	content      : '';
+	display      : block;
+	width        : 18px;
+	height       : 18px;
+	border-radius: 50%;
+	border       : 2px solid #0078D4;
+	position     : absolute;
+	top          : 50%;
+	left         : 0;
+	transform    : translateY(-50%);
+}
+
+.aplication .form-check-label::after {
+	content      : none;
+	display      : block;
+	width        : 10px;
+	height       : 10px;
+	border-radius: 50%;
+	background   : #0078D4;
+	position     : absolute;
+	top          : 6px;
+	left         : 4px;
+}
+
+
+
+.aplication .file input[type=file] {
+	opacity : 0;
+	position: absolute;
+	z-index : -1;
+}
+
+.aplication .file>label {
+	height             : 55px;
+	border-radius      : 5px;
+	border             : 1px solid #D0D0D0;
+	box-shadow         : inset 0 3px 6px rgba(0, 0, 0, 0.16);
+	padding-right      : 50px;
+	background         : #fff url("data:image/svg+xml,%3Csvg id='attach_file_black_24dp' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath id='Контур_8778' data-name='Контур 8778' d='M0,0H24V24H0Z' fill='none'/%3E%3Cpath id='Контур_8779' data-name='Контур 8779' d='M16.5,6V17.5a4,4,0,0,1-8,0V5a2.5,2.5,0,0,1,5,0V15.5a1,1,0,0,1-2,0V6H10v9.5a2.5,2.5,0,0,0,5,0V5A4,4,0,0,0,7,5V17.5a5.5,5.5,0,0,0,11,0V6Z' fill='%23666'/%3E%3C/svg%3E%0A");
+	background-repeat  : no-repeat;
+	background-position: calc(100% - 17px) 50%;
+
+}
+
+.aplication .btn {
+	padding       : 16px 49px 15px 49px;
+	border-radius : 5px;
+	color         : white;
+	background    : #2B88D8;
+	text-transform: uppercase;
+}
+
+.aplication .form {
+	padding-bottom: 102px;
 }
