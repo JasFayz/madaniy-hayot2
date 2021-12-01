@@ -45,7 +45,7 @@
 								transform="translate(-3.375 18)" fill="#fff" />
 						</svg>
 					</a>
-					<a href="#" class="nav-link">
+					<a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
 						<svg xmlns="http://www.w3.org/2000/svg" width="15.75" height="18" viewBox="0 0 15.75 18">
 							<path id="Контур_8677" data-name="Контур 8677"
 								d="M11.689-7.427a7.529,7.529,0,0,1,2.158,1.156,7.633,7.633,0,0,1,1.635,1.718,7.834,7.834,0,0,1,1.033,2.136A8.1,8.1,0,0,1,16.875,0H15.75a6.893,6.893,0,0,0-.514-2.676,6.552,6.552,0,0,0-1.419-2.14,6.552,6.552,0,0,0-2.14-1.419A6.893,6.893,0,0,0,9-6.75a6.851,6.851,0,0,0-1.811.237,6.782,6.782,0,0,0-1.622.672A6.581,6.581,0,0,0,4.206-4.794,6.581,6.581,0,0,0,3.16-3.432a6.782,6.782,0,0,0-.672,1.622A6.851,6.851,0,0,0,2.25,0H1.125a7.91,7.91,0,0,1,.369-2.421A7.833,7.833,0,0,1,2.54-4.544,7.723,7.723,0,0,1,4.179-6.249,7.976,7.976,0,0,1,6.328-7.418a5.527,5.527,0,0,1-1.23-.9A5.585,5.585,0,0,1,4.17-9.488a5.761,5.761,0,0,1-.589-1.38,5.537,5.537,0,0,1-.207-1.507,5.5,5.5,0,0,1,.439-2.193,5.659,5.659,0,0,1,1.2-1.789,5.659,5.659,0,0,1,1.789-1.2A5.5,5.5,0,0,1,9-18a5.5,5.5,0,0,1,2.193.439,5.659,5.659,0,0,1,1.789,1.2,5.659,5.659,0,0,1,1.2,1.789,5.5,5.5,0,0,1,.439,2.193,5.49,5.49,0,0,1-.207,1.5A5.7,5.7,0,0,1,13.83-9.5a5.819,5.819,0,0,1-.923,1.173A5.442,5.442,0,0,1,11.689-7.427ZM4.5-12.375a4.333,4.333,0,0,0,.356,1.749A4.591,4.591,0,0,0,5.823-9.2a4.591,4.591,0,0,0,1.428.967A4.333,4.333,0,0,0,9-7.875a4.333,4.333,0,0,0,1.749-.356A4.591,4.591,0,0,0,12.177-9.2a4.591,4.591,0,0,0,.967-1.428,4.333,4.333,0,0,0,.356-1.749,4.333,4.333,0,0,0-.356-1.749,4.591,4.591,0,0,0-.967-1.428,4.591,4.591,0,0,0-1.428-.967A4.333,4.333,0,0,0,9-16.875a4.333,4.333,0,0,0-1.749.356,4.591,4.591,0,0,0-1.428.967,4.591,4.591,0,0,0-.967,1.428A4.333,4.333,0,0,0,4.5-12.375Z"
@@ -117,7 +117,7 @@
 				transition: all 0.3s linear;
 			}
 
-			.dropdown-item.link:hover ~ .dropdown_menu,
+			.dropdown-item.link:hover~.dropdown_menu,
 			.dropdown_menu:hover {
 				opacity: 1;
 				transform: translateX(0);
@@ -143,7 +143,7 @@
 
 						<div class="dropdown-menu" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
 							aria-expanded="false">
-							<div >
+							<div>
 								<a href="" class=" dropdown-item link">Тошкент шахри</a>
 								<div class="dropdown_menu">
 									<a href="">asdasd</a>
@@ -1116,11 +1116,156 @@
 			</div>
 		</footer>
 	</div>
+	<div class="modal register-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered " style="max-width: 710px;">
+			<div class="modal-content">
+				<div class="modal-header">
+					<ul class="nav nav-pills nav-justified w-100">
+						<li class="nav-item">
+							<a href="" class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+								type="button" role="tab" aria-controls="home" aria-selected="true">Войти</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+								type="button" role="tab" aria-controls="profile" aria-selected="false">Регистрация</a>
+						</li>
+					</ul>
+				</div>
+				<div class="modal-body">
+					<div class="tab-content">
+						<div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+							<div class="social">
+								<div class="soclial__title">Вы можете войти в аккаунт через социальной сети:</div>
+								<ul class="nav nav-pills">
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											<img src="./images/telegram.svg">
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											<img src="./images/facebook.svg" alt="">
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											<img src="./images/instagram.svg" alt="">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="divider">
+								<span>или</span>
+							</div>
 
+							<div class="form">
+								<div class="mb-3">
+									<input type="text" class="form-control icon-email" placeholder="E-mail">
+								</div>
+								<div class="mb-3">
+									<input type="text" class="form-control icon-password" placeholder="Пароль">
+								</div>
+								<div class="d-flex my-4 justify-content-between">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+										<label class="form-check-label" for="defaultCheck1">
+											Запомнить
+										</label>
+									</div>
+
+									<a href="" class="forgot_link">Забыли пароль?</a>
+								</div>
+								<div class="mb-1">
+									<button class="btn ">
+										Войти
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+							<div class="social">
+								<div class="soclial__title">Зарегистрируйтесь с помощью вашего аккаунта в социальной
+									сети:</div>
+								<ul class="nav nav-pills">
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											<img src="./images/telegram.svg">
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											<img src="./images/facebook.svg" alt="">
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											<img src="./images/instagram.svg" alt="">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="divider">
+								<span>или</span>
+							</div>
+
+							<div class="form">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<input type="text" class="form-control icon-user" placeholder="Имя">
+										</div>
+
+									</div>
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<input type="text" class="form-control icon-email" placeholder="E-mail">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<input type="text" class="form-control icon-user" placeholder="Фамилия">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<input type="text" class="form-control icon-password" placeholder="Пароль">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<input type="text" class="form-control icon-mobile"
+												placeholder="Мобильный">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<input type="text" class="form-control icon-password"
+												placeholder="Подтверждение пароля">
+										</div>
+									</div>
+								</div>
+
+								<div class="mb-1">
+									<button class="btn ">
+										Регистрация
+									</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
 	<script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="js/common.js"></script>
-
+	<script>
+		var myModal = new bootstrap.Modal(document.getElementById('exampleModal'))
+		myModal.show()
+	</script>
 </body>
 
 </html>

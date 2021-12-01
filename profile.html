@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <div id="app">
+    <div id="app" style="display: flex; flex-direction: column; height: 100vh;">
         <div class="header">
             <div class="container header__wrapper">
                 <a href="" class="nav-logo">Madaniy <b>HAYOT</b></a>
@@ -80,941 +80,115 @@
 
             </div>
         </div>
-        <div class="afisha">
-            <div class="container-fluid px-0">
-                <div class="owl-carousel owl-theme" id="afisha__slider">
 
-                    <div class="afisha__item" style="background-image: url('./images/afisha-1.jpg');">
-                        <h1 class="afisha__title--big">Afisha</h1>
-                        <div class="item__body ">
-                            <h2 class="afisha__title"></h2>
-                            <div class="afisha__desc big-desc">Выставки, концерты, спектакли, фестивали и многое другое.
-                                Ищите
-                                культурные события, которые проходят рядом с вами.</div>
-                            <button class="btn btn-default">
-                                Xaritada ko’rsatish
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="afisha__item" style="background-image: url('./images/afisha-2.jpg');">
-                        <div class="item__body">
-                            <h2 class="afisha__title">
-                                2 ноября Малый театр представит спектакль о Петре Первом
-                            </h2>
-                            <div class="afisha__desc">Выставки, концерты, спектакли, фестивали и многое другое. Ищите
-                                культурные события, которые проходят рядом с вами.</div>
-                        </div>
-                    </div>
-
-                    <div class="afisha__item" style="background-image: url('./images/afisha-3.jpg');">
-                        <div class="item__body">
-                            <h2 class="afisha__title">2 ноября Малый театр представит спектакль о Петре Первом</h2>
-                            <div class="afisha__desc">Выставки, концерты, спектакли, фестивали и многое другое. Ищите
-                                культурные события, которые проходят рядом с вами.</div>
-                        </div>
-                    </div>
-
-                    <div class="afisha__item" style="background-image: url('./images/afisha-4.jpg');">
-                        <div class="item__body">
-                            <h2 class="afisha__title">2 ноября Малый театр представит спектакль о Петре Первом</h2>
-                            <div class="afisha__desc">Выставки, концерты, спектакли, фестивали и многое другое. Ищите
-                                культурные события, которые проходят рядом с вами.</div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="search">
+        <div class="profile" style="flex: 1 0 auto;">
             <div class="container">
-                <div class="search__wrapper">
-                    <div class="form-group">
-                        <input type="text" class="search__input" name="search" placeholder="QIDIRISH">
+                <div class="row">
+                    <div class="col-xl-2">
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a href="" class="nav-link ">Мой профиль</a></li>
+                            <li class="nav-item"><a href="" class="nav-link active">Личные данные</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Мои заказы
+                                    <span class="badge ">1</span>
+
+                                </a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Адреса доставки</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Выход</a></li>
+                        </ul>
                     </div>
-                    <div class="form-group">
-                        <select name="" id="" class="search__select">
-                            <option value="">TEG</option>
-                        </select>
+                    <div class="col-xl-10">
+                        <div class="card">
+                            <div class="card-title">Личные данные</div>
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <div class="mb-3">
+                                        <label for="">E-mail:</label>
+                                        <input type="text" class="form-control icon-email" placeholder="E-mail">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="mb-3">
+                                        <label for="">Имя:</label>
+                                        <input type="text" class="form-control icon-user" placeholder="Имя">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="mb-3">
+                                        <label for="">Фамилия:</label>
+                                        <input type="text" class="form-control icon-user" placeholder="Джалилова">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="mb-3">
+                                        <label for="">Мобильный:</label>
+                                        <input type="text" class="form-control icon-mobile" placeholder="+99899 123 45 67">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="mb-3">
+                                        <label for="">Телефон:</label>
+                                        <input type="text" class="form-control icon-mobile" placeholder="+99899 123 45 67">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="mb-3">
+                                        <label for="">Пол</label>
+                                        <select name="" id="" class="form-control">
+                                            <option value=""></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="mb-3">
+                                        <label for="">Дата рождения:</label>
+                                        <input type="text" class="form-control icon-date" placeholder="E-mail">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="mb-3">
+                                        <label for="">Страна:</label>
+                                        <select name="" id="" class="form-control icon-place">
+                                            <option value=""></option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group text-end">
+                                    <button class="btn">Сохранить изменения</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title">Изменить пароль</div>
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <div class="mb-4">
+                                        <label for="">Старый пароль:</label>
+                                        <input type="text" class="form-control icon-password" placeholder="Старый пароль">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="mb-4">
+                                        <label for="">Новый пароль:</label>
+                                        <input type="text" class="form-control icon-password" placeholder="Новый пароль">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="mb-4">
+                                        <label for="">Новый пароль:</label>
+                                        <input type="text" class="form-control icon-password" placeholder="Новый пароль">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group text-end">
+                                    <button class="btn ">Изменить пароль</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-
-        </div>
-
-        <div class="main__nav filter  py-0">
-            <div class="container">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Barchasi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Bugun</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Ertaga</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">dam olish kunlari</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18.75" viewBox="0 0 20 18.75">
-                                <path id="Контур_8729" data-name="Контур 8729"
-                                    d="M7.5-12.5H8.75v1.25H7.5ZM11.25-5H12.5v1.25H11.25ZM15-12.5h1.25v1.25H15Zm-3.75,0H12.5v1.25H11.25ZM7.5-10H8.75v1.25H7.5ZM3.75-10H5v1.25H3.75ZM15-10h1.25v1.25H15Zm-3.75,0H12.5v1.25H11.25ZM7.5-7.5H8.75v1.25H7.5Zm-3.75,0H5v1.25H3.75ZM15-7.5h1.25v1.25H15Zm-3.75,0H12.5v1.25H11.25ZM7.5-5H8.75v1.25H7.5ZM3.75-5H5v1.25H3.75ZM20-18.75v17.5H0v-17.5H3.75V-20H5v1.25H15V-20h1.25v1.25ZM1.25-17.5V-15h17.5v-2.5h-2.5v1.25H15V-17.5H5v1.25H3.75V-17.5Zm17.5,15V-13.75H1.25V-2.5Z"
-                                    transform="translate(0 20)" fill="#020403" />
-                            </svg>
-
-                        </a>
-                    </li>
-
-
-                </ul>
-            </div>
-        </div>
-        <div class="main__nav py-0">
-            <div class="container">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a href="" class="nav-link">O’ZBEKISTON AFISHASI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">BARCHA TADBIRLAR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">BARCHA JOYLAR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">MUASSASALAR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">NARXI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18.75" viewBox="0 0 20 18.75">
-                                <path id="Контур_8720" data-name="Контур 8720"
-                                    d="M7.5-12.5H8.75v1.25H7.5ZM11.25-5H12.5v1.25H11.25ZM15-12.5h1.25v1.25H15Zm-3.75,0H12.5v1.25H11.25ZM7.5-10H8.75v1.25H7.5ZM3.75-10H5v1.25H3.75ZM15-10h1.25v1.25H15Zm-3.75,0H12.5v1.25H11.25ZM7.5-7.5H8.75v1.25H7.5Zm-3.75,0H5v1.25H3.75ZM15-7.5h1.25v1.25H15Zm-3.75,0H12.5v1.25H11.25ZM7.5-5H8.75v1.25H7.5ZM3.75-5H5v1.25H3.75ZM20-18.75v17.5H0v-17.5H3.75V-20H5v1.25H15V-20h1.25v1.25ZM1.25-17.5V-15h17.5v-2.5h-2.5v1.25H15V-17.5H5v1.25H3.75V-17.5Zm17.5,15V-13.75H1.25V-2.5Z"
-                                    transform="translate(0 20)" fill="#020403" />
-                            </svg>
-                            SANA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                                <path id="Контур_8679" data-name="Контур 8679"
-                                    d="M18-.615a.664.664,0,0,1-.149.431A.5.5,0,0,1,17.438,0a.541.541,0,0,1-.4-.167l-6.9-6.891a6.318,6.318,0,0,1-1.85,1.063,6.064,6.064,0,0,1-2.1.369,6.112,6.112,0,0,1-1.644-.22,6.113,6.113,0,0,1-1.477-.624A6.267,6.267,0,0,1,1.815-7.44,6.267,6.267,0,0,1,.844-8.692,6.113,6.113,0,0,1,.22-10.169,6.112,6.112,0,0,1,0-11.812a6.112,6.112,0,0,1,.22-1.644,6.113,6.113,0,0,1,.624-1.477,6.267,6.267,0,0,1,.971-1.252,6.267,6.267,0,0,1,1.252-.971,6.113,6.113,0,0,1,1.477-.624A6.112,6.112,0,0,1,6.188-18a6.112,6.112,0,0,1,1.644.22,6.113,6.113,0,0,1,1.477.624,6.267,6.267,0,0,1,1.252.971,6.267,6.267,0,0,1,.971,1.252,6.113,6.113,0,0,1,.624,1.477,6.112,6.112,0,0,1,.22,1.644,6.064,6.064,0,0,1-.369,2.1,6.318,6.318,0,0,1-1.063,1.85l.505.5q.374.369.9.879t1.143,1.121q.62.611,1.248,1.239t1.217,1.226q.589.6,1.046,1.081t.729.8A1.224,1.224,0,0,1,18-.615ZM6.188-6.75a4.9,4.9,0,0,0,1.969-.4A5.14,5.14,0,0,0,9.765-8.235,5.14,5.14,0,0,0,10.85-9.844a4.9,4.9,0,0,0,.4-1.969,4.9,4.9,0,0,0-.4-1.969A5.14,5.14,0,0,0,9.765-15.39a5.14,5.14,0,0,0-1.608-1.085,4.9,4.9,0,0,0-1.969-.4,4.9,4.9,0,0,0-1.969.4A5.14,5.14,0,0,0,2.61-15.39a5.14,5.14,0,0,0-1.085,1.608,4.9,4.9,0,0,0-.4,1.969,4.9,4.9,0,0,0,.4,1.969A5.14,5.14,0,0,0,2.61-8.235,5.14,5.14,0,0,0,4.219-7.15,4.9,4.9,0,0,0,6.188-6.75Z"
-                                    transform="translate(0 18)" fill="#23272a" />
-                            </svg>
-                            QIDIRISH</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">
-                            <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" role="switch"
-                                    id="flexSwitchCheckDefault">
-                                <label class="form-check-label" for="flexSwitchCheckDefault">online</label>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="tag__nav">
-            <div class="container">
-                <div class="nav">
-                    <a href="#" class="nav-link active">Barcha teglar</a>
-                    <a href="#" class="nav-link">Yoshlar uchun</a>
-                    <a href="#" class="nav-link">Artefact</a>
-                    <a href="#" class="nav-link">Bepul</a>
-                    <a href="#" class="nav-link">Bolalar uchun</a>
-                    <a href="#" class="nav-link">Kitoblar</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="latest">
-            <div class="container">
-                <div class="row latest__wrapper">
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-1.jpg');"></div>
-                                <div class="premiera">Premera</div>
-                                <div class="time">
-                                    20 oktabr <br>
-                                    19:00</div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-2.jpg');"></div>
-                                <div class="premiera">Premera</div>
-                                <div class="time">
-                                    20 oktabr <br>
-                                    19:00</div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-3.jpg');"></div>
-                                <div class="premiera">Premera</div>
-                                <div class="time">
-                                    20 oktabr <br>
-                                    19:00</div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-4.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-5.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-1.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-2.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-3.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-4.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-5.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-1.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-2.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-3.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-4.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-5.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-1.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-2.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-3.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-4.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="latest__item">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-image" style="background-image: url('./images/latest-5.jpg');"></div>
-                            </div>
-                            <div class="card-body">
-                                <div class="type icon-reddot">Konsert</div>
-                                <div class="name">MONATIK</div>
-                                <div class="place icon-place">
-
-                                    Humo Arena</div>
-                                <div class="date_info">
-                                    <div class="date icon-date">
-
-                                        27 avgust</div>
-                                    <div class="time icon-clock">
-
-
-                                        19:00</div>
-                                </div>
-                                <div class="price icon-price">
-
-                                    150 000 - 550 000 so’m</div>
-
-                            </div>
-                            <div class="card-footer">
-                                <div class="btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17.5"
-                                        viewBox="0 0 20 17.5">
-                                        <path id="Контур_8721" data-name="Контур 8721"
-                                            d="M15.625-5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146,1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6,1.839,1.839,0,0,1-.146-.732,1.972,1.972,0,0,1,.107-.625H8.643a1.972,1.972,0,0,1,.107.625,1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4,1.839,1.839,0,0,1-.732.146A1.839,1.839,0,0,1,6.143-1.4a1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-3.125a1.839,1.839,0,0,1,.288-1,1.838,1.838,0,0,1,.776-.693L1.846-17.5H0v-1.25H2.744l.83,2.5H20L17.09-7.5H6.494L7.324-5ZM3.994-15l2.08,6.25H16.182L18.262-15ZM7.5-3.125a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186.6.6,0,0,0,.439-.186A.6.6,0,0,0,7.5-3.125Zm8.125.625a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186.6.6,0,0,0-.439.186A.6.6,0,0,0,15-3.125a.6.6,0,0,0,.186.439A.6.6,0,0,0,15.625-2.5Z"
-                                            transform="translate(0 18.75)" fill="#5ac5f9" />
-                                    </svg>
-                                    Xarid qilish
-                                </div>
-                            </div>
-                        </div>
-                    </a>
                 </div>
             </div>
         </div>
