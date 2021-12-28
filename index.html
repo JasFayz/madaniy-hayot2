@@ -18,6 +18,8 @@
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
 
@@ -167,9 +169,17 @@
 					<li class="nav-item">
 						<a href="" class="nav-link">MUASSASALAR</a>
 					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">NARXI</a>
+					<li class="nav-item dropdown">
+						<a href="" class="nav-link" role="button" id="dropdownPrice" data-bs-toggle="dropdown"
+						data-bs-auto-close="outside"
+							aria-expanded="false">NARXI</a>
+
+						<div class="dropdown-menu range__dropdown" role="button" aria-labelledby="dropdownPrice"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							<input type="text" class="js-range-slider" name="my_range" value="" />
+						</div>
 					</li>
+				
 					<li class="nav-item">
 						<a href="" class="nav-link">
 							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18.75" viewBox="0 0 20 18.75">
@@ -1290,9 +1300,23 @@
 	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
 	<script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="js/common.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
 	<script>
 		var myModal = new bootstrap.Modal(document.getElementById('exampleModal'))
-		myModal.show()
+		// myModal.show()
+
+		$(".js-range-slider").ionRangeSlider({
+			skin: "big",
+			min: 100,
+			max: 1000,
+			step: 100,
+			grid: true,
+			grid_num: 10,
+			grid_snap: true,
+			hide_min_max: true,
+			hide_from_to: true,
+			// grid_margin: false
+		});
 	</script>
 </body>
 

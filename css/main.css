@@ -1180,11 +1180,11 @@ body {
 }
 
 .main__nav .mobile-collapse {
-	display  : none;
-	position : absolute;
-	top      : calc(100% - 30px);
-	left     : 50%;
-	transform: translateX(-50%);
+	display      : none;
+	position     : absolute;
+	top          : calc(100% - 30px);
+	left         : 50%;
+	transform    : translateX(-50%);
 	/* visibility: visible; */
 }
 
@@ -1964,4 +1964,54 @@ body {
 
 .modal-backdrop.show {
 	opacity: 0.83;
+}
+
+.main__nav .nav-link {
+	border-bottom: 2px solid transparent;
+}
+
+.range__dropdown {
+	min-width: 30rem;
+	padding  : 10px;
+}
+
+.range__dropdown .irs--big .irs-line {
+	height: 6px;
+	top   : 15px;
+}
+
+.range__dropdown .irs--big .irs-bar {
+	height    : 6px;
+	background: #2B88D8;
+	top       : 15px;
+	border    : transparent;
+}
+
+.irs--big.irs-with-grid {
+	height: 55px;
+}
+
+.range__dropdown .irs--big .irs-handle {
+	height      : 16px;
+	width       : 16px;
+	top         : 28px;
+	background  : #2B88D8;
+	box-shadow  : none;
+	border-color: #2B88D8;
+	top         : 10px;
+}
+
+.range__dropdown .irs-grid {
+	bottom: 10px;
+}
+
+.range__dropdown .irs-grid-text {
+	font-family: "Roboto";
+	font-weight: normal;
+	font-size  : 14px;
+	text-align : left;
+	color      : #23272a;
+}
+.range__dropdown .irs-grid-pol {
+	display: none;
 }
