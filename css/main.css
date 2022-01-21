@@ -1,12 +1,12 @@
 /* USER VARIABLES SECTION */
 
 :root {
-	--accent      : orange;
-	--text        : #333;
-	--regular-text: 16px;
-	--lineheight  : 1.65;
-	--userfont    : roboto-st, sans-serif;
-	--systemfont  : -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --accent: orange;
+  --text: #333;
+  --regular-text: 16px;
+  --lineheight: 1.65;
+  --userfont: roboto-st, sans-serif;
+  --systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
 }
 
 /* BOOTSTRAP SETTINGS SECTION */
@@ -20,134 +20,134 @@
 .container-sm,
 .container-xl,
 .container-xxl {
-	--bs-gutter-x: .625rem;
+  --bs-gutter-x: 0.625rem;
 }
 
 .row,
-.row>* {
-	--bs-gutter-x: 1.25rem;
+.row > * {
+  --bs-gutter-x: 1.25rem;
 }
 
 /* FONTS LOAD SECTION */
 
 @font-face {
-	src        : url("../fonts/roboto-regular-webfont.woff2") format("woff2");
-	font-family: "roboto-st";
-	font-weight: 400;
-	font-style : normal;
+  src: url("../fonts/roboto-regular-webfont.woff2") format("woff2");
+  font-family: "roboto-st";
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-	src        : url("../fonts/roboto-italic-webfont.woff2") format("woff2");
-	font-family: "roboto-st";
-	font-weight: 400;
-	font-style : italic;
+  src: url("../fonts/roboto-italic-webfont.woff2") format("woff2");
+  font-family: "roboto-st";
+  font-weight: 400;
+  font-style: italic;
 }
 
 @font-face {
-	src        : url("../fonts/roboto-bold-webfont.woff2") format("woff2");
-	font-family: "roboto-st";
-	font-weight: 700;
-	font-style : normal;
+  src: url("../fonts/roboto-bold-webfont.woff2") format("woff2");
+  font-family: "roboto-st";
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-	src        : url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2");
-	font-family: "roboto-st";
-	font-weight: 700;
-	font-style : italic;
+  src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2");
+  font-family: "roboto-st";
+  font-weight: 700;
+  font-style: italic;
 }
 
 /* GENERAL CSS SETTINGS */
 
 ::placeholder {
-	color: #666;
+  color: #666;
 }
 
 ::selection {
-	background-color: var(--accent);
-	color           : #fff;
+  background-color: var(--accent);
+  color: #fff;
 }
 
 input,
 textarea {
-	outline: none;
+  outline: none;
 }
 
 input:focus:required:invalid,
 textarea:focus:required:invalid {
-	border-color: red;
+  border-color: red;
 }
 
 input:required:valid,
 textarea:required:valid {
-	border-color: green;
+  border-color: green;
 }
 
 body {
-	font-family: var(--userfont);
-	font-size  : var(--regular-text);
-	line-height: var(--lineheight);
-	color      : var(--text);
-	min-width  : 320px;
-	position   : relative;
-	overflow-x : hidden;
-	min-width  : 375px;
+  font-family: var(--userfont);
+  font-size: var(--regular-text);
+  line-height: var(--lineheight);
+  color: var(--text);
+  min-width: 320px;
+  position: relative;
+  overflow-x: hidden;
+  min-width: 375px;
 }
 
 /* USER STYLES */
 
 .image {
-	max-width    : 100%;
-	margin-bottom: var(--bs-gutter-x);
-	border-radius: 4px;
+  max-width: 100%;
+  margin-bottom: var(--bs-gutter-x);
+  border-radius: 4px;
 }
 
 .accent {
-	color      : var(--accent);
-	font-weight: bold;
+  color: var(--accent);
+  font-weight: bold;
 }
 
 .header {
-	background-color: #38393D;
+  background-color: #38393d;
 }
 
 .header .nav-logo {
-	text-decoration: none;
-	text-transform : uppercase;
-	white-space    : break-spaces;
-	font-weight    : bold;
-	font-size      : 14px;
-	text-align     : left;
-	color          : #fff;
-	padding        : 17px 20px;
-	border-bottom  : 4px solid transparent;
-	transition     : all 0.5s linear;
-	padding-left   : 0;
-	display        : flex;
-	align-items    : center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: break-spaces;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+  padding: 17px 20px;
+  border-bottom: 4px solid transparent;
+  transition: all 0.5s linear;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
 }
 
 .header .nav-link.nav-mobile {
-	display: none;
+  display: none;
 }
 
 .header .nav-logo b {
-	/* border-bottom: 4px solid #5AC5F9; */
-	color: #5AC5F9;
+  /* border-bottom: 4px solid #5AC5F9; */
+  color: #5ac5f9;
 }
 
 .header .nav-link {
-	text-transform: uppercase;
-	font-weight   : bold;
-	font-size     : 14px;
-	text-align    : left;
-	color         : #fff;
-	padding       : 17px 20px;
-	border-bottom : 4px solid transparent;
-	transition    : all 0.5s linear;
-	align-items   : center;
-	display       : flex;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+  padding: 17px 20px;
+  border-bottom: 4px solid transparent;
+  transition: all 0.5s linear;
+  align-items: center;
+  display: flex;
 }
 
 /* .header .top_nav .nav-link:first-of-type {
@@ -155,108 +155,108 @@ body {
 } */
 
 .header .nav-link:hover {
-	border-bottom: 4px solid #5AC5F9;
+  border-bottom: 4px solid #5ac5f9;
 }
 
 .header .nav-link b {
-	color: #5AC5F9;
+  color: #5ac5f9;
 }
 
 .header__wrapper {
-	display           : flex;
-	/* justify-content: space-between; */
+  display: flex;
+  /* justify-content: space-between; */
 }
 
 .banner__content {
-	height    : 360px;
-	background: #1F0103 url('../images/banner.jpg')no-repeat 0 100% /cover;
+  height: 360px;
+  background: #1f0103 url("../images/banner.jpg") no-repeat 0 100% / cover;
 }
 
 .banner__text {
-	width          : 50%;
-	height         : 100%;
-	background     : #1F0103;
-	display        : flex;
-	padding-left   : 121px;
-	padding-right  : 121px;
-	flex-direction : column;
-	justify-content: center;
-	backdrop-filter: blur(14px);
+  width: 50%;
+  height: 100%;
+  background: #1f0103;
+  display: flex;
+  padding-left: 121px;
+  padding-right: 121px;
+  flex-direction: column;
+  justify-content: center;
+  backdrop-filter: blur(14px);
 }
 
 .banner__title {
-	font-weight   : bold;
-	font-size     : 55px;
-	text-align    : left;
-	color         : #FFFFFF;
-	text-transform: uppercase;
-	margin-bottom : 30px;
+  font-weight: bold;
+  font-size: 55px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .banner__title b {
-	color: #5AC5F9;
+  color: #5ac5f9;
 }
 
 .banner__subtitle {
-	font-weight   : normal;
-	font-size     : 14px;
-	text-align    : left;
-	color         : #fff;
-	text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .main__nav {
-	padding-top   : 23px;
-	padding-bottom: 21px;
+  padding-top: 23px;
+  padding-bottom: 21px;
 }
 
 .main__nav .nav-item {
-	margin-right: 20px;
+  margin-right: 20px;
 }
 
 .main__nav .nav-link {
-	padding-top   : 17px;
-	padding-bottom: 17px;
-	color         : #23272A;
-	font-weight   : bold;
-	font-size     : 14px;
-	text-align    : left;
-	color         : #23272a;
-	border-bottom : 2px solid transparent;
-	text-transform: uppercase;
-	transition    : all 0.4s linear;
-	background    : transparent;
-	border        : none;
-	outline       : none;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  color: #23272a;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  color: #23272a;
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+  transition: all 0.4s linear;
+  background: transparent;
+  border: none;
+  outline: none;
 }
 
 .main__nav .nav-link svg {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
 .main__nav .nav-item:last-child {
-	margin-left : auto;
-	margin-right: 0;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .main__nav .nav-item:first-child .nav-link {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .main__nav .nav-item:last-child .nav-link {
-	padding-right: 0;
+  padding-right: 0;
 }
 
 .main__nav .nav-link:hover {
-	border-bottom: 2px solid #5AC5F9;
+  border-bottom: 2px solid #5ac5f9;
 }
 
 .main__nav .nav-link svg path {
-	transition: all 0.4s linear;
+  transition: all 0.4s linear;
 }
 
 .main__nav .nav-link:hover svg path {
-	fill: #5AC5F9;
+  fill: #5ac5f9;
 }
 
 /* 
@@ -265,1753 +265,1826 @@ body {
 } */
 
 .latest {
-	padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .latest__item {
-	max-width      : 20%;
-	flex           : 0 0 20%;
-	/* margin-right: 20px; */
-	margin-bottom  : 60px;
-	text-decoration: none;
+  max-width: 20%;
+  flex: 0 0 20%;
+  /* margin-right: 20px; */
+  margin-bottom: 60px;
+  text-decoration: none;
 }
 
 .latest__item:last-child {
-	margin-right: 0;
+  margin-right: 0;
 }
 
 .latest__item:last-child {
-	margin-right: 0;
+  margin-right: 0;
 }
 
 .card {
-	padding: 0;
-	border : none;
+  padding: 0;
+  border: none;
 }
 
 .card-header {
-	/* height    : 409px; */
-	padding   : 0;
-	border    : none;
-	background: white;
-	position  : relative;
+  /* height    : 409px; */
+  padding: 0;
+  border: none;
+  background: white;
+  position: relative;
 }
 
 .card-header .premiera {
-	font-family   : "Roboto";
-	font-weight   : normal;
-	font-size     : 16px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #fff;
-	position      : absolute;
-	top           : 20px;
-	right         : -12px;
-	background    : #DA2717;
-	padding       : 5px 10px;
-	border-radius : 5px 5px 0px 5px;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  right: -12px;
+  background: #da2717;
+  padding: 5px 10px;
+  border-radius: 5px 5px 0px 5px;
 }
 
 .card-header .premiera::before {
-	content    : '';
-	display    : block;
-	width      : 6px;
-	height     : 6px;
-	border     : 6px solid transparent;
-	border-left: 6px solid #DA2717;
-	border-top : 6px solid #DA2717;
-	position   : absolute;
-	top        : 100%;
-	right      : 0;
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  border: 6px solid transparent;
+  border-left: 6px solid #da2717;
+  border-top: 6px solid #da2717;
+  position: absolute;
+  top: 100%;
+  right: 0;
 }
 
 .card-header .time {
-	padding                   : 16px 7px;
-	position                  : absolute;
-	top                       : 0;
-	left                      : 32px;
-	background                : rgba(35, 39, 42, .9);
-	text-align                : center;
-	font-family               : "Roboto";
-	font-weight               : normal;
-	font-size                 : 14px;
-	letter-spacing            : -0.02em;
-	text-align                : center;
-	color                     : #fff;
-	border-bottom-left-radius : 5px;
-	border-bottom-right-radius: 5px;
-
+  padding: 16px 7px;
+  position: absolute;
+  top: 0;
+  left: 32px;
+  background: rgba(35, 39, 42, 0.9);
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .card-header .card-image {
-	min-height: 410px;
-	width     : 100%;
-	overflow  : hidden;
+  min-height: 410px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .card-header .card-image img {
-	width : 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .card-body .type {
-	font-weight   : normal;
-	font-size     : 14px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #020403;
-	padding-left  : 15px;
-	margin-bottom : 10px;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #020403;
+  padding-left: 15px;
+  margin-bottom: 10px;
 }
 
 .card-body .type::before {
-	content: '';
-	display: block;
+  content: "";
+  display: block;
 }
 
 .card-body .name {
-	font-weight   : bold;
-	font-size     : 20px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #020403;
-	margin-bottom : 11px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #020403;
+  margin-bottom: 11px;
 }
 
 .card-body .place {
-	font-weight   : normal;
-	font-size     : 16px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #020403;
-	margin-bottom : 10px;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #020403;
+  margin-bottom: 10px;
 }
 
 .card-body .date_info {
-	display           : flex;
-	/* justify-content: space-between; */
-	margin-bottom     : 10px;
+  display: flex;
+  /* justify-content: space-between; */
+  margin-bottom: 10px;
 }
 
 .card-body .date {
-	font-weight   : bold;
-	font-size     : 16px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #020403;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #020403;
 }
 
 .card-body .time {
-	font-weight   : normal;
-	font-size     : 16px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #020403;
-	margin-left   : 60px;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #020403;
+  margin-left: 60px;
 }
 
 .card-body .price {
-	font-weight   : normal;
-	font-size     : 14px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #020403;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #020403;
 }
 
 .card-body .icon-reddot {
-	padding-left       : 26px;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.5' height='7.5' viewBox='0 0 7.5 7.5'%3E%3Cpath id='Контур_8726' data-name='Контур 8726' d='M10-13.75a3.655,3.655,0,0,1,1.455.293,3.78,3.78,0,0,1,1.2.806,3.78,3.78,0,0,1,.806,1.2A3.655,3.655,0,0,1,13.75-10a3.644,3.644,0,0,1-.293,1.46,3.8,3.8,0,0,1-.806,1.191,3.78,3.78,0,0,1-1.2.806A3.655,3.655,0,0,1,10-6.25a3.644,3.644,0,0,1-1.46-.293,3.8,3.8,0,0,1-1.191-.806A3.8,3.8,0,0,1,6.543-8.54,3.644,3.644,0,0,1,6.25-10a3.655,3.655,0,0,1,.293-1.455,3.78,3.78,0,0,1,.806-1.2,3.8,3.8,0,0,1,1.191-.806A3.644,3.644,0,0,1,10-13.75Z' transform='translate(-6.25 13.75)' fill='%23d80000'/%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: 7px 50%;
+  padding-left: 26px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.5' height='7.5' viewBox='0 0 7.5 7.5'%3E%3Cpath id='Контур_8726' data-name='Контур 8726' d='M10-13.75a3.655,3.655,0,0,1,1.455.293,3.78,3.78,0,0,1,1.2.806,3.78,3.78,0,0,1,.806,1.2A3.655,3.655,0,0,1,13.75-10a3.644,3.644,0,0,1-.293,1.46,3.8,3.8,0,0,1-.806,1.191,3.78,3.78,0,0,1-1.2.806A3.655,3.655,0,0,1,10-6.25a3.644,3.644,0,0,1-1.46-.293,3.8,3.8,0,0,1-1.191-.806A3.8,3.8,0,0,1,6.543-8.54,3.644,3.644,0,0,1,6.25-10a3.655,3.655,0,0,1,.293-1.455,3.78,3.78,0,0,1,.806-1.2,3.8,3.8,0,0,1,1.191-.806A3.644,3.644,0,0,1,10-13.75Z' transform='translate(-6.25 13.75)' fill='%23d80000'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 7px 50%;
 }
 
 .card-body .icon-place {
-	padding-left       : 26px;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.25' height='18' viewBox='0 0 11.25 18'%3E%3Cpath id='Контур_8722' data-name='Контур 8722' d='M9-18a5.506,5.506,0,0,1,1.494.2,5.706,5.706,0,0,1,1.345.567,5.6,5.6,0,0,1,1.138.879,5.6,5.6,0,0,1,.879,1.138,5.706,5.706,0,0,1,.567,1.345,5.506,5.506,0,0,1,.2,1.494,4.51,4.51,0,0,1-.145,1.156,5.7,5.7,0,0,1-.417,1.094L9,0,3.938-10.125a5.7,5.7,0,0,1-.417-1.094,4.51,4.51,0,0,1-.145-1.156,5.506,5.506,0,0,1,.2-1.494,5.706,5.706,0,0,1,.567-1.345,5.6,5.6,0,0,1,.879-1.138,5.6,5.6,0,0,1,1.138-.879A5.706,5.706,0,0,1,7.506-17.8,5.506,5.506,0,0,1,9-18Zm4.184,7.436q0-.009,0-.009s0,0,0-.009a3.817,3.817,0,0,0,.334-.87,3.791,3.791,0,0,0,.114-.923,4.492,4.492,0,0,0-.365-1.8,4.709,4.709,0,0,0-1-1.477,4.709,4.709,0,0,0-1.477-1A4.492,4.492,0,0,0,9-17.016a4.492,4.492,0,0,0-1.8.365,4.709,4.709,0,0,0-1.477,1,4.709,4.709,0,0,0-1,1.477,4.492,4.492,0,0,0-.365,1.8,3.791,3.791,0,0,0,.114.923,3.817,3.817,0,0,0,.334.87q0,.009,0,.009s0,0,0,.009L9-2.2ZM9-15.68a3.22,3.22,0,0,1,1.288.259,3.335,3.335,0,0,1,1.05.708,3.335,3.335,0,0,1,.708,1.05,3.22,3.22,0,0,1,.259,1.288,3.22,3.22,0,0,1-.259,1.288,3.335,3.335,0,0,1-.708,1.05,3.335,3.335,0,0,1-1.05.708A3.22,3.22,0,0,1,9-9.07,3.22,3.22,0,0,1,7.712-9.33a3.335,3.335,0,0,1-1.05-.708,3.335,3.335,0,0,1-.708-1.05A3.22,3.22,0,0,1,5.7-12.375a3.22,3.22,0,0,1,.259-1.288,3.335,3.335,0,0,1,.708-1.05,3.335,3.335,0,0,1,1.05-.708A3.22,3.22,0,0,1,9-15.68Zm0,5.625a2.28,2.28,0,0,0,.905-.18,2.324,2.324,0,0,0,.738-.5,2.324,2.324,0,0,0,.5-.738,2.28,2.28,0,0,0,.18-.905,2.28,2.28,0,0,0-.18-.905,2.324,2.324,0,0,0-.5-.738,2.324,2.324,0,0,0-.738-.5A2.28,2.28,0,0,0,9-14.7a2.28,2.28,0,0,0-.905.18,2.324,2.324,0,0,0-.738.5,2.324,2.324,0,0,0-.5.738,2.28,2.28,0,0,0-.18.905,2.28,2.28,0,0,0,.18.905,2.324,2.324,0,0,0,.5.738,2.324,2.324,0,0,0,.738.5A2.28,2.28,0,0,0,9-10.055Z' transform='translate(-3.375 18)' fill='%23020403'/%3E%3C/svg%3E	");
-	background-repeat  : no-repeat;
-	background-position: 0 50%;
+  padding-left: 26px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.25' height='18' viewBox='0 0 11.25 18'%3E%3Cpath id='Контур_8722' data-name='Контур 8722' d='M9-18a5.506,5.506,0,0,1,1.494.2,5.706,5.706,0,0,1,1.345.567,5.6,5.6,0,0,1,1.138.879,5.6,5.6,0,0,1,.879,1.138,5.706,5.706,0,0,1,.567,1.345,5.506,5.506,0,0,1,.2,1.494,4.51,4.51,0,0,1-.145,1.156,5.7,5.7,0,0,1-.417,1.094L9,0,3.938-10.125a5.7,5.7,0,0,1-.417-1.094,4.51,4.51,0,0,1-.145-1.156,5.506,5.506,0,0,1,.2-1.494,5.706,5.706,0,0,1,.567-1.345,5.6,5.6,0,0,1,.879-1.138,5.6,5.6,0,0,1,1.138-.879A5.706,5.706,0,0,1,7.506-17.8,5.506,5.506,0,0,1,9-18Zm4.184,7.436q0-.009,0-.009s0,0,0-.009a3.817,3.817,0,0,0,.334-.87,3.791,3.791,0,0,0,.114-.923,4.492,4.492,0,0,0-.365-1.8,4.709,4.709,0,0,0-1-1.477,4.709,4.709,0,0,0-1.477-1A4.492,4.492,0,0,0,9-17.016a4.492,4.492,0,0,0-1.8.365,4.709,4.709,0,0,0-1.477,1,4.709,4.709,0,0,0-1,1.477,4.492,4.492,0,0,0-.365,1.8,3.791,3.791,0,0,0,.114.923,3.817,3.817,0,0,0,.334.87q0,.009,0,.009s0,0,0,.009L9-2.2ZM9-15.68a3.22,3.22,0,0,1,1.288.259,3.335,3.335,0,0,1,1.05.708,3.335,3.335,0,0,1,.708,1.05,3.22,3.22,0,0,1,.259,1.288,3.22,3.22,0,0,1-.259,1.288,3.335,3.335,0,0,1-.708,1.05,3.335,3.335,0,0,1-1.05.708A3.22,3.22,0,0,1,9-9.07,3.22,3.22,0,0,1,7.712-9.33a3.335,3.335,0,0,1-1.05-.708,3.335,3.335,0,0,1-.708-1.05A3.22,3.22,0,0,1,5.7-12.375a3.22,3.22,0,0,1,.259-1.288,3.335,3.335,0,0,1,.708-1.05,3.335,3.335,0,0,1,1.05-.708A3.22,3.22,0,0,1,9-15.68Zm0,5.625a2.28,2.28,0,0,0,.905-.18,2.324,2.324,0,0,0,.738-.5,2.324,2.324,0,0,0,.5-.738,2.28,2.28,0,0,0,.18-.905,2.28,2.28,0,0,0-.18-.905,2.324,2.324,0,0,0-.5-.738,2.324,2.324,0,0,0-.738-.5A2.28,2.28,0,0,0,9-14.7a2.28,2.28,0,0,0-.905.18,2.324,2.324,0,0,0-.738.5,2.324,2.324,0,0,0-.5.738,2.28,2.28,0,0,0-.18.905,2.28,2.28,0,0,0,.18.905,2.324,2.324,0,0,0,.5.738,2.324,2.324,0,0,0,.738.5A2.28,2.28,0,0,0,9-10.055Z' transform='translate(-3.375 18)' fill='%23020403'/%3E%3C/svg%3E	");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
 }
 
 .card-body .icon-date {
-	padding-left       : 26px;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='16.875' viewBox='0 0 18 16.875'%3E%3Cpath id='Контур_8724' data-name='Контур 8724' d='M6.75-11.25H7.875v1.125H6.75ZM10.125-4.5H11.25v1.125H10.125ZM13.5-11.25h1.125v1.125H13.5Zm-3.375,0H11.25v1.125H10.125ZM6.75-9H7.875v1.125H6.75ZM3.375-9H4.5v1.125H3.375ZM13.5-9h1.125v1.125H13.5ZM10.125-9H11.25v1.125H10.125ZM6.75-6.75H7.875v1.125H6.75Zm-3.375,0H4.5v1.125H3.375Zm10.125,0h1.125v1.125H13.5Zm-3.375,0H11.25v1.125H10.125ZM6.75-4.5H7.875v1.125H6.75Zm-3.375,0H4.5v1.125H3.375ZM18-16.875v15.75H0v-15.75H3.375V-18H4.5v1.125h9V-18h1.125v1.125ZM1.125-15.75v2.25h15.75v-2.25h-2.25v1.125H13.5V-15.75h-9v1.125H3.375V-15.75Zm15.75,13.5V-12.375H1.125V-2.25Z' transform='translate(0 18)' fill='%23020403'/%3E%3C/svg%3E");
-	background-repeat  : no-repeat;
-	background-position: 0 50%;
+  padding-left: 26px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='16.875' viewBox='0 0 18 16.875'%3E%3Cpath id='Контур_8724' data-name='Контур 8724' d='M6.75-11.25H7.875v1.125H6.75ZM10.125-4.5H11.25v1.125H10.125ZM13.5-11.25h1.125v1.125H13.5Zm-3.375,0H11.25v1.125H10.125ZM6.75-9H7.875v1.125H6.75ZM3.375-9H4.5v1.125H3.375ZM13.5-9h1.125v1.125H13.5ZM10.125-9H11.25v1.125H10.125ZM6.75-6.75H7.875v1.125H6.75Zm-3.375,0H4.5v1.125H3.375Zm10.125,0h1.125v1.125H13.5Zm-3.375,0H11.25v1.125H10.125ZM6.75-4.5H7.875v1.125H6.75Zm-3.375,0H4.5v1.125H3.375ZM18-16.875v15.75H0v-15.75H3.375V-18H4.5v1.125h9V-18h1.125v1.125ZM1.125-15.75v2.25h15.75v-2.25h-2.25v1.125H13.5V-15.75h-9v1.125H3.375V-15.75Zm15.75,13.5V-12.375H1.125V-2.25Z' transform='translate(0 18)' fill='%23020403'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
 }
 
 .card-body .icon-clock {
-	padding-left       : 26px;
-	background-image   : url("data:image/svg+xml,	%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cpath id='Контур_8723' data-name='Контур 8723' d='M9,0A8.85,8.85,0,0,1,6.6-.321a9.121,9.121,0,0,1-2.149-.905A8.937,8.937,0,0,1,2.632-2.632,8.937,8.937,0,0,1,1.226-4.456,9.1,9.1,0,0,1,.321-6.609,8.865,8.865,0,0,1,0-9a8.865,8.865,0,0,1,.321-2.391,9.1,9.1,0,0,1,.905-2.153,8.937,8.937,0,0,1,1.406-1.824,8.937,8.937,0,0,1,1.824-1.406,9.1,9.1,0,0,1,2.153-.905A8.865,8.865,0,0,1,9-18a8.865,8.865,0,0,1,2.391.321,9.1,9.1,0,0,1,2.153.905,8.937,8.937,0,0,1,1.824,1.406,8.937,8.937,0,0,1,1.406,1.824,9.1,9.1,0,0,1,.905,2.153A8.865,8.865,0,0,1,18-9a8.85,8.85,0,0,1-.321,2.4,9.121,9.121,0,0,1-.905,2.149,8.937,8.937,0,0,1-1.406,1.824,8.937,8.937,0,0,1-1.824,1.406,9.1,9.1,0,0,1-2.153.905A8.865,8.865,0,0,1,9,0ZM9-16.875a7.719,7.719,0,0,0-2.087.281,7.876,7.876,0,0,0-1.881.8,7.935,7.935,0,0,0-1.6,1.235,7.935,7.935,0,0,0-1.235,1.6,7.876,7.876,0,0,0-.8,1.881A7.719,7.719,0,0,0,1.125-9a7.719,7.719,0,0,0,.281,2.087,7.876,7.876,0,0,0,.8,1.881,7.935,7.935,0,0,0,1.235,1.6A7.935,7.935,0,0,0,5.032-2.2a7.876,7.876,0,0,0,1.881.8A7.719,7.719,0,0,0,9-1.125a7.719,7.719,0,0,0,2.087-.281,7.876,7.876,0,0,0,1.881-.8,7.935,7.935,0,0,0,1.6-1.235,7.935,7.935,0,0,0,1.235-1.6,7.876,7.876,0,0,0,.8-1.881A7.719,7.719,0,0,0,16.875-9a7.719,7.719,0,0,0-.281-2.087,7.876,7.876,0,0,0-.8-1.881,7.935,7.935,0,0,0-1.235-1.6,7.935,7.935,0,0,0-1.6-1.235,7.876,7.876,0,0,0-1.881-.8A7.719,7.719,0,0,0,9-16.875ZM9-9v-5.625H7.875v6.75h4.5V-9Z' transform='translate(0 18)' fill='%23020403'/%3E%3C/svg%3E");
-	background-repeat  : no-repeat;
-	background-position: 0 50%;
+  padding-left: 26px;
+  background-image: url("data:image/svg+xml,	%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cpath id='Контур_8723' data-name='Контур 8723' d='M9,0A8.85,8.85,0,0,1,6.6-.321a9.121,9.121,0,0,1-2.149-.905A8.937,8.937,0,0,1,2.632-2.632,8.937,8.937,0,0,1,1.226-4.456,9.1,9.1,0,0,1,.321-6.609,8.865,8.865,0,0,1,0-9a8.865,8.865,0,0,1,.321-2.391,9.1,9.1,0,0,1,.905-2.153,8.937,8.937,0,0,1,1.406-1.824,8.937,8.937,0,0,1,1.824-1.406,9.1,9.1,0,0,1,2.153-.905A8.865,8.865,0,0,1,9-18a8.865,8.865,0,0,1,2.391.321,9.1,9.1,0,0,1,2.153.905,8.937,8.937,0,0,1,1.824,1.406,8.937,8.937,0,0,1,1.406,1.824,9.1,9.1,0,0,1,.905,2.153A8.865,8.865,0,0,1,18-9a8.85,8.85,0,0,1-.321,2.4,9.121,9.121,0,0,1-.905,2.149,8.937,8.937,0,0,1-1.406,1.824,8.937,8.937,0,0,1-1.824,1.406,9.1,9.1,0,0,1-2.153.905A8.865,8.865,0,0,1,9,0ZM9-16.875a7.719,7.719,0,0,0-2.087.281,7.876,7.876,0,0,0-1.881.8,7.935,7.935,0,0,0-1.6,1.235,7.935,7.935,0,0,0-1.235,1.6,7.876,7.876,0,0,0-.8,1.881A7.719,7.719,0,0,0,1.125-9a7.719,7.719,0,0,0,.281,2.087,7.876,7.876,0,0,0,.8,1.881,7.935,7.935,0,0,0,1.235,1.6A7.935,7.935,0,0,0,5.032-2.2a7.876,7.876,0,0,0,1.881.8A7.719,7.719,0,0,0,9-1.125a7.719,7.719,0,0,0,2.087-.281,7.876,7.876,0,0,0,1.881-.8,7.935,7.935,0,0,0,1.6-1.235,7.935,7.935,0,0,0,1.235-1.6,7.876,7.876,0,0,0,.8-1.881A7.719,7.719,0,0,0,16.875-9a7.719,7.719,0,0,0-.281-2.087,7.876,7.876,0,0,0-.8-1.881,7.935,7.935,0,0,0-1.235-1.6,7.935,7.935,0,0,0-1.6-1.235,7.876,7.876,0,0,0-1.881-.8A7.719,7.719,0,0,0,9-16.875ZM9-9v-5.625H7.875v6.75h4.5V-9Z' transform='translate(0 18)' fill='%23020403'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
 }
 
 .card-body .icon-price {
-	padding-left       : 26px;
-	background-image   : url("data:image/svg+xml,	%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='11.25' viewBox='0 0 18 11.25'%3E%3Cpath id='Контур_8725' data-name='Контур 8725' d='M18-10.125a1.09,1.09,0,0,0-.439.088A1.143,1.143,0,0,0,17.2-9.8a1.143,1.143,0,0,0-.242.356A1.09,1.09,0,0,0,16.875-9a1.09,1.09,0,0,0,.088.439A1.143,1.143,0,0,0,17.2-8.2a1.143,1.143,0,0,0,.356.242A1.09,1.09,0,0,0,18-7.875v4.5H0v-4.5a1.09,1.09,0,0,0,.439-.088A1.143,1.143,0,0,0,.8-8.2a1.143,1.143,0,0,0,.242-.356A1.09,1.09,0,0,0,1.125-9a1.09,1.09,0,0,0-.088-.439A1.143,1.143,0,0,0,.8-9.8a1.143,1.143,0,0,0-.356-.242A1.09,1.09,0,0,0,0-10.125v-4.5H18ZM16.875-13.5H1.125v2.549a2.235,2.235,0,0,1,.826.826A2.215,2.215,0,0,1,2.25-9a2.215,2.215,0,0,1-.3,1.125,2.235,2.235,0,0,1-.826.826V-4.5h15.75V-7.049a2.235,2.235,0,0,1-.826-.826A2.215,2.215,0,0,1,15.75-9a2.215,2.215,0,0,1,.3-1.125,2.235,2.235,0,0,1,.826-.826Z' transform='translate(0 14.625)' fill='%23020403'/%3E%3C/svg%3E");
-	background-repeat  : no-repeat;
-	background-position: 0 50%;
+  padding-left: 26px;
+  background-image: url("data:image/svg+xml,	%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='11.25' viewBox='0 0 18 11.25'%3E%3Cpath id='Контур_8725' data-name='Контур 8725' d='M18-10.125a1.09,1.09,0,0,0-.439.088A1.143,1.143,0,0,0,17.2-9.8a1.143,1.143,0,0,0-.242.356A1.09,1.09,0,0,0,16.875-9a1.09,1.09,0,0,0,.088.439A1.143,1.143,0,0,0,17.2-8.2a1.143,1.143,0,0,0,.356.242A1.09,1.09,0,0,0,18-7.875v4.5H0v-4.5a1.09,1.09,0,0,0,.439-.088A1.143,1.143,0,0,0,.8-8.2a1.143,1.143,0,0,0,.242-.356A1.09,1.09,0,0,0,1.125-9a1.09,1.09,0,0,0-.088-.439A1.143,1.143,0,0,0,.8-9.8a1.143,1.143,0,0,0-.356-.242A1.09,1.09,0,0,0,0-10.125v-4.5H18ZM16.875-13.5H1.125v2.549a2.235,2.235,0,0,1,.826.826A2.215,2.215,0,0,1,2.25-9a2.215,2.215,0,0,1-.3,1.125,2.235,2.235,0,0,1-.826.826V-4.5h15.75V-7.049a2.235,2.235,0,0,1-.826-.826A2.215,2.215,0,0,1,15.75-9a2.215,2.215,0,0,1,.3-1.125,2.235,2.235,0,0,1,.826-.826Z' transform='translate(0 14.625)' fill='%23020403'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
 }
 
 .card-body {
-	padding-left : 0;
-	padding-right: 0;
-	border       : none;
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
 }
 
 .card-footer {
-	background: none;
-	padding   : 0;
+  background: none;
+  padding: 0;
 }
 
 .card-footer .btn {
-	padding   : 14px;
-	display   : block;
-	background: #23272A;
-	color     : #5AC5F9;
+  padding: 14px;
+  display: block;
+  background: #23272a;
+  color: #5ac5f9;
 }
 
-.filter {}
+.filter {
+}
 
 .filter__header {
-	padding-top   : 41px;
-	padding-bottom: 105px;
-	background    : url('./../images/filter_bg.jpg')no-repeat 0 0 /cover;
+  padding-top: 41px;
+  padding-bottom: 105px;
+  background: url("./../images/filter_bg.jpg") no-repeat 0 0 / cover;
 }
 
 .filter__title {
-	font-weight    : bold;
-	font-size      : 22px;
-	text-align     : left;
-	color          : #fff;
-	text-align     : center;
-	margin-bottom  : 59px;
-	position       : relative;
-	justify-content: space-between;
-	align-items    : center;
-	display        : flex;
-	width          : 100%;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 59px;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
 }
 
 .filter__title .text {
-	flex         : 1 0 auto;
-	padding-left : 30px;
-	padding-right: 30px;
+  flex: 1 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .filter__title .line {
-	border: 1px solid #fff;
-	flex  : 0 1 100%;
+  border: 1px solid #fff;
+  flex: 0 1 100%;
 }
 
 .filter .form {
-	display        : flex;
-	justify-content: space-between;
-	align-items    : flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .filter .form-group {
-	max-width: 21%;
-	flex     : 0 0 21%;
-	position : relative;
+  max-width: 21%;
+  flex: 0 0 21%;
+  position: relative;
 }
 
 .filter .form-group label {
-	font-weight   : normal;
-	font-size     : 14px;
-	text-align    : left;
-	color         : #fff;
-	text-transform: uppercase;
-	margin-bottom : 15px;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .filter .form-control {
-	height       : 50px;
-	border-radius: 5px;
-	padding-left : 50px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 50px;
 }
 
 .filter .form-control.icon-calendar {
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='16.875' viewBox='0 0 18 16.875'%3E%3Cpath id='Контур_8727' data-name='Контур 8727' d='M6.75-11.25H7.875v1.125H6.75ZM10.125-4.5H11.25v1.125H10.125ZM13.5-11.25h1.125v1.125H13.5Zm-3.375,0H11.25v1.125H10.125ZM6.75-9H7.875v1.125H6.75ZM3.375-9H4.5v1.125H3.375ZM13.5-9h1.125v1.125H13.5ZM10.125-9H11.25v1.125H10.125ZM6.75-6.75H7.875v1.125H6.75Zm-3.375,0H4.5v1.125H3.375Zm10.125,0h1.125v1.125H13.5Zm-3.375,0H11.25v1.125H10.125ZM6.75-4.5H7.875v1.125H6.75Zm-3.375,0H4.5v1.125H3.375ZM18-16.875v15.75H0v-15.75H3.375V-18H4.5v1.125h9V-18h1.125v1.125ZM1.125-15.75v2.25h15.75v-2.25h-2.25v1.125H13.5V-15.75h-9v1.125H3.375V-15.75Zm15.75,13.5V-12.375H1.125V-2.25Z' transform='translate(0 18)' fill='%23ac1c10'/%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: 20px 50%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='16.875' viewBox='0 0 18 16.875'%3E%3Cpath id='Контур_8727' data-name='Контур 8727' d='M6.75-11.25H7.875v1.125H6.75ZM10.125-4.5H11.25v1.125H10.125ZM13.5-11.25h1.125v1.125H13.5Zm-3.375,0H11.25v1.125H10.125ZM6.75-9H7.875v1.125H6.75ZM3.375-9H4.5v1.125H3.375ZM13.5-9h1.125v1.125H13.5ZM10.125-9H11.25v1.125H10.125ZM6.75-6.75H7.875v1.125H6.75Zm-3.375,0H4.5v1.125H3.375Zm10.125,0h1.125v1.125H13.5Zm-3.375,0H11.25v1.125H10.125ZM6.75-4.5H7.875v1.125H6.75Zm-3.375,0H4.5v1.125H3.375ZM18-16.875v15.75H0v-15.75H3.375V-18H4.5v1.125h9V-18h1.125v1.125ZM1.125-15.75v2.25h15.75v-2.25h-2.25v1.125H13.5V-15.75h-9v1.125H3.375V-15.75Zm15.75,13.5V-12.375H1.125V-2.25Z' transform='translate(0 18)' fill='%23ac1c10'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 20px 50%;
 }
 
 .filter .form-control.icon-microphone {
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.75' height='20' viewBox='0 0 13.75 20'%3E%3Cpath id='Контур_8681' data-name='Контур 8681' d='M6.875-5a1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-6.875v-11.25a1.839,1.839,0,0,1,.146-.732,1.881,1.881,0,0,1,.4-.6,1.881,1.881,0,0,1,.6-.4A1.839,1.839,0,0,1,6.875-20h5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732v11.25a1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4A1.839,1.839,0,0,1,11.875-5ZM6.25-6.875a.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186h5a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439v-11.25a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186h-5a.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439ZM16.25-10v3.535a3.845,3.845,0,0,1-.312,1.543,4.017,4.017,0,0,1-.85,1.26,4.017,4.017,0,0,1-1.26.85,3.845,3.845,0,0,1-1.543.313H10v1.25h2.5V0H6.25V-1.25h2.5V-2.5H6.465a3.845,3.845,0,0,1-1.543-.312,4.017,4.017,0,0,1-1.26-.85,4.017,4.017,0,0,1-.85-1.26A3.845,3.845,0,0,1,2.5-6.465V-10H3.75v3.535A2.634,2.634,0,0,0,3.965-5.41a2.747,2.747,0,0,0,.581.864,2.747,2.747,0,0,0,.864.581,2.634,2.634,0,0,0,1.055.215h5.82a2.634,2.634,0,0,0,1.055-.215,2.747,2.747,0,0,0,.864-.581,2.747,2.747,0,0,0,.581-.864A2.634,2.634,0,0,0,15-6.465V-10Z' transform='translate(-2.5 20)' fill='%23ac1c10'/%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: 20px 50%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.75' height='20' viewBox='0 0 13.75 20'%3E%3Cpath id='Контур_8681' data-name='Контур 8681' d='M6.875-5a1.839,1.839,0,0,1-.732-.146,1.881,1.881,0,0,1-.6-.4,1.881,1.881,0,0,1-.4-.6A1.839,1.839,0,0,1,5-6.875v-11.25a1.839,1.839,0,0,1,.146-.732,1.881,1.881,0,0,1,.4-.6,1.881,1.881,0,0,1,.6-.4A1.839,1.839,0,0,1,6.875-20h5a1.839,1.839,0,0,1,.732.146,1.881,1.881,0,0,1,.6.4,1.881,1.881,0,0,1,.4.6,1.839,1.839,0,0,1,.146.732v11.25a1.839,1.839,0,0,1-.146.732,1.881,1.881,0,0,1-.4.6,1.881,1.881,0,0,1-.6.4A1.839,1.839,0,0,1,11.875-5ZM6.25-6.875a.6.6,0,0,0,.186.439.6.6,0,0,0,.439.186h5a.6.6,0,0,0,.439-.186.6.6,0,0,0,.186-.439v-11.25a.6.6,0,0,0-.186-.439.6.6,0,0,0-.439-.186h-5a.6.6,0,0,0-.439.186.6.6,0,0,0-.186.439ZM16.25-10v3.535a3.845,3.845,0,0,1-.312,1.543,4.017,4.017,0,0,1-.85,1.26,4.017,4.017,0,0,1-1.26.85,3.845,3.845,0,0,1-1.543.313H10v1.25h2.5V0H6.25V-1.25h2.5V-2.5H6.465a3.845,3.845,0,0,1-1.543-.312,4.017,4.017,0,0,1-1.26-.85,4.017,4.017,0,0,1-.85-1.26A3.845,3.845,0,0,1,2.5-6.465V-10H3.75v3.535A2.634,2.634,0,0,0,3.965-5.41a2.747,2.747,0,0,0,.581.864,2.747,2.747,0,0,0,.864.581,2.634,2.634,0,0,0,1.055.215h5.82a2.634,2.634,0,0,0,1.055-.215,2.747,2.747,0,0,0,.864-.581,2.747,2.747,0,0,0,.581-.864A2.634,2.634,0,0,0,15-6.465V-10Z' transform='translate(-2.5 20)' fill='%23ac1c10'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 20px 50%;
 }
 
 .filter .form-control.icon-place {
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.25' height='18' viewBox='0 0 11.25 18'%3E%3Cpath id='Контур_8728' data-name='Контур 8728' d='M9-18a5.506,5.506,0,0,1,1.494.2,5.706,5.706,0,0,1,1.345.567,5.6,5.6,0,0,1,1.138.879,5.6,5.6,0,0,1,.879,1.138,5.706,5.706,0,0,1,.567,1.345,5.506,5.506,0,0,1,.2,1.494,4.51,4.51,0,0,1-.145,1.156,5.7,5.7,0,0,1-.417,1.094L9,0,3.938-10.125a5.7,5.7,0,0,1-.417-1.094,4.51,4.51,0,0,1-.145-1.156,5.506,5.506,0,0,1,.2-1.494,5.706,5.706,0,0,1,.567-1.345,5.6,5.6,0,0,1,.879-1.138,5.6,5.6,0,0,1,1.138-.879A5.706,5.706,0,0,1,7.506-17.8,5.506,5.506,0,0,1,9-18Zm4.184,7.436q0-.009,0-.009s0,0,0-.009a3.817,3.817,0,0,0,.334-.87,3.791,3.791,0,0,0,.114-.923,4.492,4.492,0,0,0-.365-1.8,4.709,4.709,0,0,0-1-1.477,4.709,4.709,0,0,0-1.477-1A4.492,4.492,0,0,0,9-17.016a4.492,4.492,0,0,0-1.8.365,4.709,4.709,0,0,0-1.477,1,4.709,4.709,0,0,0-1,1.477,4.492,4.492,0,0,0-.365,1.8,3.791,3.791,0,0,0,.114.923,3.817,3.817,0,0,0,.334.87q0,.009,0,.009s0,0,0,.009L9-2.2ZM9-15.68a3.22,3.22,0,0,1,1.288.259,3.335,3.335,0,0,1,1.05.708,3.335,3.335,0,0,1,.708,1.05,3.22,3.22,0,0,1,.259,1.288,3.22,3.22,0,0,1-.259,1.288,3.335,3.335,0,0,1-.708,1.05,3.335,3.335,0,0,1-1.05.708A3.22,3.22,0,0,1,9-9.07,3.22,3.22,0,0,1,7.712-9.33a3.335,3.335,0,0,1-1.05-.708,3.335,3.335,0,0,1-.708-1.05A3.22,3.22,0,0,1,5.7-12.375a3.22,3.22,0,0,1,.259-1.288,3.335,3.335,0,0,1,.708-1.05,3.335,3.335,0,0,1,1.05-.708A3.22,3.22,0,0,1,9-15.68Zm0,5.625a2.28,2.28,0,0,0,.905-.18,2.324,2.324,0,0,0,.738-.5,2.324,2.324,0,0,0,.5-.738,2.28,2.28,0,0,0,.18-.905,2.28,2.28,0,0,0-.18-.905,2.324,2.324,0,0,0-.5-.738,2.324,2.324,0,0,0-.738-.5A2.28,2.28,0,0,0,9-14.7a2.28,2.28,0,0,0-.905.18,2.324,2.324,0,0,0-.738.5,2.324,2.324,0,0,0-.5.738,2.28,2.28,0,0,0-.18.905,2.28,2.28,0,0,0,.18.905,2.324,2.324,0,0,0,.5.738,2.324,2.324,0,0,0,.738.5A2.28,2.28,0,0,0,9-10.055Z' transform='translate(-3.375 18)' fill='%23ac1c10'/%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: 20px 50%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.25' height='18' viewBox='0 0 11.25 18'%3E%3Cpath id='Контур_8728' data-name='Контур 8728' d='M9-18a5.506,5.506,0,0,1,1.494.2,5.706,5.706,0,0,1,1.345.567,5.6,5.6,0,0,1,1.138.879,5.6,5.6,0,0,1,.879,1.138,5.706,5.706,0,0,1,.567,1.345,5.506,5.506,0,0,1,.2,1.494,4.51,4.51,0,0,1-.145,1.156,5.7,5.7,0,0,1-.417,1.094L9,0,3.938-10.125a5.7,5.7,0,0,1-.417-1.094,4.51,4.51,0,0,1-.145-1.156,5.506,5.506,0,0,1,.2-1.494,5.706,5.706,0,0,1,.567-1.345,5.6,5.6,0,0,1,.879-1.138,5.6,5.6,0,0,1,1.138-.879A5.706,5.706,0,0,1,7.506-17.8,5.506,5.506,0,0,1,9-18Zm4.184,7.436q0-.009,0-.009s0,0,0-.009a3.817,3.817,0,0,0,.334-.87,3.791,3.791,0,0,0,.114-.923,4.492,4.492,0,0,0-.365-1.8,4.709,4.709,0,0,0-1-1.477,4.709,4.709,0,0,0-1.477-1A4.492,4.492,0,0,0,9-17.016a4.492,4.492,0,0,0-1.8.365,4.709,4.709,0,0,0-1.477,1,4.709,4.709,0,0,0-1,1.477,4.492,4.492,0,0,0-.365,1.8,3.791,3.791,0,0,0,.114.923,3.817,3.817,0,0,0,.334.87q0,.009,0,.009s0,0,0,.009L9-2.2ZM9-15.68a3.22,3.22,0,0,1,1.288.259,3.335,3.335,0,0,1,1.05.708,3.335,3.335,0,0,1,.708,1.05,3.22,3.22,0,0,1,.259,1.288,3.22,3.22,0,0,1-.259,1.288,3.335,3.335,0,0,1-.708,1.05,3.335,3.335,0,0,1-1.05.708A3.22,3.22,0,0,1,9-9.07,3.22,3.22,0,0,1,7.712-9.33a3.335,3.335,0,0,1-1.05-.708,3.335,3.335,0,0,1-.708-1.05A3.22,3.22,0,0,1,5.7-12.375a3.22,3.22,0,0,1,.259-1.288,3.335,3.335,0,0,1,.708-1.05,3.335,3.335,0,0,1,1.05-.708A3.22,3.22,0,0,1,9-15.68Zm0,5.625a2.28,2.28,0,0,0,.905-.18,2.324,2.324,0,0,0,.738-.5,2.324,2.324,0,0,0,.5-.738,2.28,2.28,0,0,0,.18-.905,2.28,2.28,0,0,0-.18-.905,2.324,2.324,0,0,0-.5-.738,2.324,2.324,0,0,0-.738-.5A2.28,2.28,0,0,0,9-14.7a2.28,2.28,0,0,0-.905.18,2.324,2.324,0,0,0-.738.5,2.324,2.324,0,0,0-.5.738,2.28,2.28,0,0,0-.18.905,2.28,2.28,0,0,0,.18.905,2.324,2.324,0,0,0,.5.738,2.324,2.324,0,0,0,.738.5A2.28,2.28,0,0,0,9-10.055Z' transform='translate(-3.375 18)' fill='%23ac1c10'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 20px 50%;
 }
 
 .filter .form-control::placeholder {
-	font-weight: 500;
-	font-size  : 14px;
-	text-align : left;
-	color      : #2a5a76;
-	opacity    : 0.75;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  color: #2a5a76;
+  opacity: 0.75;
 }
 
 .filter .form-group .btn {
-	display      : block;
-	background   : #2B88D8;
-	border-radius: 5px;
-	font-weight  : 500;
-	font-size    : 14px;
-	text-align   : left;
-	color        : #fff;
-	width        : 100%;
-	padding      : 15px;
-	text-align   : center;
+  display: block;
+  background: #2b88d8;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
 }
 
 .filter .form-group .btn:focus {
-	box-shadow: none;
+  box-shadow: none;
 }
 
 .filter .form-group .btn-reset {
-	position  : absolute;
-	background: transparent;
+  position: absolute;
+  background: transparent;
 }
 
 .filter .form-group .btn-reset svg {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
 .filter__body {
-	padding-top   : 80px;
-	padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
 .filter .pagination {
-	margin-top: 52px;
+  margin-top: 52px;
 }
 
-.pagination {}
+.pagination {
+}
 
-.page-item {}
+.page-item {
+}
 
 .page-item.active .page-link {
-	background: #23272A;
-	color     : #5AC5F9;
+  background: #23272a;
+  color: #5ac5f9;
 }
 
 .page-link svg path {
-	transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .page-link {
-	border         : none;
-	display        : flex;
-	align-items    : center;
-	justify-content: center;
-	height         : 40px;
-	min-width      : 40px;
-	border-radius  : 5px;
-	text-align     : center;
-	font-weight    : bold;
-	font-size      : 18px;
-	letter-spacing : -0.02em;
-	text-align     : center;
-	color          : #020403;
-	transition     : all 0.3s linear;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #020403;
+  transition: all 0.3s linear;
 }
 
 .page-link:hover {
-	background: #23272A;
-	color     : #5AC5F9;
+  background: #23272a;
+  color: #5ac5f9;
 }
 
 .page-link:hover svg path {
-	fill: #5AC5F9;
+  fill: #5ac5f9;
 }
 
 .news {
-	padding-top   : 72px;
-	padding-bottom: 90px;
-	background    : #F1F2F3;
+  padding-top: 72px;
+  padding-bottom: 90px;
+  background: #f1f2f3;
 }
 
 .section__title {
-	font-weight    : bold;
-	font-size      : 22px;
-	text-align     : left;
-	color          : #002F52;
-	text-align     : center;
-	margin-bottom  : 59px;
-	position       : relative;
-	justify-content: space-between;
-	align-items    : center;
-	display        : flex;
-	width          : 100%;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+  color: #002f52;
+  text-align: center;
+  margin-bottom: 59px;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
 }
 
 .section__title .text {
-	flex         : 1 0 auto;
-	padding-left : 30px;
-	padding-right: 30px;
+  flex: 1 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .section__title .line {
-	border: 1px solid #002F52;
-	flex  : 0 1 100%;
+  border: 1px solid #002f52;
+  flex: 0 1 100%;
 }
 
 .news_wrapper .container {
-	display: flex;
+  display: flex;
 }
 
 .news__main {
-	width        : 570px;
-	height       : 370px;
-	background   : url('./../images/news-1.jpg')no-repeat 0/cover;
-	position     : relative;
-	border-radius: 5px;
-	flex         : 0 0 auto;
-	margin-right : 20px;
+  width: 570px;
+  height: 370px;
+  background: url("./../images/news-1.jpg") no-repeat 0 / cover;
+  position: relative;
+  border-radius: 5px;
+  flex: 0 0 auto;
+  margin-right: 20px;
 }
 
 .news__body {
-	position  : absolute;
-	bottom    : 0;
-	left      : 0;
-	width     : 370px;
-	background: rgba(51, 51, 51, 0.9)
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 370px;
+  background: rgba(51, 51, 51, 0.9);
 }
 
 .news__body .news__type {
-	font-size     : 14px;
-	letter-spacing: -0.02em;
-	line-height   : 21px;
-	text-align    : center;
-	color         : #f8f8f8;
-	padding       : 5px 34px;
-	background    : #23272A;
-	display       : inline-block;
-	border-radius : 0 5px 5px 5px;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  line-height: 21px;
+  text-align: center;
+  color: #f8f8f8;
+  padding: 5px 34px;
+  background: #23272a;
+  display: inline-block;
+  border-radius: 0 5px 5px 5px;
 }
 
 .news__body .news__title {
-	padding       : 10px 20px;
-	font-weight   : bold;
-	font-size     : 16px;
-	letter-spacing: -0.02em;
-	line-height   : 21px;
-	text-align    : left;
-	color         : #f8f8f8;
-	transition    : all 0.3s linear;
-	cursor        : pointer;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  line-height: 21px;
+  text-align: left;
+  color: #f8f8f8;
+  transition: all 0.3s linear;
+  cursor: pointer;
 }
 
 .news__body .news__title:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .news__body .news__info {
-	padding-left: 20px;
+  padding-left: 20px;
 }
 
 .news__info {
-	display        : flex;
-	padding-right  : 10px;
-	padding-bottom : 10px;
-	justify-content: space-between;
+  display: flex;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
 }
 
 .news__info .date {
-	padding-left     : 34px;
-	font-weight      : normal;
-	font-size        : 14px;
-	letter-spacing   : -0.02em;
-	line-height      : 21px;
-	text-align       : left;
-	color            : #a6a6a6;
-	background-image : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.999' height='22.5' viewBox='0 0 23.999 22.5'%3E%3Cpath id='Fabric_Icons' data-name='Fabric Icons' d='M15-15H13.5v1.5H15ZM10.5-6H9v1.5h1.5ZM6-15H4.5v1.5H6Zm4.5,0H9v1.5h1.5ZM15-12H13.5v1.5H15Zm4.5,0H18v1.5h1.5ZM6-12H4.5v1.5H6Zm4.5,0H9v1.5h1.5ZM15-9H13.5v1.5H15Zm4.5,0H18v1.5h1.5ZM6-9H4.5v1.5H6Zm4.5,0H9v1.5h1.5ZM15-6H13.5v1.5H15Zm4.5,0H18v1.5h1.5ZM0-22.5v21H24v-21H19.5V-24H18v1.5H6V-24H4.5v1.5ZM22.5-21v3H1.5v-3h3v1.5H6V-21H18v1.5h1.5V-21ZM1.5-3V-16.5h21V-3Z' transform='translate(-0.001 24)' fill='%23a6a6a6'/%3E%3C/svg%3E%0A");
-	background-repeat: no-repeat;
-	background-size  : 24px 20px;
+  padding-left: 34px;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  line-height: 21px;
+  text-align: left;
+  color: #a6a6a6;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.999' height='22.5' viewBox='0 0 23.999 22.5'%3E%3Cpath id='Fabric_Icons' data-name='Fabric Icons' d='M15-15H13.5v1.5H15ZM10.5-6H9v1.5h1.5ZM6-15H4.5v1.5H6Zm4.5,0H9v1.5h1.5ZM15-12H13.5v1.5H15Zm4.5,0H18v1.5h1.5ZM6-12H4.5v1.5H6Zm4.5,0H9v1.5h1.5ZM15-9H13.5v1.5H15Zm4.5,0H18v1.5h1.5ZM6-9H4.5v1.5H6Zm4.5,0H9v1.5h1.5ZM15-6H13.5v1.5H15Zm4.5,0H18v1.5h1.5ZM0-22.5v21H24v-21H19.5V-24H18v1.5H6V-24H4.5v1.5ZM22.5-21v3H1.5v-3h3v1.5H6V-21H18v1.5h1.5V-21ZM1.5-3V-16.5h21V-3Z' transform='translate(-0.001 24)' fill='%23a6a6a6'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: 24px 20px;
 }
 
 .news__info .views {
-	font-weight      : normal;
-	font-size        : 14px;
-	letter-spacing   : -0.02em;
-	line-height      : 21px;
-	text-align       : left;
-	color            : #a6a6a6;
-	padding-left     : 34px;
-	background-image : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='15' viewBox='0 0 24 15'%3E%3Cpath id='Fabric_Icons' data-name='Fabric Icons' d='M12-15a4.386,4.386,0,0,1,1.746.352,4.536,4.536,0,0,1,1.436.967,4.536,4.536,0,0,1,.967,1.436A4.386,4.386,0,0,1,16.5-10.5a4.373,4.373,0,0,1-.352,1.752,4.554,4.554,0,0,1-.967,1.43,4.536,4.536,0,0,1-1.436.967A4.386,4.386,0,0,1,12-6a4.373,4.373,0,0,1-1.752-.352,4.554,4.554,0,0,1-1.43-.967,4.554,4.554,0,0,1-.967-1.43A4.373,4.373,0,0,1,7.5-10.5a4.386,4.386,0,0,1,.352-1.746,4.536,4.536,0,0,1,.967-1.436,4.554,4.554,0,0,1,1.43-.967A4.373,4.373,0,0,1,12-15Zm0,7.5a2.919,2.919,0,0,0,1.166-.234,3.03,3.03,0,0,0,.955-.645,3.03,3.03,0,0,0,.645-.955A2.919,2.919,0,0,0,15-10.5a2.919,2.919,0,0,0-.234-1.166,3.03,3.03,0,0,0-.645-.955,3.03,3.03,0,0,0-.955-.645A2.919,2.919,0,0,0,12-13.5a2.919,2.919,0,0,0-1.166.234,3.03,3.03,0,0,0-.955.645,3.03,3.03,0,0,0-.645.955A2.919,2.919,0,0,0,9-10.5a2.919,2.919,0,0,0,.234,1.166,3.03,3.03,0,0,0,.645.955,3.03,3.03,0,0,0,.955.645A2.919,2.919,0,0,0,12-7.5ZM12-21a13.582,13.582,0,0,1,3.328.416,12.978,12.978,0,0,1,3.117,1.225,11.8,11.8,0,0,1,2.654,2,10.022,10.022,0,0,1,1.939,2.736,9.861,9.861,0,0,1,.715,2.01A9.13,9.13,0,0,1,24-10.5H22.5a7.8,7.8,0,0,0-.422-2.59,8.148,8.148,0,0,0-1.166-2.2,9.333,9.333,0,0,0-1.752-1.781A11.113,11.113,0,0,0,16.986-18.4a11.9,11.9,0,0,0-2.443-.82A11.8,11.8,0,0,0,12-19.5a11.8,11.8,0,0,0-2.543.281,11.9,11.9,0,0,0-2.443.82A11.113,11.113,0,0,0,4.84-17.074a9.333,9.333,0,0,0-1.752,1.781,8.148,8.148,0,0,0-1.166,2.2A7.8,7.8,0,0,0,1.5-10.5H0a9.13,9.13,0,0,1,.246-2.115,9.861,9.861,0,0,1,.715-2.01A10.021,10.021,0,0,1,2.9-17.361a11.8,11.8,0,0,1,2.654-2,12.978,12.978,0,0,1,3.117-1.225A13.582,13.582,0,0,1,12-21Z' transform='translate(0 21)' fill='%23a6a6a6'/%3E%3C/svg%3E%0A");
-	background-repeat: no-repeat;
-	background-size  : 24px 22px;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  line-height: 21px;
+  text-align: left;
+  color: #a6a6a6;
+  padding-left: 34px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='15' viewBox='0 0 24 15'%3E%3Cpath id='Fabric_Icons' data-name='Fabric Icons' d='M12-15a4.386,4.386,0,0,1,1.746.352,4.536,4.536,0,0,1,1.436.967,4.536,4.536,0,0,1,.967,1.436A4.386,4.386,0,0,1,16.5-10.5a4.373,4.373,0,0,1-.352,1.752,4.554,4.554,0,0,1-.967,1.43,4.536,4.536,0,0,1-1.436.967A4.386,4.386,0,0,1,12-6a4.373,4.373,0,0,1-1.752-.352,4.554,4.554,0,0,1-1.43-.967,4.554,4.554,0,0,1-.967-1.43A4.373,4.373,0,0,1,7.5-10.5a4.386,4.386,0,0,1,.352-1.746,4.536,4.536,0,0,1,.967-1.436,4.554,4.554,0,0,1,1.43-.967A4.373,4.373,0,0,1,12-15Zm0,7.5a2.919,2.919,0,0,0,1.166-.234,3.03,3.03,0,0,0,.955-.645,3.03,3.03,0,0,0,.645-.955A2.919,2.919,0,0,0,15-10.5a2.919,2.919,0,0,0-.234-1.166,3.03,3.03,0,0,0-.645-.955,3.03,3.03,0,0,0-.955-.645A2.919,2.919,0,0,0,12-13.5a2.919,2.919,0,0,0-1.166.234,3.03,3.03,0,0,0-.955.645,3.03,3.03,0,0,0-.645.955A2.919,2.919,0,0,0,9-10.5a2.919,2.919,0,0,0,.234,1.166,3.03,3.03,0,0,0,.645.955,3.03,3.03,0,0,0,.955.645A2.919,2.919,0,0,0,12-7.5ZM12-21a13.582,13.582,0,0,1,3.328.416,12.978,12.978,0,0,1,3.117,1.225,11.8,11.8,0,0,1,2.654,2,10.022,10.022,0,0,1,1.939,2.736,9.861,9.861,0,0,1,.715,2.01A9.13,9.13,0,0,1,24-10.5H22.5a7.8,7.8,0,0,0-.422-2.59,8.148,8.148,0,0,0-1.166-2.2,9.333,9.333,0,0,0-1.752-1.781A11.113,11.113,0,0,0,16.986-18.4a11.9,11.9,0,0,0-2.443-.82A11.8,11.8,0,0,0,12-19.5a11.8,11.8,0,0,0-2.543.281,11.9,11.9,0,0,0-2.443.82A11.113,11.113,0,0,0,4.84-17.074a9.333,9.333,0,0,0-1.752,1.781,8.148,8.148,0,0,0-1.166,2.2A7.8,7.8,0,0,0,1.5-10.5H0a9.13,9.13,0,0,1,.246-2.115,9.861,9.861,0,0,1,.715-2.01A10.021,10.021,0,0,1,2.9-17.361a11.8,11.8,0,0,1,2.654-2,12.978,12.978,0,0,1,3.117-1.225A13.582,13.582,0,0,1,12-21Z' transform='translate(0 21)' fill='%23a6a6a6'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: 24px 22px;
 }
 
 .news__row {
-	display     : flex;
-	width       : 100%;
-	margin-left : -10px;
-	margin-right: -10px;
+  display: flex;
+  width: 100%;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .news__item {
-	flex         : 0 0 calc(100% / 3);
-	max-width    : calc(100% / 3);
-	padding-left : 10px;
-	padding-right: 10px;
+  flex: 0 0 calc(100% / 3);
+  max-width: calc(100% / 3);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .news__item .news__image {
-	height             : 200px;
-	width              : 100%;
-	border-radius      : 5px;
-	margin-bottom      : 20px;
-	background-repeat  : no-repeat;
-	background-position: 0;
-	background-size    : cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: cover;
 }
 
 .news__item .news__type {
-	display         : inline-block;
-	padding         : 5px 31px;
-	border-radius   : 5px;
-	background-color: #23272A;
-	font-weight     : normal;
-	font-size       : 14px;
-	letter-spacing  : -0.02em;
-	line-height     : 21px;
-	text-align      : left;
-	color           : #f8f8f8;
-	margin-bottom   : 10px;
+  display: inline-block;
+  padding: 5px 31px;
+  border-radius: 5px;
+  background-color: #23272a;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  line-height: 21px;
+  text-align: left;
+  color: #f8f8f8;
+  margin-bottom: 10px;
 }
 
 .news__item .news__title {
-	text-decoration: none;
-	display        : block;
-	font-weight    : normal;
-	font-size      : 16px;
-	letter-spacing : -0.02em;
-	line-height    : 21px;
-	text-align     : left;
-	color          : #333;
-	margin-bottom  : 10px;
-	transition     : all 0.3s linear;
-	height         : 64px;
-	overflow       : hidden;
-	text-overflow  : ellipsis;
+  text-decoration: none;
+  display: block;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  line-height: 21px;
+  text-align: left;
+  color: #333;
+  margin-bottom: 10px;
+  transition: all 0.3s linear;
+  height: 64px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .news__item .news__title:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .usefull__link {
-	padding: 100px 0;
+  padding: 100px 0;
 }
 
 .usefull__card {
-	display            : flex;
-	height             : 265px;
-	width              : 100%;
-	border-radius      : 5px;
-	padding            : 32px;
-	position           : relative;
-	overflow           : hidden;
-	align-items        : flex-end;
-	text-decoration    : none;
-	background-repeat  : no-repeat;
-	background-position: 0;
-	background-size    : cover;
+  display: flex;
+  height: 265px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 32px;
+  position: relative;
+  overflow: hidden;
+  align-items: flex-end;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: cover;
 }
 
 .usefull__card .body {
-	width   : 170px;
-	position: relative;
-	z-index : 2;
+  width: 170px;
+  position: relative;
+  z-index: 2;
 }
 
 .usefull__card .body .link {
-	display            : inline-block;
-	font-weight        : bold;
-	font-size          : 19px;
-	letter-spacing     : -0.02em;
-	text-align         : left;
-	color              : #fff;
-	padding-right      : 21px;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.566' height='17.133' viewBox='0 0 8.566 17.133'%3E%3Cpath id='Контур_8691' data-name='Контур 8691' d='M7.5-20.566,16.066-12,7.5-3.434ZM9-16.934v9.867L13.934-12Z' transform='translate(-7.5 20.566)' fill='%23fff'/%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: 100% 50%;
-	margin-bottom      : 7px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 19px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fff;
+  padding-right: 21px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.566' height='17.133' viewBox='0 0 8.566 17.133'%3E%3Cpath id='Контур_8691' data-name='Контур 8691' d='M7.5-20.566,16.066-12,7.5-3.434ZM9-16.934v9.867L13.934-12Z' transform='translate(-7.5 20.566)' fill='%23fff'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  margin-bottom: 7px;
 }
 
 .usefull__card .body .desc {
-	font-weight: 500;
-	font-size  : 14px;
-	text-align : left;
-	color      : #fff;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
 }
 
 .usefull__card.red::before {
-	background-color: #AC1C10;
+  background-color: #ac1c10;
 }
 
 .usefull__card.yellow::before {
-	background-color: #FF8C00;
+  background-color: #ff8c00;
 }
 
 .usefull__card.blue::before {
-	background-color: #2B88D8;
+  background-color: #2b88d8;
 }
 
 .usefull__card::before {
-	content         : '';
-	display         : block;
-	width           : 200%;
-	height          : 100%;
-	position        : absolute;
-	top             : 0;
-	left            : 0;
-	transform-origin: 0 0 0;
-	transform       : rotate(29deg);
+  content: "";
+  display: block;
+  width: 200%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0 0;
+  transform: rotate(29deg);
 }
 
 .catalog {
-	padding   : 90px 0 100px 0;
-	background: #F1F2F3;
+  padding: 90px 0 100px 0;
+  background: #f1f2f3;
 }
 
 .catalog__item {
-	padding            : 30px 34px 30px 30px;
-	border-radius      : 5px;
-	/* background-image: url("data:image/svg+xml,%3Csvg id='videocam_black_24dp' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='110' height='110' viewBox='0 0 110 110'%3E%3Cdefs%3E%3Cfilter id='Контур_8698'%3E%3CfeOffset dy='3' input='SourceAlpha'/%3E%3CfeGaussianBlur stdDeviation='3' result='blur'/%3E%3CfeFlood flood-opacity='0.161' result='color'/%3E%3CfeComposite operator='out' in='SourceGraphic' in2='blur'/%3E%3CfeComposite operator='in' in='color'/%3E%3CfeComposite operator='in' in2='SourceGraphic'/%3E%3C/filter%3E%3C/defs%3E%3Cpath id='Контур_8697' data-name='Контур 8697' d='M0,0H110V110H0Z' fill='none'/%3E%3Cg data-type='innerShadowGroup'%3E%3Cpath id='Контур_8698-2' data-name='Контур 8698' d='M67.167,26.625V10.583A4.6,4.6,0,0,0,62.583,6h-55A4.6,4.6,0,0,0,3,10.583V56.417A4.6,4.6,0,0,0,7.583,61h55a4.6,4.6,0,0,0,4.583-4.583V40.375L85.5,58.708V8.292Z' transform='translate(10.75 21.5)' fill='%23fff'/%3E%3Cg transform='matrix(1, 0, 0, 1, 0, 0)' filter='url(%23Контур_8698)'%3E%3Cpath id='Контур_8698-3' data-name='Контур 8698' d='M67.167,26.625V10.583A4.6,4.6,0,0,0,62.583,6h-55A4.6,4.6,0,0,0,3,10.583V56.417A4.6,4.6,0,0,0,7.583,61h55a4.6,4.6,0,0,0,4.583-4.583V40.375L85.5,58.708V8.292Z' transform='translate(10.75 21.5)' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A"); */
-	background-position: calc(100% - 34px) 50%;
-	background-repeat  : no-repeat;
-	position           : relative;
-	margin-bottom      : 20px;
+  padding: 30px 34px 30px 30px;
+  border-radius: 5px;
+  /* background-image: url("data:image/svg+xml,%3Csvg id='videocam_black_24dp' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='110' height='110' viewBox='0 0 110 110'%3E%3Cdefs%3E%3Cfilter id='Контур_8698'%3E%3CfeOffset dy='3' input='SourceAlpha'/%3E%3CfeGaussianBlur stdDeviation='3' result='blur'/%3E%3CfeFlood flood-opacity='0.161' result='color'/%3E%3CfeComposite operator='out' in='SourceGraphic' in2='blur'/%3E%3CfeComposite operator='in' in='color'/%3E%3CfeComposite operator='in' in2='SourceGraphic'/%3E%3C/filter%3E%3C/defs%3E%3Cpath id='Контур_8697' data-name='Контур 8697' d='M0,0H110V110H0Z' fill='none'/%3E%3Cg data-type='innerShadowGroup'%3E%3Cpath id='Контур_8698-2' data-name='Контур 8698' d='M67.167,26.625V10.583A4.6,4.6,0,0,0,62.583,6h-55A4.6,4.6,0,0,0,3,10.583V56.417A4.6,4.6,0,0,0,7.583,61h55a4.6,4.6,0,0,0,4.583-4.583V40.375L85.5,58.708V8.292Z' transform='translate(10.75 21.5)' fill='%23fff'/%3E%3Cg transform='matrix(1, 0, 0, 1, 0, 0)' filter='url(%23Контур_8698)'%3E%3Cpath id='Контур_8698-3' data-name='Контур 8698' d='M67.167,26.625V10.583A4.6,4.6,0,0,0,62.583,6h-55A4.6,4.6,0,0,0,3,10.583V56.417A4.6,4.6,0,0,0,7.583,61h55a4.6,4.6,0,0,0,4.583-4.583V40.375L85.5,58.708V8.292Z' transform='translate(10.75 21.5)' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A"); */
+  background-position: calc(100% - 34px) 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .catalog__item .icon {
-	position : absolute;
-	top      : 50%;
-	right    : 34px;
-	transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  right: 34px;
+  transform: translateY(-50%);
 }
 
 .catalog__item .type {
-	font-weight   : 900;
-	font-size     : 20px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #fff;
-	position      : relative;
-	bottom        : -25px;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fff;
+  position: relative;
+  bottom: -25px;
 }
 
 .catalog__item .number {
-	font-weight   : 900;
-	font-size     : 60px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #fff;
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fff;
 }
 
 .catalog__item .link {
-	display            : inline-block;
-	font-weight        : bold;
-	font-size          : 19px;
-	letter-spacing     : -0.02em;
-	text-align         : left;
-	color              : #fff;
-	padding-right      : 21px;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.566' height='17.133' viewBox='0 0 8.566 17.133'%3E%3Cpath id='Контур_8691' data-name='Контур 8691' d='M7.5-20.566,16.066-12,7.5-3.434ZM9-16.934v9.867L13.934-12Z' transform='translate(-7.5 20.566)' fill='%23fff'/%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: 100% 50%;
-	margin-bottom      : 7px;
-	position           : relative;
-	top                : -20px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 19px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fff;
+  padding-right: 21px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.566' height='17.133' viewBox='0 0 8.566 17.133'%3E%3Cpath id='Контур_8691' data-name='Контур 8691' d='M7.5-20.566,16.066-12,7.5-3.434ZM9-16.934v9.867L13.934-12Z' transform='translate(-7.5 20.566)' fill='%23fff'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  margin-bottom: 7px;
+  position: relative;
+  top: -20px;
 }
 
 .footer {
-	background: #38393D;
-	display   : block;
+  background: #38393d;
+  display: block;
 }
 
 .footer__nav {
-	border-bottom: 1px solid;
-	display      : flex;
+  border-bottom: 1px solid;
+  display: flex;
 }
 
 .footer .nav-logo {
-	text-transform : uppercase;
-	text-decoration: none;
-	font-weight    : bold;
-	font-size      : 14px;
-	text-align     : left;
-	color          : #fff;
-	padding        : 17px 20px;
-	border-bottom  : 4px solid transparent;
-	transition     : all 0.5s linear;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+  padding: 17px 20px;
+  border-bottom: 4px solid transparent;
+  transition: all 0.5s linear;
 }
 
 .footer .nav-logo b {
-	/* border-bottom: 4px solid #5AC5F9; */
-	color: #5AC5F9;
+  /* border-bottom: 4px solid #5AC5F9; */
+  color: #5ac5f9;
 }
 
 .footer .nav-link {
-	text-transform : uppercase;
-	font-weight    : bold;
-	font-size      : 14px;
-	text-align     : left;
-	color          : #fff;
-	padding        : 17px 20px;
-	border-bottom  : 4px solid transparent;
-	transition     : all 0.5s linear;
-	display        : flex;
-	align-items    : center;
-	justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+  padding: 17px 20px;
+  border-bottom: 4px solid transparent;
+  transition: all 0.5s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer .top_nav .nav-link:first-of-type {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .footer .nav-link:hover {
-	border-bottom: 4px solid #5AC5F9;
+  border-bottom: 4px solid #5ac5f9;
 }
 
 .footer .nav-link b {
-	color: #5AC5F9;
+  color: #5ac5f9;
 }
 
 .footer__middle .nav-link {
-	padding     : 0;
-	margin-right: 51px;
-	border      : none;
+  padding: 0;
+  margin-right: 51px;
+  border: none;
 }
 
 .footer__middle .form-control {
-	height             : 50px;
-	padding-left       : 51px;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.8' height='13' viewBox='0 0 20.8 13'%3E%3Cpath id='Контур_8688' data-name='Контур 8688' d='M20.8-29.25v13H0v-13ZM1.452-27.95,10.4-23.471l8.948-4.479ZM19.5-17.55v-9.019l-9.1,4.54-9.1-4.54v9.019Z' transform='translate(0 29.25)' fill='%23666'/%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: 20px 50%;
+  height: 50px;
+  padding-left: 51px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.8' height='13' viewBox='0 0 20.8 13'%3E%3Cpath id='Контур_8688' data-name='Контур 8688' d='M20.8-29.25v13H0v-13ZM1.452-27.95,10.4-23.471l8.948-4.479ZM19.5-17.55v-9.019l-9.1,4.54-9.1-4.54v9.019Z' transform='translate(0 29.25)' fill='%23666'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 20px 50%;
 }
 
 .footer__middle .form-control::placeholder {
-	font-weight: normal;
-	font-size  : 14px;
-	text-align : left;
-	color      : #2a5a76;
-	opacity    : 0.75;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+  color: #2a5a76;
+  opacity: 0.75;
 }
 
 .footer__middle .nav-link:hover {
-	border   : none;
-	transform: scale(1.2);
+  border: none;
+  transform: scale(1.2);
 }
 
 .footer__middle .row {
-	padding: 60px 0;
+  padding: 60px 0;
 }
 
 .footer__middle label {
-	font-weight   : 500;
-	font-size     : 14px;
-	text-align    : left;
-	color         : #FFFFFF;
-	text-transform: uppercase;
-	margin-bottom : 15px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .footer__middle label b {
-	color: #2B88D8;
+  color: #2b88d8;
 }
 
 .footer__bottom {
-	display        : flex;
-	justify-content: space-between;
-	color          : white;
-	padding-bottom : 35px;
-	font-weight    : normal;
-	font-size      : 16px;
-	letter-spacing : -0.02em;
-	text-align     : right;
-	color          : #fff;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-bottom: 35px;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-align: right;
+  color: #fff;
 }
 
 .afisha__item {
-	height             : 361px;
-	background-repeat  : no-repeat;
-	background-size    : cover;
-	background-position: 0;
-	display            : flex;
-	justify-content    : flex-end;
-	align-items        : center;
-	flex-direction     : column;
-	overflow           : hidden;
+  height: 361px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .afisha__item .item__body {
-	height          : 270px;
-	display         : flex;
-	flex-direction  : column;
-	align-items     : center;
-	justify-content : center;
-	/* padding-left : 50px; */
-	/* padding-right: 50px; */
-	position        : relative;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding-left : 50px; */
+  /* padding-right: 50px; */
+  position: relative;
 }
 
 .afisha__item .item__body::before {
-	content   : '';
-	position  : absolute;
-	left      : 0;
-	right     : 0;
-	display   : block;
-	opacity   : 0.53;
-	height    : 100%;
-	width     : 100%;
-	background: linear-gradient(to top, #020202 0%, rgba(84, 84, 84, 0) 100%);
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: block;
+  opacity: 0.53;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to top, #020202 0%, rgba(84, 84, 84, 0) 100%);
 }
 
 .afisha__title--big {
-	font-weight   : bold;
-	font-size     : 55px;
-	text-align    : left;
-	color         : #fff;
-	text-transform: uppercase;
-	transform     : translateY(100%);
+  font-weight: bold;
+  font-size: 55px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  transform: translateY(100%);
 }
 
 .afisha__title {
-	font-weight   : bold;
-	font-size     : 20px;
-	letter-spacing: -0.02em;
-	text-align    : center;
-	color         : #fff;
-	text-transform: uppercase;
-	position      : relative;
-	z-index       : 10;
-	padding-left  : 40px;
-	padding-right : 40px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 10;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .afisha__desc {
-	font-weight   : normal;
-	font-size     : 14px;
-	text-align    : center;
-	color         : #fff;
-	text-transform: uppercase;
-	position      : relative;
-	z-index       : 10;
-	padding-left  : 74px;
-	padding-right : 74px;
-	height        : 40px;
-	overflow      : hidden;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 10;
+  padding-left: 74px;
+  padding-right: 74px;
+  height: 40px;
+  overflow: hidden;
 }
 
 .afisha__desc.big-desc {
-	margin-top   : 30px;
-	margin-bottom: 30px;
-	height       : 74px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 74px;
 }
 
 .afisha__item .item__body .btn {
-	background    : #FFFFFF;
-	border-radius : 5px;
-	padding       : 14px 70px;
-	position      : relative;
-	font-weight   : normal;
-	font-size     : 16px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #23272a;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 14px 70px;
+  position: relative;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #23272a;
 }
 
 .search {
-	padding-top   : 20px;
-	padding-bottom: 20px;
-	border-bottom : 1px solid #C1C1C1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c1c1c1;
 }
 
 .search__wrapper {
-	display        : flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .search__input {
-	height             : 100%;
-	padding-left       : 30px;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cpath id='Контур_8679' data-name='Контур 8679' d='M18-.615a.664.664,0,0,1-.149.431A.5.5,0,0,1,17.438,0a.541.541,0,0,1-.4-.167l-6.9-6.891a6.318,6.318,0,0,1-1.85,1.063,6.064,6.064,0,0,1-2.1.369,6.112,6.112,0,0,1-1.644-.22,6.113,6.113,0,0,1-1.477-.624A6.267,6.267,0,0,1,1.815-7.44,6.267,6.267,0,0,1,.844-8.692,6.113,6.113,0,0,1,.22-10.169,6.112,6.112,0,0,1,0-11.812a6.112,6.112,0,0,1,.22-1.644,6.113,6.113,0,0,1,.624-1.477,6.267,6.267,0,0,1,.971-1.252,6.267,6.267,0,0,1,1.252-.971,6.113,6.113,0,0,1,1.477-.624A6.112,6.112,0,0,1,6.188-18a6.112,6.112,0,0,1,1.644.22,6.113,6.113,0,0,1,1.477.624,6.267,6.267,0,0,1,1.252.971,6.267,6.267,0,0,1,.971,1.252,6.113,6.113,0,0,1,.624,1.477,6.112,6.112,0,0,1,.22,1.644,6.064,6.064,0,0,1-.369,2.1,6.318,6.318,0,0,1-1.063,1.85l.505.5q.374.369.9.879t1.143,1.121q.62.611,1.248,1.239t1.217,1.226q.589.6,1.046,1.081t.729.8A1.224,1.224,0,0,1,18-.615ZM6.188-6.75a4.9,4.9,0,0,0,1.969-.4A5.14,5.14,0,0,0,9.765-8.235,5.14,5.14,0,0,0,10.85-9.844a4.9,4.9,0,0,0,.4-1.969,4.9,4.9,0,0,0-.4-1.969A5.14,5.14,0,0,0,9.765-15.39a5.14,5.14,0,0,0-1.608-1.085,4.9,4.9,0,0,0-1.969-.4,4.9,4.9,0,0,0-1.969.4A5.14,5.14,0,0,0,2.61-15.39a5.14,5.14,0,0,0-1.085,1.608,4.9,4.9,0,0,0-.4,1.969,4.9,4.9,0,0,0,.4,1.969A5.14,5.14,0,0,0,2.61-8.235,5.14,5.14,0,0,0,4.219-7.15,4.9,4.9,0,0,0,6.188-6.75Z' transform='translate(0 18)' fill='%23707070'/%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: 0 50%;
-	background-size    : 18px;
-	border             : 0;
+  height: 100%;
+  padding-left: 30px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cpath id='Контур_8679' data-name='Контур 8679' d='M18-.615a.664.664,0,0,1-.149.431A.5.5,0,0,1,17.438,0a.541.541,0,0,1-.4-.167l-6.9-6.891a6.318,6.318,0,0,1-1.85,1.063,6.064,6.064,0,0,1-2.1.369,6.112,6.112,0,0,1-1.644-.22,6.113,6.113,0,0,1-1.477-.624A6.267,6.267,0,0,1,1.815-7.44,6.267,6.267,0,0,1,.844-8.692,6.113,6.113,0,0,1,.22-10.169,6.112,6.112,0,0,1,0-11.812a6.112,6.112,0,0,1,.22-1.644,6.113,6.113,0,0,1,.624-1.477,6.267,6.267,0,0,1,.971-1.252,6.267,6.267,0,0,1,1.252-.971,6.113,6.113,0,0,1,1.477-.624A6.112,6.112,0,0,1,6.188-18a6.112,6.112,0,0,1,1.644.22,6.113,6.113,0,0,1,1.477.624,6.267,6.267,0,0,1,1.252.971,6.267,6.267,0,0,1,.971,1.252,6.113,6.113,0,0,1,.624,1.477,6.112,6.112,0,0,1,.22,1.644,6.064,6.064,0,0,1-.369,2.1,6.318,6.318,0,0,1-1.063,1.85l.505.5q.374.369.9.879t1.143,1.121q.62.611,1.248,1.239t1.217,1.226q.589.6,1.046,1.081t.729.8A1.224,1.224,0,0,1,18-.615ZM6.188-6.75a4.9,4.9,0,0,0,1.969-.4A5.14,5.14,0,0,0,9.765-8.235,5.14,5.14,0,0,0,10.85-9.844a4.9,4.9,0,0,0,.4-1.969,4.9,4.9,0,0,0-.4-1.969A5.14,5.14,0,0,0,9.765-15.39a5.14,5.14,0,0,0-1.608-1.085,4.9,4.9,0,0,0-1.969-.4,4.9,4.9,0,0,0-1.969.4A5.14,5.14,0,0,0,2.61-15.39a5.14,5.14,0,0,0-1.085,1.608,4.9,4.9,0,0,0-.4,1.969,4.9,4.9,0,0,0,.4,1.969A5.14,5.14,0,0,0,2.61-8.235,5.14,5.14,0,0,0,4.219-7.15,4.9,4.9,0,0,0,6.188-6.75Z' transform='translate(0 18)' fill='%23707070'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 18px;
+  border: 0;
 }
 
 .search__input::placeholder {
-	font-weight: 500;
-	font-size  : 14px;
-	text-align : left;
-	color      : #707070;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  color: #707070;
 }
 
 .search__select {
-	width : 150px;
-	height: 100%;
-	border: 0;
+  width: 150px;
+  height: 100%;
+  border: 0;
 }
 
 .search__select:focus {
-	border    : none;
-	outline   : none;
-	box-shadow: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .main__nav.filter .nav-item:last-child {
-	margin-left: initial;
+  margin-left: initial;
 }
 
 .main__nav .nav {
-	position: relative;
+  position: relative;
 }
 
 .main__nav .mobile-collapse {
-	display      : none;
-	position     : absolute;
-	top          : calc(100% - 30px);
-	left         : 50%;
-	transform    : translateX(-50%);
-	/* visibility: visible; */
+  display: none;
+  position: absolute;
+  top: calc(100% - 30px);
+  left: 50%;
+  transform: translateX(-50%);
+  /* visibility: visible; */
 }
 
 .main__nav .mobile-collapse svg {
-	transform: rotate(90deg);
-
+  transform: rotate(90deg);
 }
 
 .main__nav .mobile-collapse .nav-link:hover {
-	border: none;
+  border: none;
 }
 
 .tag__nav {
-	padding-top   : 20px;
-	padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .tag__nav .nav-link {
-	padding      : 14px 24px;
-	border-radius: 5px;
-	border       : 1px solid #2B88D8;
-	margin-right : 40px;
-	transition   : all 0.3s linear;
-	color        : #C1C1C1;
-	margin-bottom: 20px;
+  padding: 14px 24px;
+  border-radius: 5px;
+  border: 1px solid #2b88d8;
+  margin-right: 40px;
+  transition: all 0.3s linear;
+  color: #c1c1c1;
+  margin-bottom: 20px;
 }
 
 .tag__nav .nav-link.active {
-	background: #2B88D8;
-	color     : white;
+  background: #2b88d8;
+  color: white;
 }
 
 .tag__nav .nav-link:hover {
-	background: #2B88D8;
-	color     : white;
+  background: #2b88d8;
+  color: white;
 }
 
 .event-info {
-	padding-bottom: 91px;
+  padding-bottom: 91px;
 }
 
 .event-card {
-	display: flex;
+  display: flex;
 }
 
 .event-image {
-	flex             : 0 0 387px;
-	height           : 580px;
-	border-radius    : 5px;
-	overflow         : hidden;
-	background-repeat: no-repeat;
-	background-size  : cover;
+  flex: 0 0 387px;
+  height: 580px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .event-image img {
-	width: 100%;
+  width: 100%;
 }
 
 .event-body {
-	padding-left: 40px;
+  padding-left: 40px;
 }
 
 .event-body .card-body {
-	padding: 0;
+  padding: 0;
 }
 
 .event-body .card-body .name {
-	margin-bottom: 19px;
+  margin-bottom: 19px;
 }
 
 .event-body .card-body .place {
-	margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .event-body .card-body .date_info {
-	flex-direction: column;
-	margin-bottom : 17px;
+  flex-direction: column;
+  margin-bottom: 17px;
 }
 
 .event-body .card-body .date {
-	margin-bottom: 17px;
-	font-weight  : normal;
+  margin-bottom: 17px;
+  font-weight: normal;
 }
 
 .event-body .info {
-	font-style         : italic;
-	font-size          : 18px;
-	line-height        : 24px;
-	color              : #23272a;
-	padding-left       : 30px;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.5' height='22.5' viewBox='0 0 22.5 22.5'%3E%3Cpath id='Контур_8759' data-name='Контур 8759' d='M11.25-1.5a11.144,11.144,0,0,1-2.994-.4A11.3,11.3,0,0,1,5.566-3.029,11.2,11.2,0,0,1,3.287-4.787,11.2,11.2,0,0,1,1.529-7.066,11.3,11.3,0,0,1,.4-9.756,11.144,11.144,0,0,1,0-12.75a11.144,11.144,0,0,1,.4-2.994,11.3,11.3,0,0,1,1.131-2.689,11.2,11.2,0,0,1,1.758-2.279,11.2,11.2,0,0,1,2.279-1.758A11.3,11.3,0,0,1,8.256-23.6,11.144,11.144,0,0,1,11.25-24a11.144,11.144,0,0,1,2.994.4,11.3,11.3,0,0,1,2.689,1.131,11.2,11.2,0,0,1,2.279,1.758,11.2,11.2,0,0,1,1.758,2.279A11.3,11.3,0,0,1,22.1-15.744a11.144,11.144,0,0,1,.4,2.994,11.144,11.144,0,0,1-.4,2.994,11.3,11.3,0,0,1-1.131,2.689,11.2,11.2,0,0,1-1.758,2.279,11.2,11.2,0,0,1-2.279,1.758A11.3,11.3,0,0,1,14.244-1.9,11.144,11.144,0,0,1,11.25-1.5Zm0-21a9.465,9.465,0,0,0-2.59.352,9.988,9.988,0,0,0-2.326.984,9.692,9.692,0,0,0-1.975,1.523,9.692,9.692,0,0,0-1.523,1.975,9.961,9.961,0,0,0-.984,2.332A9.484,9.484,0,0,0,1.5-12.75a9.484,9.484,0,0,0,.352,2.584,9.961,9.961,0,0,0,.984,2.332A9.692,9.692,0,0,0,4.359-5.859,9.692,9.692,0,0,0,6.334-4.336a9.988,9.988,0,0,0,2.326.984A9.465,9.465,0,0,0,11.25-3a9.484,9.484,0,0,0,2.584-.352,9.961,9.961,0,0,0,2.332-.984,9.692,9.692,0,0,0,1.975-1.523,9.692,9.692,0,0,0,1.523-1.975,9.988,9.988,0,0,0,.984-2.326A9.465,9.465,0,0,0,21-12.75a9.484,9.484,0,0,0-.352-2.584,9.961,9.961,0,0,0-.984-2.332,9.692,9.692,0,0,0-1.523-1.975,9.692,9.692,0,0,0-1.975-1.523,9.961,9.961,0,0,0-2.332-.984A9.484,9.484,0,0,0,11.25-22.5ZM10.5-15H12v7.5H10.5Zm0-3H12v1.5H10.5Z' transform='translate(0 24)' fill='%23ea4300'/%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: 0 50%;
-	background-size    : 22px 22px;
-	margin-bottom      : 30px;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 24px;
+  color: #23272a;
+  padding-left: 30px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.5' height='22.5' viewBox='0 0 22.5 22.5'%3E%3Cpath id='Контур_8759' data-name='Контур 8759' d='M11.25-1.5a11.144,11.144,0,0,1-2.994-.4A11.3,11.3,0,0,1,5.566-3.029,11.2,11.2,0,0,1,3.287-4.787,11.2,11.2,0,0,1,1.529-7.066,11.3,11.3,0,0,1,.4-9.756,11.144,11.144,0,0,1,0-12.75a11.144,11.144,0,0,1,.4-2.994,11.3,11.3,0,0,1,1.131-2.689,11.2,11.2,0,0,1,1.758-2.279,11.2,11.2,0,0,1,2.279-1.758A11.3,11.3,0,0,1,8.256-23.6,11.144,11.144,0,0,1,11.25-24a11.144,11.144,0,0,1,2.994.4,11.3,11.3,0,0,1,2.689,1.131,11.2,11.2,0,0,1,2.279,1.758,11.2,11.2,0,0,1,1.758,2.279A11.3,11.3,0,0,1,22.1-15.744a11.144,11.144,0,0,1,.4,2.994,11.144,11.144,0,0,1-.4,2.994,11.3,11.3,0,0,1-1.131,2.689,11.2,11.2,0,0,1-1.758,2.279,11.2,11.2,0,0,1-2.279,1.758A11.3,11.3,0,0,1,14.244-1.9,11.144,11.144,0,0,1,11.25-1.5Zm0-21a9.465,9.465,0,0,0-2.59.352,9.988,9.988,0,0,0-2.326.984,9.692,9.692,0,0,0-1.975,1.523,9.692,9.692,0,0,0-1.523,1.975,9.961,9.961,0,0,0-.984,2.332A9.484,9.484,0,0,0,1.5-12.75a9.484,9.484,0,0,0,.352,2.584,9.961,9.961,0,0,0,.984,2.332A9.692,9.692,0,0,0,4.359-5.859,9.692,9.692,0,0,0,6.334-4.336a9.988,9.988,0,0,0,2.326.984A9.465,9.465,0,0,0,11.25-3a9.484,9.484,0,0,0,2.584-.352,9.961,9.961,0,0,0,2.332-.984,9.692,9.692,0,0,0,1.975-1.523,9.692,9.692,0,0,0,1.523-1.975,9.988,9.988,0,0,0,.984-2.326A9.465,9.465,0,0,0,21-12.75a9.484,9.484,0,0,0-.352-2.584,9.961,9.961,0,0,0-.984-2.332,9.692,9.692,0,0,0-1.523-1.975,9.692,9.692,0,0,0-1.975-1.523,9.961,9.961,0,0,0-2.332-.984A9.484,9.484,0,0,0,11.25-22.5ZM10.5-15H12v7.5H10.5Zm0-3H12v1.5H10.5Z' transform='translate(0 24)' fill='%23ea4300'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 22px 22px;
+  margin-bottom: 30px;
 }
 
 .event-body .card-body .price {
-	margin-bottom: 17px;
+  margin-bottom: 17px;
 }
 
 .event-body .card-body .icon-clock {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 .event-body .btn {
-	padding      : 13px 63px 13px 73px;
-	font-family  : "Roboto";
-	font-weight  : normal;
-	font-style   : italic;
-	font-size    : 18px;
-	text-align   : left;
-	color        : #fff;
-	background   : #D83B01 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='21' viewBox='0 0 20 21'%3E%3Cg id='Сгруппировать_9899' data-name='Сгруппировать 9899' transform='translate(-256 -1460)'%3E%3Ctext id='_' data-name='' transform='translate(256 1480)' fill='%23fff' font-size='20' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E%0A")no-repeat 20px/ 47px 50%;
-	border       : 0;
-	margin-bottom: 40px;
+  padding: 13px 63px 13px 73px;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-style: italic;
+  font-size: 18px;
+  text-align: left;
+  color: #fff;
+  background: #d83b01
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='21' viewBox='0 0 20 21'%3E%3Cg id='Сгруппировать_9899' data-name='Сгруппировать 9899' transform='translate(-256 -1460)'%3E%3Ctext id='_' data-name='' transform='translate(256 1480)' fill='%23fff' font-size='20' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E%0A")
+    no-repeat 20px/ 47px 50%;
+  border: 0;
+  margin-bottom: 40px;
 }
 
 .nav-social .nav-item {
-	margin-right: 20px;
+  margin-right: 20px;
 }
 
 .nav-social .nav-item:last-child {
-	margin-right: 0;
+  margin-right: 0;
 }
 
 .nav-social .nav-link {
-	padding-left : 0;
-	padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .nav-social .nav-link svg {
-	transform : scale(1);
-	transition: all 0.3s linear;
+  transform: scale(1);
+  transition: all 0.3s linear;
 }
 
 .nav-social .nav-link:hover svg {
-	transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .event-desc {
-	padding-bottom: 67px;
+  padding-bottom: 67px;
 }
 
 .event-desc .title {
-	margin-bottom : 42px;
-	margin-bottom : 30px;
-	font-weight   : bold;
-	font-size     : 28px;
-	text-align    : left;
-	color         : #23272a;
-	text-transform: uppercase;
-
+  margin-bottom: 42px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: left;
+  color: #23272a;
+  text-transform: uppercase;
 }
 
 .link-prev {
-	font-family        : "Roboto";
-	font-weight        : normal;
-	font-size          : 18px;
-	text-align         : left;
-	color              : #000;
-	text-decoration    : none;
-	padding-left       : 36px;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='24' viewBox='0 0 12 24'%3E%3Cpath id='Контур_8745' data-name='Контур 8745' d='M6-12,18-24V0Zm9,4.758v-9.516L10.242-12Z' transform='translate(-6 24)' fill='%23020403'/%3E%3C/svg%3E%0A");
-	background-position: 0 50%;
-	background-repeat  : no-repeat;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #000;
+  text-decoration: none;
+  padding-left: 36px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='24' viewBox='0 0 12 24'%3E%3Cpath id='Контур_8745' data-name='Контур 8745' d='M6-12,18-24V0Zm9,4.758v-9.516L10.242-12Z' transform='translate(-6 24)' fill='%23020403'/%3E%3C/svg%3E%0A");
+  background-position: 0 50%;
+  background-repeat: no-repeat;
 }
 
 .link-prev:hover {
-	color: inherit;
+  color: inherit;
 }
 
 .event-aside {
-	padding-left: 20px;
-	border-left : 1px dashed #CACACA;
-	height      : 100%;
+  padding-left: 20px;
+  border-left: 1px dashed #cacaca;
+  height: 100%;
 }
 
 .aside__title {
-	font-weight   : bold;
-	font-size     : 24px;
-	text-align    : left;
-	color         : #23272a;
-	text-transform: uppercase;
-	margin-bottom : 15px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  color: #23272a;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .small-info {
-	padding-top   : 21px;
-	padding-bottom: 21px;
-	border-bottom : 1px dashed #CACACA;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  border-bottom: 1px dashed #cacaca;
 }
 
 .small-info .image {
-	width             : 327px;
-	/* height         : 230.32px; */
-	background-size   : cover;
+  width: 327px;
+  /* height         : 230.32px; */
+  background-size: cover;
 }
 
 .small-info .image img {
-	width : 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .small-info .type {
-
-	font-weight : normal;
-	font-style  : italic;
-	font-size   : 16px;
-	text-align  : left;
-	color       : #23272a;
-	padding-left: 20px;
-	position    : relative;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+  text-align: left;
+  color: #23272a;
+  padding-left: 20px;
+  position: relative;
 }
 
 .small-info .type::before {
-	content            : '';
-	display            : block;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.5' height='7.5' viewBox='0 0 7.5 7.5'%3E%3Cpath id='Контур_8749' data-name='Контур 8749' d='M10-13.75a3.655,3.655,0,0,1,1.455.293,3.78,3.78,0,0,1,1.2.806,3.78,3.78,0,0,1,.806,1.2A3.655,3.655,0,0,1,13.75-10a3.644,3.644,0,0,1-.293,1.46,3.8,3.8,0,0,1-.806,1.191,3.78,3.78,0,0,1-1.2.806A3.655,3.655,0,0,1,10-6.25a3.644,3.644,0,0,1-1.46-.293,3.8,3.8,0,0,1-1.191-.806A3.8,3.8,0,0,1,6.543-8.54,3.644,3.644,0,0,1,6.25-10a3.655,3.655,0,0,1,.293-1.455,3.78,3.78,0,0,1,.806-1.2,3.8,3.8,0,0,1,1.191-.806A3.644,3.644,0,0,1,10-13.75Z' transform='translate(-6.25 13.75)' fill='%23020403'/%3E%3C/svg%3E%0A");
-	background-position: 0 50%;
-	background-size    : cover;
-	width              : 8px;
-	height             : 8px;
-	position           : absolute;
-	top                : 50%;
-	left               : 0;
-	transform          : translateY(-50%);
+  content: "";
+  display: block;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.5' height='7.5' viewBox='0 0 7.5 7.5'%3E%3Cpath id='Контур_8749' data-name='Контур 8749' d='M10-13.75a3.655,3.655,0,0,1,1.455.293,3.78,3.78,0,0,1,1.2.806,3.78,3.78,0,0,1,.806,1.2A3.655,3.655,0,0,1,13.75-10a3.644,3.644,0,0,1-.293,1.46,3.8,3.8,0,0,1-.806,1.191,3.78,3.78,0,0,1-1.2.806A3.655,3.655,0,0,1,10-6.25a3.644,3.644,0,0,1-1.46-.293,3.8,3.8,0,0,1-1.191-.806A3.8,3.8,0,0,1,6.543-8.54,3.644,3.644,0,0,1,6.25-10a3.655,3.655,0,0,1,.293-1.455,3.78,3.78,0,0,1,.806-1.2,3.8,3.8,0,0,1,1.191-.806A3.644,3.644,0,0,1,10-13.75Z' transform='translate(-6.25 13.75)' fill='%23020403'/%3E%3C/svg%3E%0A");
+  background-position: 0 50%;
+  background-size: cover;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 .small-info .address {
-	padding-left : 25px;
-	padding-right: 160px;
-	margin-bottom: 7px;
+  padding-left: 25px;
+  padding-right: 160px;
+  margin-bottom: 7px;
 
-	font-weight        : normal;
-	font-size          : 18px;
-	text-align         : left;
-	color              : #23272a;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.25' height='18' viewBox='0 0 11.25 18'%3E%3Cpath id='Контур_8755' data-name='Контур 8755' d='M9-18a5.506,5.506,0,0,1,1.494.2,5.706,5.706,0,0,1,1.345.567,5.6,5.6,0,0,1,1.138.879,5.6,5.6,0,0,1,.879,1.138,5.706,5.706,0,0,1,.567,1.345,5.506,5.506,0,0,1,.2,1.494,4.51,4.51,0,0,1-.145,1.156,5.7,5.7,0,0,1-.417,1.094L9,0,3.938-10.125a5.7,5.7,0,0,1-.417-1.094,4.51,4.51,0,0,1-.145-1.156,5.506,5.506,0,0,1,.2-1.494,5.706,5.706,0,0,1,.567-1.345,5.6,5.6,0,0,1,.879-1.138,5.6,5.6,0,0,1,1.138-.879A5.706,5.706,0,0,1,7.506-17.8,5.506,5.506,0,0,1,9-18Zm4.184,7.436q0-.009,0-.009s0,0,0-.009a3.817,3.817,0,0,0,.334-.87,3.791,3.791,0,0,0,.114-.923,4.492,4.492,0,0,0-.365-1.8,4.709,4.709,0,0,0-1-1.477,4.709,4.709,0,0,0-1.477-1A4.492,4.492,0,0,0,9-17.016a4.492,4.492,0,0,0-1.8.365,4.709,4.709,0,0,0-1.477,1,4.709,4.709,0,0,0-1,1.477,4.492,4.492,0,0,0-.365,1.8,3.791,3.791,0,0,0,.114.923,3.817,3.817,0,0,0,.334.87q0,.009,0,.009s0,0,0,.009L9-2.2ZM9-15.68a3.22,3.22,0,0,1,1.288.259,3.335,3.335,0,0,1,1.05.708,3.335,3.335,0,0,1,.708,1.05,3.22,3.22,0,0,1,.259,1.288,3.22,3.22,0,0,1-.259,1.288,3.335,3.335,0,0,1-.708,1.05,3.335,3.335,0,0,1-1.05.708A3.22,3.22,0,0,1,9-9.07,3.22,3.22,0,0,1,7.712-9.33a3.335,3.335,0,0,1-1.05-.708,3.335,3.335,0,0,1-.708-1.05A3.22,3.22,0,0,1,5.7-12.375a3.22,3.22,0,0,1,.259-1.288,3.335,3.335,0,0,1,.708-1.05,3.335,3.335,0,0,1,1.05-.708A3.22,3.22,0,0,1,9-15.68Zm0,5.625a2.28,2.28,0,0,0,.905-.18,2.324,2.324,0,0,0,.738-.5,2.324,2.324,0,0,0,.5-.738,2.28,2.28,0,0,0,.18-.905,2.28,2.28,0,0,0-.18-.905,2.324,2.324,0,0,0-.5-.738,2.324,2.324,0,0,0-.738-.5A2.28,2.28,0,0,0,9-14.7a2.28,2.28,0,0,0-.905.18,2.324,2.324,0,0,0-.738.5,2.324,2.324,0,0,0-.5.738,2.28,2.28,0,0,0-.18.905,2.28,2.28,0,0,0,.18.905,2.324,2.324,0,0,0,.5.738,2.324,2.324,0,0,0,.738.5A2.28,2.28,0,0,0,9-10.055Z' transform='translate(-3.375 18)' fill='%23020403'/%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: 0 8px;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #23272a;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.25' height='18' viewBox='0 0 11.25 18'%3E%3Cpath id='Контур_8755' data-name='Контур 8755' d='M9-18a5.506,5.506,0,0,1,1.494.2,5.706,5.706,0,0,1,1.345.567,5.6,5.6,0,0,1,1.138.879,5.6,5.6,0,0,1,.879,1.138,5.706,5.706,0,0,1,.567,1.345,5.506,5.506,0,0,1,.2,1.494,4.51,4.51,0,0,1-.145,1.156,5.7,5.7,0,0,1-.417,1.094L9,0,3.938-10.125a5.7,5.7,0,0,1-.417-1.094,4.51,4.51,0,0,1-.145-1.156,5.506,5.506,0,0,1,.2-1.494,5.706,5.706,0,0,1,.567-1.345,5.6,5.6,0,0,1,.879-1.138,5.6,5.6,0,0,1,1.138-.879A5.706,5.706,0,0,1,7.506-17.8,5.506,5.506,0,0,1,9-18Zm4.184,7.436q0-.009,0-.009s0,0,0-.009a3.817,3.817,0,0,0,.334-.87,3.791,3.791,0,0,0,.114-.923,4.492,4.492,0,0,0-.365-1.8,4.709,4.709,0,0,0-1-1.477,4.709,4.709,0,0,0-1.477-1A4.492,4.492,0,0,0,9-17.016a4.492,4.492,0,0,0-1.8.365,4.709,4.709,0,0,0-1.477,1,4.709,4.709,0,0,0-1,1.477,4.492,4.492,0,0,0-.365,1.8,3.791,3.791,0,0,0,.114.923,3.817,3.817,0,0,0,.334.87q0,.009,0,.009s0,0,0,.009L9-2.2ZM9-15.68a3.22,3.22,0,0,1,1.288.259,3.335,3.335,0,0,1,1.05.708,3.335,3.335,0,0,1,.708,1.05,3.22,3.22,0,0,1,.259,1.288,3.22,3.22,0,0,1-.259,1.288,3.335,3.335,0,0,1-.708,1.05,3.335,3.335,0,0,1-1.05.708A3.22,3.22,0,0,1,9-9.07,3.22,3.22,0,0,1,7.712-9.33a3.335,3.335,0,0,1-1.05-.708,3.335,3.335,0,0,1-.708-1.05A3.22,3.22,0,0,1,5.7-12.375a3.22,3.22,0,0,1,.259-1.288,3.335,3.335,0,0,1,.708-1.05,3.335,3.335,0,0,1,1.05-.708A3.22,3.22,0,0,1,9-15.68Zm0,5.625a2.28,2.28,0,0,0,.905-.18,2.324,2.324,0,0,0,.738-.5,2.324,2.324,0,0,0,.5-.738,2.28,2.28,0,0,0,.18-.905,2.28,2.28,0,0,0-.18-.905,2.324,2.324,0,0,0-.5-.738,2.324,2.324,0,0,0-.738-.5A2.28,2.28,0,0,0,9-14.7a2.28,2.28,0,0,0-.905.18,2.324,2.324,0,0,0-.738.5,2.324,2.324,0,0,0-.5.738,2.28,2.28,0,0,0-.18.905,2.28,2.28,0,0,0,.18.905,2.324,2.324,0,0,0,.5.738,2.324,2.324,0,0,0,.738.5A2.28,2.28,0,0,0,9-10.055Z' transform='translate(-3.375 18)' fill='%23020403'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 0 8px;
 }
 
 .small-info .phones {
-	list-style         : none;
-	padding-left       : 25px;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17.991' height='18' viewBox='0 0 17.991 18'%3E%3Cpath id='Контур_8767' data-name='Контур 8767' d='M14.124-7.339a1.95,1.95,0,0,1,.743.145,1.887,1.887,0,0,1,.628.417l1.934,1.934a1.887,1.887,0,0,1,.417.628,1.95,1.95,0,0,1,.145.743,1.95,1.95,0,0,1-.145.743,1.887,1.887,0,0,1-.417.628l-.123.123q-.475.475-.87.844a4.609,4.609,0,0,1-.826.62,3.659,3.659,0,0,1-.958.382A5.237,5.237,0,0,1,13.395,0a7.953,7.953,0,0,1-2.259-.343,12.532,12.532,0,0,1-2.307-.949,16.541,16.541,0,0,1-2.25-1.441A19.5,19.5,0,0,1,4.5-4.557,20.009,20.009,0,0,1,2.689-6.649,16.389,16.389,0,0,1,1.266-8.9a12.619,12.619,0,0,1-.932-2.29A7.879,7.879,0,0,1,0-13.4a5.3,5.3,0,0,1,.127-1.248A3.572,3.572,0,0,1,.505-15.6a4.588,4.588,0,0,1,.615-.822q.365-.391.839-.866l.141-.141a1.958,1.958,0,0,1,.624-.422A1.89,1.89,0,0,1,3.472-18a1.9,1.9,0,0,1,.743.149,1.945,1.945,0,0,1,.628.422L6.776-15.5a1.887,1.887,0,0,1,.417.628,1.95,1.95,0,0,1,.145.743,1.715,1.715,0,0,1-.132.69,2.493,2.493,0,0,1-.325.549,3.253,3.253,0,0,1-.426.448q-.233.2-.426.4a2.584,2.584,0,0,0-.325.391.754.754,0,0,0-.132.426.779.779,0,0,0,.237.571L10.652-5.81a.779.779,0,0,0,.571.237A.754.754,0,0,0,11.65-5.7a2.584,2.584,0,0,0,.391-.325q.193-.193.4-.426a3.253,3.253,0,0,1,.448-.426,2.493,2.493,0,0,1,.549-.325A1.715,1.715,0,0,1,14.124-7.339Zm-.729,6.214a4.015,4.015,0,0,0,1.059-.119,2.735,2.735,0,0,0,.769-.343,3.971,3.971,0,0,0,.668-.558q.325-.334.747-.756a.779.779,0,0,0,.237-.571.764.764,0,0,0-.127-.374,3.3,3.3,0,0,0-.33-.453q-.2-.237-.453-.488t-.492-.475l-.448-.413q-.207-.189-.321-.3a.789.789,0,0,0-.58-.237.734.734,0,0,0-.422.132,2.713,2.713,0,0,0-.387.325q-.193.193-.4.426a3.464,3.464,0,0,1-.453.426,2.493,2.493,0,0,1-.549.325,1.715,1.715,0,0,1-.69.132,1.95,1.95,0,0,1-.743-.145,1.887,1.887,0,0,1-.628-.417L5.01-9.853a1.887,1.887,0,0,1-.417-.628,1.95,1.95,0,0,1-.145-.743,1.715,1.715,0,0,1,.132-.69,2.493,2.493,0,0,1,.325-.549,3.464,3.464,0,0,1,.426-.453q.233-.207.426-.4a2.713,2.713,0,0,0,.325-.387.734.734,0,0,0,.132-.422.789.789,0,0,0-.237-.58q-.114-.114-.3-.321l-.413-.448q-.224-.242-.475-.492T4.3-16.418a3.3,3.3,0,0,0-.453-.33.764.764,0,0,0-.374-.127.779.779,0,0,0-.571.237q-.422.422-.751.747a4.479,4.479,0,0,0-.562.668,2.6,2.6,0,0,0-.352.769,3.975,3.975,0,0,0-.119,1.05,6.908,6.908,0,0,0,.321,2.03,11.42,11.42,0,0,0,.888,2.092A15.932,15.932,0,0,0,3.665-7.22,18.365,18.365,0,0,0,5.353-5.3,18.9,18.9,0,0,0,7.282-3.63,15.923,15.923,0,0,0,9.338-2.307a11.339,11.339,0,0,0,2.074.87A6.847,6.847,0,0,0,13.395-1.125Z' transform='translate(0 18)' fill='%23020403'/%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: 0 8px;
-	font-weight        : normal;
-	font-size          : 18px;
-	text-align         : left;
-	color              : #23272a;
-
+  list-style: none;
+  padding-left: 25px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17.991' height='18' viewBox='0 0 17.991 18'%3E%3Cpath id='Контур_8767' data-name='Контур 8767' d='M14.124-7.339a1.95,1.95,0,0,1,.743.145,1.887,1.887,0,0,1,.628.417l1.934,1.934a1.887,1.887,0,0,1,.417.628,1.95,1.95,0,0,1,.145.743,1.95,1.95,0,0,1-.145.743,1.887,1.887,0,0,1-.417.628l-.123.123q-.475.475-.87.844a4.609,4.609,0,0,1-.826.62,3.659,3.659,0,0,1-.958.382A5.237,5.237,0,0,1,13.395,0a7.953,7.953,0,0,1-2.259-.343,12.532,12.532,0,0,1-2.307-.949,16.541,16.541,0,0,1-2.25-1.441A19.5,19.5,0,0,1,4.5-4.557,20.009,20.009,0,0,1,2.689-6.649,16.389,16.389,0,0,1,1.266-8.9a12.619,12.619,0,0,1-.932-2.29A7.879,7.879,0,0,1,0-13.4a5.3,5.3,0,0,1,.127-1.248A3.572,3.572,0,0,1,.505-15.6a4.588,4.588,0,0,1,.615-.822q.365-.391.839-.866l.141-.141a1.958,1.958,0,0,1,.624-.422A1.89,1.89,0,0,1,3.472-18a1.9,1.9,0,0,1,.743.149,1.945,1.945,0,0,1,.628.422L6.776-15.5a1.887,1.887,0,0,1,.417.628,1.95,1.95,0,0,1,.145.743,1.715,1.715,0,0,1-.132.69,2.493,2.493,0,0,1-.325.549,3.253,3.253,0,0,1-.426.448q-.233.2-.426.4a2.584,2.584,0,0,0-.325.391.754.754,0,0,0-.132.426.779.779,0,0,0,.237.571L10.652-5.81a.779.779,0,0,0,.571.237A.754.754,0,0,0,11.65-5.7a2.584,2.584,0,0,0,.391-.325q.193-.193.4-.426a3.253,3.253,0,0,1,.448-.426,2.493,2.493,0,0,1,.549-.325A1.715,1.715,0,0,1,14.124-7.339Zm-.729,6.214a4.015,4.015,0,0,0,1.059-.119,2.735,2.735,0,0,0,.769-.343,3.971,3.971,0,0,0,.668-.558q.325-.334.747-.756a.779.779,0,0,0,.237-.571.764.764,0,0,0-.127-.374,3.3,3.3,0,0,0-.33-.453q-.2-.237-.453-.488t-.492-.475l-.448-.413q-.207-.189-.321-.3a.789.789,0,0,0-.58-.237.734.734,0,0,0-.422.132,2.713,2.713,0,0,0-.387.325q-.193.193-.4.426a3.464,3.464,0,0,1-.453.426,2.493,2.493,0,0,1-.549.325,1.715,1.715,0,0,1-.69.132,1.95,1.95,0,0,1-.743-.145,1.887,1.887,0,0,1-.628-.417L5.01-9.853a1.887,1.887,0,0,1-.417-.628,1.95,1.95,0,0,1-.145-.743,1.715,1.715,0,0,1,.132-.69,2.493,2.493,0,0,1,.325-.549,3.464,3.464,0,0,1,.426-.453q.233-.207.426-.4a2.713,2.713,0,0,0,.325-.387.734.734,0,0,0,.132-.422.789.789,0,0,0-.237-.58q-.114-.114-.3-.321l-.413-.448q-.224-.242-.475-.492T4.3-16.418a3.3,3.3,0,0,0-.453-.33.764.764,0,0,0-.374-.127.779.779,0,0,0-.571.237q-.422.422-.751.747a4.479,4.479,0,0,0-.562.668,2.6,2.6,0,0,0-.352.769,3.975,3.975,0,0,0-.119,1.05,6.908,6.908,0,0,0,.321,2.03,11.42,11.42,0,0,0,.888,2.092A15.932,15.932,0,0,0,3.665-7.22,18.365,18.365,0,0,0,5.353-5.3,18.9,18.9,0,0,0,7.282-3.63,15.923,15.923,0,0,0,9.338-2.307a11.339,11.339,0,0,0,2.074.87A6.847,6.847,0,0,0,13.395-1.125Z' transform='translate(0 18)' fill='%23020403'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #23272a;
 }
 
 .small-info .requirement {
-	list-style  : none;
-	padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 .small-info .requirement li {
-	position     : relative;
-	margin-bottom: 17px;
-	padding-left : 1rem;
-
+  position: relative;
+  margin-bottom: 17px;
+  padding-left: 1rem;
 }
 
 .small-info .requirement li::before {
-	content            : '';
-	display            : block;
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.5' height='7.5' viewBox='0 0 7.5 7.5'%3E%3Cpath id='Контур_8749' data-name='Контур 8749' d='M10-13.75a3.655,3.655,0,0,1,1.455.293,3.78,3.78,0,0,1,1.2.806,3.78,3.78,0,0,1,.806,1.2A3.655,3.655,0,0,1,13.75-10a3.644,3.644,0,0,1-.293,1.46,3.8,3.8,0,0,1-.806,1.191,3.78,3.78,0,0,1-1.2.806A3.655,3.655,0,0,1,10-6.25a3.644,3.644,0,0,1-1.46-.293,3.8,3.8,0,0,1-1.191-.806A3.8,3.8,0,0,1,6.543-8.54,3.644,3.644,0,0,1,6.25-10a3.655,3.655,0,0,1,.293-1.455,3.78,3.78,0,0,1,.806-1.2,3.8,3.8,0,0,1,1.191-.806A3.644,3.644,0,0,1,10-13.75Z' transform='translate(-6.25 13.75)' fill='%23020403'/%3E%3C/svg%3E%0A");
-	background-position: 0 50%;
-	background-size    : cover;
-	width              : 8px;
-	height             : 8px;
-	position           : absolute;
-	top                : 10px;
-	left               : 0;
+  content: "";
+  display: block;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.5' height='7.5' viewBox='0 0 7.5 7.5'%3E%3Cpath id='Контур_8749' data-name='Контур 8749' d='M10-13.75a3.655,3.655,0,0,1,1.455.293,3.78,3.78,0,0,1,1.2.806,3.78,3.78,0,0,1,.806,1.2A3.655,3.655,0,0,1,13.75-10a3.644,3.644,0,0,1-.293,1.46,3.8,3.8,0,0,1-.806,1.191,3.78,3.78,0,0,1-1.2.806A3.655,3.655,0,0,1,10-6.25a3.644,3.644,0,0,1-1.46-.293,3.8,3.8,0,0,1-1.191-.806A3.8,3.8,0,0,1,6.543-8.54,3.644,3.644,0,0,1,6.25-10a3.655,3.655,0,0,1,.293-1.455,3.78,3.78,0,0,1,.806-1.2,3.8,3.8,0,0,1,1.191-.806A3.644,3.644,0,0,1,10-13.75Z' transform='translate(-6.25 13.75)' fill='%23020403'/%3E%3C/svg%3E%0A");
+  background-position: 0 50%;
+  background-size: cover;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 10px;
+  left: 0;
 }
 
-.aplication {}
+.aplication {
+}
 
 .aplication label {
-	display       : flex;
-	align-items   : center;
-	height        : 100%;
-	font-family   : "Segoe UI";
-	font-weight   : 600;
-	font-size     : 18px;
-	letter-spacing: -0.01em;
-	line-height   : 22px;
-	text-align    : left;
-	color         : #3c3c3c;
-
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  line-height: 22px;
+  text-align: left;
+  color: #3c3c3c;
 }
 
 .aplication .form-control {
-	height       : 55px;
-	border-radius: 5px;
-	border       : 1px solid #D0D0D0;
-	box-shadow   : inset 0 3px 6px rgba(0, 0, 0, 0.16);
-	padding-right: 50px;
-
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #d0d0d0;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16);
+  padding-right: 50px;
 }
 
 .aplication .form-control.unchecked {
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='26' viewBox='0 0 25 26'%3E%3Ctext id='Fabric_Icons' data-name='Fabric Icons' transform='translate(0 25)' fill='%23D0D0D0' font-size='25' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets' letter-spacing='1em'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: calc(100% - 17px) 50%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='26' viewBox='0 0 25 26'%3E%3Ctext id='Fabric_Icons' data-name='Fabric Icons' transform='translate(0 25)' fill='%23D0D0D0' font-size='25' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets' letter-spacing='1em'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 17px) 50%;
 }
 
 .aplication .form-group {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .aplication .form-control {
-	font-family   : "Segoe UI";
-	font-weight   : normal;
-	font-size     : 18px;
-	letter-spacing: -0.01em;
-	text-align    : left;
-	color         : #666;
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #666;
 }
 
 .aplication .form-control.checked {
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='26' viewBox='0 0 25 26'%3E%3Ctext id='Fabric_Icons' data-name='Fabric Icons' transform='translate(0 25)' fill='%23107c10' font-size='25' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets' letter-spacing='1em'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: calc(100% - 17px) 50%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='26' viewBox='0 0 25 26'%3E%3Ctext id='Fabric_Icons' data-name='Fabric Icons' transform='translate(0 25)' fill='%23107c10' font-size='25' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets' letter-spacing='1em'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 17px) 50%;
 }
 
 .aplication select.form-control {
-	background-image   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='26' viewBox='0 0 25 26'%3E%3Ctext id='Fabric_Icons' data-name='Fabric Icons' transform='translate(0 25)' fill='%230078d4' font-size='25' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets' letter-spacing='1em'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: calc(100% - 17px) 50%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='26' viewBox='0 0 25 26'%3E%3Ctext id='Fabric_Icons' data-name='Fabric Icons' transform='translate(0 25)' fill='%230078d4' font-size='25' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets' letter-spacing='1em'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 17px) 50%;
 }
 
 .aplication .form-check {
-	margin-bottom: 23px;
-	padding-left : 0;
+  margin-bottom: 23px;
+  padding-left: 0;
 }
 
 .aplication .form-check:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-.aplication .form-check input[type=radio] {
-	opacity : 0;
-	position: absolute;
-	z-index : -1;
+.aplication .form-check input[type="radio"] {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
 }
 
-.aplication .form-check input[type=radio]:checked+label::after {
-	content: '';
+.aplication .form-check input[type="radio"]:checked + label::after {
+  content: "";
 }
 
 .aplication .form-check-label {
-	font-family   : "Segoe UI";
-	font-weight   : normal;
-	font-size     : 18px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #212121;
-	position      : relative;
-	padding-left  : 30px;
-	cursor        : pointer;
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #212121;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
 }
 
 .aplication .form-check-label::before {
-	content      : '';
-	display      : block;
-	width        : 18px;
-	height       : 18px;
-	border-radius: 50%;
-	border       : 2px solid #0078D4;
-	position     : absolute;
-	top          : 50%;
-	left         : 0;
-	transform    : translateY(-50%);
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #0078d4;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 .aplication .form-check-label::after {
-	content      : none;
-	display      : block;
-	width        : 10px;
-	height       : 10px;
-	border-radius: 50%;
-	background   : #0078D4;
-	position     : absolute;
-	top          : 6px;
-	left         : 4px;
+  content: none;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0078d4;
+  position: absolute;
+  top: 6px;
+  left: 4px;
 }
 
-
-
-.aplication .file input[type=file] {
-	opacity : 0;
-	position: absolute;
-	z-index : -1;
+.aplication .file input[type="file"] {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
 }
 
-.aplication .file>label {
-	height             : 55px;
-	border-radius      : 5px;
-	border             : 1px solid #D0D0D0;
-	box-shadow         : inset 0 3px 6px rgba(0, 0, 0, 0.16);
-	padding-right      : 50px;
-	background         : #fff url("data:image/svg+xml,%3Csvg id='attach_file_black_24dp' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath id='Контур_8778' data-name='Контур 8778' d='M0,0H24V24H0Z' fill='none'/%3E%3Cpath id='Контур_8779' data-name='Контур 8779' d='M16.5,6V17.5a4,4,0,0,1-8,0V5a2.5,2.5,0,0,1,5,0V15.5a1,1,0,0,1-2,0V6H10v9.5a2.5,2.5,0,0,0,5,0V5A4,4,0,0,0,7,5V17.5a5.5,5.5,0,0,0,11,0V6Z' fill='%23666'/%3E%3C/svg%3E%0A");
-	background-repeat  : no-repeat;
-	background-position: calc(100% - 17px) 50%;
-
+.aplication .file > label {
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #d0d0d0;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16);
+  padding-right: 50px;
+  background: #fff
+    url("data:image/svg+xml,%3Csvg id='attach_file_black_24dp' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath id='Контур_8778' data-name='Контур 8778' d='M0,0H24V24H0Z' fill='none'/%3E%3Cpath id='Контур_8779' data-name='Контур 8779' d='M16.5,6V17.5a4,4,0,0,1-8,0V5a2.5,2.5,0,0,1,5,0V15.5a1,1,0,0,1-2,0V6H10v9.5a2.5,2.5,0,0,0,5,0V5A4,4,0,0,0,7,5V17.5a5.5,5.5,0,0,0,11,0V6Z' fill='%23666'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 17px) 50%;
 }
 
 .aplication .btn {
-	padding       : 16px 49px 15px 49px;
-	border-radius : 5px;
-	color         : white;
-	background    : #2B88D8;
-	text-transform: uppercase;
+  padding: 16px 49px 15px 49px;
+  border-radius: 5px;
+  color: white;
+  background: #2b88d8;
+  text-transform: uppercase;
 }
 
 .aplication .form {
-	padding-bottom: 102px;
+  padding-bottom: 102px;
 }
 
-
-
 .profile {
-	padding-top   : 40px;
-	padding-bottom: 205px;
+  padding-top: 40px;
+  padding-bottom: 205px;
 }
 
 .profile .nav {
-	border-radius: 5px;
-	background   : #fff;
-	box-shadow   : 0px 3px 6px rgba(0, 0, 0, 0.16);
-
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .profile .nav-link {
-	padding        : 13px 20px;
-	font-weight    : normal;
-	font-size      : 16px;
-	letter-spacing : -0.02em;
-	text-align     : left;
-	color          : #23272a;
-	border-bottom  : 1px solid #E8E8E8;
-	display        : flex;
-	justify-content: space-between;
-
+  padding: 13px 20px;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #23272a;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile .nav-link.active {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .profile .nav .badge {
-	display        : flex;
-	width          : 30px;
-	height         : 30px;
-	border-radius  : 50%;
-	justify-content: center;
-	align-items    : center;
-	background     : #2B88D8;
-	transition     : all 0.3s linear;
-
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background: #2b88d8;
+  transition: all 0.3s linear;
 }
 
 .profile .nav-link:hover .badge {
-	color     : #2B88D8;
-	background: white;
+  color: #2b88d8;
+  background: white;
 }
 
 .profile .nav-link:hover {
-	background   : #2B88D8;
-	border-radius: 5px;
-	color        : white;
-
+  background: #2b88d8;
+  border-radius: 5px;
+  color: white;
 }
 
 .profile .card {
-	padding      : 20px;
-	border-radius: 5px;
-	box-shadow   : 0px 3px 6px rgba(0, 0, 0, 0.16);
-	margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  margin-bottom: 30px;
 }
 
 .profile .card-title {
-	font-family   : "Roboto";
-	font-weight   : bold;
-	font-size     : 24px;
-	text-align    : left;
-	color         : #2b88d8;
-	text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  color: #2b88d8;
+  text-transform: uppercase;
 }
 
 .profile .card label {
-	font-family   : "Roboto";
-	font-weight   : normal;
-	font-size     : 16px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #23272a;
-	margin-bottom : 10px;
-
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #23272a;
+  margin-bottom: 10px;
 }
 
 .profile .card .form-control {
-	height             : 55px;
-	border-radius      : 5px;
-	background         : #fff;
-	border             : 2px solid #d0d0d0;
-	box-shadow         : inset 0 3px 6px rgba(0, 0, 0, .16);
-	padding-left       : 54px;
-	background-repeat  : no-repeat;
-	background-position: 20px 50%;
+  height: 55px;
+  border-radius: 5px;
+  background: #fff;
+  border: 2px solid #d0d0d0;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16);
+  padding-left: 54px;
+  background-repeat: no-repeat;
+  background-position: 20px 50%;
 
-	font-weight: normal;
-	font-size  : 18px;
-	text-align : left;
-	color      : #989898;
-
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #989898;
 }
 
 .profile .card .form-control::placeholder {
-
-	font-weight: normal;
-	font-size  : 18px;
-	text-align : left;
-	color      : #989898;
-
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #989898;
 }
 
 .profile .card .form-control.icon-email {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.044' height='13.777' viewBox='0 0 22.044 13.777'%3E%3Cpath id='Контур_8788' data-name='Контур 8788' d='M22.044-13V.777H0V-13Zm-20.5,1.378,9.483,4.747L20.5-11.622ZM20.666-.6v-9.558L11.022-5.347,1.378-10.158V-.6Z' transform='translate(0 13)' fill='%23989898'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.044' height='13.777' viewBox='0 0 22.044 13.777'%3E%3Cpath id='Контур_8788' data-name='Контур 8788' d='M22.044-13V.777H0V-13Zm-20.5,1.378,9.483,4.747L20.5-11.622ZM20.666-.6v-9.558L11.022-5.347,1.378-10.158V-.6Z' transform='translate(0 13)' fill='%23989898'/%3E%3C/svg%3E%0A");
 }
 
 .profile .card .form-control.icon-user {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19.907' height='22.75' viewBox='0 0 19.907 22.75'%3E%3Cpath id='Контур_8792' data-name='Контур 8792' d='M14.478-4.636A9.516,9.516,0,0,1,17.2-3.176,9.648,9.648,0,0,1,19.271-1a9.9,9.9,0,0,1,1.305,2.7,10.239,10.239,0,0,1,.455,3.055H19.61a8.712,8.712,0,0,0-.65-3.383,8.178,8.178,0,0,0-4.5-4.5,8.712,8.712,0,0,0-3.383-.65,8.659,8.659,0,0,0-2.288.3,8.572,8.572,0,0,0-2.05.85A8.332,8.332,0,0,0,3.7.413a8.572,8.572,0,0,0-.85,2.05,8.659,8.659,0,0,0-.3,2.288H1.125A9.967,9.967,0,0,1,2.913-.993,9.762,9.762,0,0,1,4.985-3.148,10.081,10.081,0,0,1,7.7-4.625,6.985,6.985,0,0,1,6.146-5.758,7.059,7.059,0,0,1,4.974-7.241,7.282,7.282,0,0,1,4.23-8.985a7,7,0,0,1-.261-1.905,6.952,6.952,0,0,1,.555-2.772,7.152,7.152,0,0,1,1.522-2.261,7.152,7.152,0,0,1,2.261-1.522A6.952,6.952,0,0,1,11.078-18a6.952,6.952,0,0,1,2.772.555,7.152,7.152,0,0,1,2.261,1.522,7.152,7.152,0,0,1,1.522,2.261,6.952,6.952,0,0,1,.555,2.772,6.939,6.939,0,0,1-.261,1.9,7.2,7.2,0,0,1-.744,1.733,7.355,7.355,0,0,1-1.166,1.483A6.878,6.878,0,0,1,14.478-4.636ZM5.391-10.89a5.476,5.476,0,0,0,.45,2.211A5.8,5.8,0,0,0,7.063-6.875,5.8,5.8,0,0,0,8.868-5.653a5.476,5.476,0,0,0,2.211.45,5.476,5.476,0,0,0,2.211-.45,5.8,5.8,0,0,0,1.805-1.222A5.8,5.8,0,0,0,16.316-8.68a5.476,5.476,0,0,0,.45-2.211,5.476,5.476,0,0,0-.45-2.211,5.8,5.8,0,0,0-1.222-1.805,5.8,5.8,0,0,0-1.805-1.222,5.476,5.476,0,0,0-2.211-.45,5.476,5.476,0,0,0-2.211.45,5.8,5.8,0,0,0-1.805,1.222A5.8,5.8,0,0,0,5.841-13.1,5.476,5.476,0,0,0,5.391-10.89Z' transform='translate(-1.125 18)' fill='%23989898' opacity='0.995'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19.907' height='22.75' viewBox='0 0 19.907 22.75'%3E%3Cpath id='Контур_8792' data-name='Контур 8792' d='M14.478-4.636A9.516,9.516,0,0,1,17.2-3.176,9.648,9.648,0,0,1,19.271-1a9.9,9.9,0,0,1,1.305,2.7,10.239,10.239,0,0,1,.455,3.055H19.61a8.712,8.712,0,0,0-.65-3.383,8.178,8.178,0,0,0-4.5-4.5,8.712,8.712,0,0,0-3.383-.65,8.659,8.659,0,0,0-2.288.3,8.572,8.572,0,0,0-2.05.85A8.332,8.332,0,0,0,3.7.413a8.572,8.572,0,0,0-.85,2.05,8.659,8.659,0,0,0-.3,2.288H1.125A9.967,9.967,0,0,1,2.913-.993,9.762,9.762,0,0,1,4.985-3.148,10.081,10.081,0,0,1,7.7-4.625,6.985,6.985,0,0,1,6.146-5.758,7.059,7.059,0,0,1,4.974-7.241,7.282,7.282,0,0,1,4.23-8.985a7,7,0,0,1-.261-1.905,6.952,6.952,0,0,1,.555-2.772,7.152,7.152,0,0,1,1.522-2.261,7.152,7.152,0,0,1,2.261-1.522A6.952,6.952,0,0,1,11.078-18a6.952,6.952,0,0,1,2.772.555,7.152,7.152,0,0,1,2.261,1.522,7.152,7.152,0,0,1,1.522,2.261,6.952,6.952,0,0,1,.555,2.772,6.939,6.939,0,0,1-.261,1.9,7.2,7.2,0,0,1-.744,1.733,7.355,7.355,0,0,1-1.166,1.483A6.878,6.878,0,0,1,14.478-4.636ZM5.391-10.89a5.476,5.476,0,0,0,.45,2.211A5.8,5.8,0,0,0,7.063-6.875,5.8,5.8,0,0,0,8.868-5.653a5.476,5.476,0,0,0,2.211.45,5.476,5.476,0,0,0,2.211-.45,5.8,5.8,0,0,0,1.805-1.222A5.8,5.8,0,0,0,16.316-8.68a5.476,5.476,0,0,0,.45-2.211,5.476,5.476,0,0,0-.45-2.211,5.8,5.8,0,0,0-1.222-1.805,5.8,5.8,0,0,0-1.805-1.222,5.476,5.476,0,0,0-2.211-.45,5.476,5.476,0,0,0-2.211.45,5.8,5.8,0,0,0-1.805,1.222A5.8,5.8,0,0,0,5.841-13.1,5.476,5.476,0,0,0,5.391-10.89Z' transform='translate(-1.125 18)' fill='%23989898' opacity='0.995'/%3E%3C/svg%3E%0A");
 }
 
 .profile .card .form-control.icon-mobile {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.558' height='21.693' viewBox='0 0 13.558 21.693'%3E%3Cpath id='Контур_8793' data-name='Контур 8793' d='M15.578-18a1.314,1.314,0,0,1,.53.106,1.378,1.378,0,0,1,.429.291,1.378,1.378,0,0,1,.291.429,1.314,1.314,0,0,1,.106.53V2.338a1.314,1.314,0,0,1-.106.53,1.381,1.381,0,0,1-.72.72,1.314,1.314,0,0,1-.53.106H4.731a1.314,1.314,0,0,1-.53-.106,1.381,1.381,0,0,1-.72-.72,1.314,1.314,0,0,1-.106-.53V-16.644a1.314,1.314,0,0,1,.106-.53,1.378,1.378,0,0,1,.291-.429,1.378,1.378,0,0,1,.429-.291A1.314,1.314,0,0,1,4.731-18Zm0,1.356H4.731V2.338H15.578ZM8.8-.374H11.51V.982H8.8Z' transform='translate(-3.375 18)' fill='%23989898'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.558' height='21.693' viewBox='0 0 13.558 21.693'%3E%3Cpath id='Контур_8793' data-name='Контур 8793' d='M15.578-18a1.314,1.314,0,0,1,.53.106,1.378,1.378,0,0,1,.429.291,1.378,1.378,0,0,1,.291.429,1.314,1.314,0,0,1,.106.53V2.338a1.314,1.314,0,0,1-.106.53,1.381,1.381,0,0,1-.72.72,1.314,1.314,0,0,1-.53.106H4.731a1.314,1.314,0,0,1-.53-.106,1.381,1.381,0,0,1-.72-.72,1.314,1.314,0,0,1-.106-.53V-16.644a1.314,1.314,0,0,1,.106-.53,1.378,1.378,0,0,1,.291-.429,1.378,1.378,0,0,1,.429-.291A1.314,1.314,0,0,1,4.731-18Zm0,1.356H4.731V2.338H15.578ZM8.8-.374H11.51V.982H8.8Z' transform='translate(-3.375 18)' fill='%23989898'/%3E%3C/svg%3E%0A");
 }
 
 .profile .card .form-control.icon-date {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='21' viewBox='0 0 20 21'%3E%3Ctext id='_' data-name='' transform='translate(0 20)' fill='%23989898' font-size='20' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='21' viewBox='0 0 20 21'%3E%3Ctext id='_' data-name='' transform='translate(0 20)' fill='%23989898' font-size='20' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets'%3E%3Ctspan x='0' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
 }
 
 .profile .card .form-control.icon-place {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14.219' height='22.75' viewBox='0 0 14.219 22.75'%3E%3Cpath id='Контур_8720' data-name='Контур 8720' d='M10.485-18a6.959,6.959,0,0,1,1.888.255,7.211,7.211,0,0,1,1.7.717,7.078,7.078,0,0,1,1.439,1.111,7.078,7.078,0,0,1,1.111,1.439,7.211,7.211,0,0,1,.717,1.7,6.959,6.959,0,0,1,.255,1.888,5.7,5.7,0,0,1-.183,1.461,7.2,7.2,0,0,1-.528,1.383l-6.4,12.8-6.4-12.8A7.2,7.2,0,0,1,3.558-9.43a5.7,5.7,0,0,1-.183-1.461,6.959,6.959,0,0,1,.255-1.888,7.211,7.211,0,0,1,.717-1.7,7.078,7.078,0,0,1,1.111-1.439A7.078,7.078,0,0,1,6.9-17.028a7.211,7.211,0,0,1,1.7-.717A6.959,6.959,0,0,1,10.485-18Zm5.288,9.4q0-.011.006-.011s.006,0,.006-.011a4.824,4.824,0,0,0,.422-1.1,4.792,4.792,0,0,0,.144-1.166,5.677,5.677,0,0,0-.461-2.277,5.952,5.952,0,0,0-1.261-1.866,5.952,5.952,0,0,0-1.866-1.261,5.677,5.677,0,0,0-2.277-.461,5.677,5.677,0,0,0-2.277.461,5.952,5.952,0,0,0-1.866,1.261A5.952,5.952,0,0,0,5.08-13.168a5.677,5.677,0,0,0-.461,2.277,4.792,4.792,0,0,0,.144,1.166,4.824,4.824,0,0,0,.422,1.1q0,.011.006.011s.006,0,.006.011L10.485,1.973Zm-5.288-6.465a4.07,4.07,0,0,1,1.627.328,4.215,4.215,0,0,1,1.327.894,4.215,4.215,0,0,1,.894,1.327,4.07,4.07,0,0,1,.328,1.627,4.07,4.07,0,0,1-.328,1.627,4.215,4.215,0,0,1-.894,1.327,4.215,4.215,0,0,1-1.327.894,4.07,4.07,0,0,1-1.627.328,4.07,4.07,0,0,1-1.627-.328A4.215,4.215,0,0,1,7.53-7.936a4.215,4.215,0,0,1-.894-1.327,4.07,4.07,0,0,1-.328-1.627,4.07,4.07,0,0,1,.328-1.627,4.215,4.215,0,0,1,.894-1.327,4.215,4.215,0,0,1,1.327-.894A4.07,4.07,0,0,1,10.485-15.067Zm0,7.11a2.882,2.882,0,0,0,1.144-.228,2.937,2.937,0,0,0,.933-.628,2.937,2.937,0,0,0,.628-.933,2.882,2.882,0,0,0,.228-1.144,2.882,2.882,0,0,0-.228-1.144,2.937,2.937,0,0,0-.628-.933,2.937,2.937,0,0,0-.933-.628,2.882,2.882,0,0,0-1.144-.228A2.882,2.882,0,0,0,9.34-13.6a2.937,2.937,0,0,0-.933.628,2.937,2.937,0,0,0-.628.933,2.882,2.882,0,0,0-.228,1.144A2.882,2.882,0,0,0,7.78-9.746a2.937,2.937,0,0,0,.628.933,2.937,2.937,0,0,0,.933.628A2.882,2.882,0,0,0,10.485-7.958Z' transform='translate(-3.375 18)' fill='%23989898'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14.219' height='22.75' viewBox='0 0 14.219 22.75'%3E%3Cpath id='Контур_8720' data-name='Контур 8720' d='M10.485-18a6.959,6.959,0,0,1,1.888.255,7.211,7.211,0,0,1,1.7.717,7.078,7.078,0,0,1,1.439,1.111,7.078,7.078,0,0,1,1.111,1.439,7.211,7.211,0,0,1,.717,1.7,6.959,6.959,0,0,1,.255,1.888,5.7,5.7,0,0,1-.183,1.461,7.2,7.2,0,0,1-.528,1.383l-6.4,12.8-6.4-12.8A7.2,7.2,0,0,1,3.558-9.43a5.7,5.7,0,0,1-.183-1.461,6.959,6.959,0,0,1,.255-1.888,7.211,7.211,0,0,1,.717-1.7,7.078,7.078,0,0,1,1.111-1.439A7.078,7.078,0,0,1,6.9-17.028a7.211,7.211,0,0,1,1.7-.717A6.959,6.959,0,0,1,10.485-18Zm5.288,9.4q0-.011.006-.011s.006,0,.006-.011a4.824,4.824,0,0,0,.422-1.1,4.792,4.792,0,0,0,.144-1.166,5.677,5.677,0,0,0-.461-2.277,5.952,5.952,0,0,0-1.261-1.866,5.952,5.952,0,0,0-1.866-1.261,5.677,5.677,0,0,0-2.277-.461,5.677,5.677,0,0,0-2.277.461,5.952,5.952,0,0,0-1.866,1.261A5.952,5.952,0,0,0,5.08-13.168a5.677,5.677,0,0,0-.461,2.277,4.792,4.792,0,0,0,.144,1.166,4.824,4.824,0,0,0,.422,1.1q0,.011.006.011s.006,0,.006.011L10.485,1.973Zm-5.288-6.465a4.07,4.07,0,0,1,1.627.328,4.215,4.215,0,0,1,1.327.894,4.215,4.215,0,0,1,.894,1.327,4.07,4.07,0,0,1,.328,1.627,4.07,4.07,0,0,1-.328,1.627,4.215,4.215,0,0,1-.894,1.327,4.215,4.215,0,0,1-1.327.894,4.07,4.07,0,0,1-1.627.328,4.07,4.07,0,0,1-1.627-.328A4.215,4.215,0,0,1,7.53-7.936a4.215,4.215,0,0,1-.894-1.327,4.07,4.07,0,0,1-.328-1.627,4.07,4.07,0,0,1,.328-1.627,4.215,4.215,0,0,1,.894-1.327,4.215,4.215,0,0,1,1.327-.894A4.07,4.07,0,0,1,10.485-15.067Zm0,7.11a2.882,2.882,0,0,0,1.144-.228,2.937,2.937,0,0,0,.933-.628,2.937,2.937,0,0,0,.628-.933,2.882,2.882,0,0,0,.228-1.144,2.882,2.882,0,0,0-.228-1.144,2.937,2.937,0,0,0-.628-.933,2.937,2.937,0,0,0-.933-.628,2.882,2.882,0,0,0-1.144-.228A2.882,2.882,0,0,0,9.34-13.6a2.937,2.937,0,0,0-.933.628,2.937,2.937,0,0,0-.628.933,2.882,2.882,0,0,0-.228,1.144A2.882,2.882,0,0,0,7.78-9.746a2.937,2.937,0,0,0,.628.933,2.937,2.937,0,0,0,.933.628A2.882,2.882,0,0,0,10.485-7.958Z' transform='translate(-3.375 18)' fill='%23989898'/%3E%3C/svg%3E%0A");
 }
 
 .profile .card .form-control.icon-password {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16.861' height='22.481' viewBox='0 0 16.861 22.481'%3E%3Cpath id='Контур_8790' data-name='Контур 8790' d='M18.861-6.164V6.481H2V-6.164H4.81V-10.27A5.81,5.81,0,0,1,5.238-12.5,5.682,5.682,0,0,1,6.424-14.32,5.59,5.59,0,0,1,8.208-15.55,5.474,5.474,0,0,1,10.431-16a5.474,5.474,0,0,1,2.223.45,5.59,5.59,0,0,1,1.784,1.229A5.682,5.682,0,0,1,15.623-12.5a5.81,5.81,0,0,1,.428,2.228v4.105Zm-12.646,0h8.431V-10.27a4.411,4.411,0,0,0-.318-1.674,4.337,4.337,0,0,0-.884-1.378,4.122,4.122,0,0,0-1.339-.933,4.112,4.112,0,0,0-1.674-.34,4.112,4.112,0,0,0-1.674.34,4.122,4.122,0,0,0-1.339.933,4.337,4.337,0,0,0-.884,1.378,4.411,4.411,0,0,0-.318,1.674ZM17.456-4.759H3.405V5.076H17.456Z' transform='translate(-2 16)' fill='%23989898'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16.861' height='22.481' viewBox='0 0 16.861 22.481'%3E%3Cpath id='Контур_8790' data-name='Контур 8790' d='M18.861-6.164V6.481H2V-6.164H4.81V-10.27A5.81,5.81,0,0,1,5.238-12.5,5.682,5.682,0,0,1,6.424-14.32,5.59,5.59,0,0,1,8.208-15.55,5.474,5.474,0,0,1,10.431-16a5.474,5.474,0,0,1,2.223.45,5.59,5.59,0,0,1,1.784,1.229A5.682,5.682,0,0,1,15.623-12.5a5.81,5.81,0,0,1,.428,2.228v4.105Zm-12.646,0h8.431V-10.27a4.411,4.411,0,0,0-.318-1.674,4.337,4.337,0,0,0-.884-1.378,4.122,4.122,0,0,0-1.339-.933,4.112,4.112,0,0,0-1.674-.34,4.112,4.112,0,0,0-1.674.34,4.122,4.122,0,0,0-1.339.933,4.337,4.337,0,0,0-.884,1.378,4.411,4.411,0,0,0-.318,1.674ZM17.456-4.759H3.405V5.076H17.456Z' transform='translate(-2 16)' fill='%23989898'/%3E%3C/svg%3E%0A");
 }
 
 .profile .card .btn {
-	padding       : 16px 20px 15px 19px;
-	line-height   : 24px;
-	font-weight   : normal;
-	font-size     : 18px;
-	letter-spacing: -0.02em;
-	text-align    : left;
-	color         : #fff;
-	border-radius : 5px;
-	background    : #2B88D8;
-	text-transform: uppercase;
-	min-width     : 250px;
-	text-align    : center;
+  padding: 16px 20px 15px 19px;
+  line-height: 24px;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fff;
+  border-radius: 5px;
+  background: #2b88d8;
+  text-transform: uppercase;
+  min-width: 250px;
+  text-align: center;
 }
 
-
 .profile .table tr:first-child td {
-	border-bottom: none;
+  border-bottom: none;
 }
 
 .profile .table tr.event-name td {
-	background   : #2B88D8;
-	color        : white;
-	padding      : 16px 20px;
-	border-radius: 5px;
-	box-shadow   : inset 0 3px 6px rgba(0, 0, 0, .16);
+  background: #2b88d8;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 5px;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .register-modal .modal-header {
-	padding: 0;
+  padding: 0;
 }
 
 .register-modal .modal-header .nav-link {
-	padding       : 28px 22px 22px 22px;
-	background    : #38393D;
-	color         : white;
-	border-radius : 0;
-	text-transform: uppercase;
-	font-weight   : 500;
-	font-size     : 18px;
-	text-align    : center;
-	color         : #fff;
-
+  padding: 28px 22px 22px 22px;
+  background: #38393d;
+  color: white;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
 }
 
 .register-modal .modal-header .nav-link.active {
-	background: #2B88D8;
+  background: #2b88d8;
 }
 
 .register-modal .modal-body .social .nav {
-	justify-content: center;
+  justify-content: center;
 }
 
 .register-modal .modal-body .social .nav-link img {
-	transform : scale(1);
-	transition: all 0.3s linear;
+  transform: scale(1);
+  transition: all 0.3s linear;
 }
 
 .register-modal .modal-body .social .nav-link:hover img {
-	transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .register-modal .modal-body .divider {
-	display        : flex;
-	justify-content: center;
-	align-items    : center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .register-modal .modal-body .divider span {
-	flex   : 0 1 auto;
-	padding: 0 8px;
+  flex: 0 1 auto;
+  padding: 0 8px;
 }
 
 .register-modal .modal-body .divider::before {
-	content    : '';
-	display    : flex;
-	height     : 1px;
-	flex       : 1 0 auto;
-	background : #C1C1C1;
-	align-items: center;
+  content: "";
+  display: flex;
+  height: 1px;
+  flex: 1 0 auto;
+  background: #c1c1c1;
+  align-items: center;
 }
 
 .register-modal .modal-body .divider::after {
-	content    : '';
-	display    : flex;
-	height     : 1px;
-	flex       : 1 0 auto;
-	background : #C1C1C1;
-	align-items: center;
+  content: "";
+  display: flex;
+  height: 1px;
+  flex: 1 0 auto;
+  background: #c1c1c1;
+  align-items: center;
 }
 
 .register-modal .modal-body .social__title {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 
-	font-weight: normal;
-	font-size  : 16px;
-	text-align : left;
-	color      : #707070;
-
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #707070;
 }
 
 .register-modal .modal-body .social .nav-item {
-	display        : flex;
-	align-items    : center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .register-modal .modal-body .form {
-	margin-top: 14px;
+  margin-top: 14px;
 }
 
 .register-modal .modal-body .form .form-control {
-	padding-left       : 54px;
-	height             : 50px;
-	border-radius      : 5px;
-	border             : 1px solid #C1C1C1;
-	background-repeat  : no-repeat;
-	background-position: 20px 50%;
+  padding-left: 54px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #c1c1c1;
+  background-repeat: no-repeat;
+  background-position: 20px 50%;
 }
 
 .register-modal .modal-body .form .form-control.icon-email {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.044' height='13.777' viewBox='0 0 22.044 13.777'%3E%3Cpath id='Контур_8788' data-name='Контур 8788' d='M22.044-13V.777H0V-13Zm-20.5,1.378,9.483,4.747L20.5-11.622ZM20.666-.6v-9.558L11.022-5.347,1.378-10.158V-.6Z' transform='translate(0 13)' fill='%23989898'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.044' height='13.777' viewBox='0 0 22.044 13.777'%3E%3Cpath id='Контур_8788' data-name='Контур 8788' d='M22.044-13V.777H0V-13Zm-20.5,1.378,9.483,4.747L20.5-11.622ZM20.666-.6v-9.558L11.022-5.347,1.378-10.158V-.6Z' transform='translate(0 13)' fill='%23989898'/%3E%3C/svg%3E%0A");
 }
 
 .register-modal .modal-body .form .form-control.icon-password {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16.861' height='22.481' viewBox='0 0 16.861 22.481'%3E%3Cpath id='Контур_8790' data-name='Контур 8790' d='M18.861-6.164V6.481H2V-6.164H4.81V-10.27A5.81,5.81,0,0,1,5.238-12.5,5.682,5.682,0,0,1,6.424-14.32,5.59,5.59,0,0,1,8.208-15.55,5.474,5.474,0,0,1,10.431-16a5.474,5.474,0,0,1,2.223.45,5.59,5.59,0,0,1,1.784,1.229A5.682,5.682,0,0,1,15.623-12.5a5.81,5.81,0,0,1,.428,2.228v4.105Zm-12.646,0h8.431V-10.27a4.411,4.411,0,0,0-.318-1.674,4.337,4.337,0,0,0-.884-1.378,4.122,4.122,0,0,0-1.339-.933,4.112,4.112,0,0,0-1.674-.34,4.112,4.112,0,0,0-1.674.34,4.122,4.122,0,0,0-1.339.933,4.337,4.337,0,0,0-.884,1.378,4.411,4.411,0,0,0-.318,1.674ZM17.456-4.759H3.405V5.076H17.456Z' transform='translate(-2 16)' fill='%23989898'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16.861' height='22.481' viewBox='0 0 16.861 22.481'%3E%3Cpath id='Контур_8790' data-name='Контур 8790' d='M18.861-6.164V6.481H2V-6.164H4.81V-10.27A5.81,5.81,0,0,1,5.238-12.5,5.682,5.682,0,0,1,6.424-14.32,5.59,5.59,0,0,1,8.208-15.55,5.474,5.474,0,0,1,10.431-16a5.474,5.474,0,0,1,2.223.45,5.59,5.59,0,0,1,1.784,1.229A5.682,5.682,0,0,1,15.623-12.5a5.81,5.81,0,0,1,.428,2.228v4.105Zm-12.646,0h8.431V-10.27a4.411,4.411,0,0,0-.318-1.674,4.337,4.337,0,0,0-.884-1.378,4.122,4.122,0,0,0-1.339-.933,4.112,4.112,0,0,0-1.674-.34,4.112,4.112,0,0,0-1.674.34,4.122,4.122,0,0,0-1.339.933,4.337,4.337,0,0,0-.884,1.378,4.411,4.411,0,0,0-.318,1.674ZM17.456-4.759H3.405V5.076H17.456Z' transform='translate(-2 16)' fill='%23989898'/%3E%3C/svg%3E%0A");
 }
 
-
 .register-modal .modal-body .form .form-control.icon-user {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19.907' height='22.75' viewBox='0 0 19.907 22.75'%3E%3Cpath id='Контур_8792' data-name='Контур 8792' d='M14.478-4.636A9.516,9.516,0,0,1,17.2-3.176,9.648,9.648,0,0,1,19.271-1a9.9,9.9,0,0,1,1.305,2.7,10.239,10.239,0,0,1,.455,3.055H19.61a8.712,8.712,0,0,0-.65-3.383,8.178,8.178,0,0,0-4.5-4.5,8.712,8.712,0,0,0-3.383-.65,8.659,8.659,0,0,0-2.288.3,8.572,8.572,0,0,0-2.05.85A8.332,8.332,0,0,0,3.7.413a8.572,8.572,0,0,0-.85,2.05,8.659,8.659,0,0,0-.3,2.288H1.125A9.967,9.967,0,0,1,2.913-.993,9.762,9.762,0,0,1,4.985-3.148,10.081,10.081,0,0,1,7.7-4.625,6.985,6.985,0,0,1,6.146-5.758,7.059,7.059,0,0,1,4.974-7.241,7.282,7.282,0,0,1,4.23-8.985a7,7,0,0,1-.261-1.905,6.952,6.952,0,0,1,.555-2.772,7.152,7.152,0,0,1,1.522-2.261,7.152,7.152,0,0,1,2.261-1.522A6.952,6.952,0,0,1,11.078-18a6.952,6.952,0,0,1,2.772.555,7.152,7.152,0,0,1,2.261,1.522,7.152,7.152,0,0,1,1.522,2.261,6.952,6.952,0,0,1,.555,2.772,6.939,6.939,0,0,1-.261,1.9,7.2,7.2,0,0,1-.744,1.733,7.355,7.355,0,0,1-1.166,1.483A6.878,6.878,0,0,1,14.478-4.636ZM5.391-10.89a5.476,5.476,0,0,0,.45,2.211A5.8,5.8,0,0,0,7.063-6.875,5.8,5.8,0,0,0,8.868-5.653a5.476,5.476,0,0,0,2.211.45,5.476,5.476,0,0,0,2.211-.45,5.8,5.8,0,0,0,1.805-1.222A5.8,5.8,0,0,0,16.316-8.68a5.476,5.476,0,0,0,.45-2.211,5.476,5.476,0,0,0-.45-2.211,5.8,5.8,0,0,0-1.222-1.805,5.8,5.8,0,0,0-1.805-1.222,5.476,5.476,0,0,0-2.211-.45,5.476,5.476,0,0,0-2.211.45,5.8,5.8,0,0,0-1.805,1.222A5.8,5.8,0,0,0,5.841-13.1,5.476,5.476,0,0,0,5.391-10.89Z' transform='translate(-1.125 18)' fill='%23989898' opacity='0.995'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19.907' height='22.75' viewBox='0 0 19.907 22.75'%3E%3Cpath id='Контур_8792' data-name='Контур 8792' d='M14.478-4.636A9.516,9.516,0,0,1,17.2-3.176,9.648,9.648,0,0,1,19.271-1a9.9,9.9,0,0,1,1.305,2.7,10.239,10.239,0,0,1,.455,3.055H19.61a8.712,8.712,0,0,0-.65-3.383,8.178,8.178,0,0,0-4.5-4.5,8.712,8.712,0,0,0-3.383-.65,8.659,8.659,0,0,0-2.288.3,8.572,8.572,0,0,0-2.05.85A8.332,8.332,0,0,0,3.7.413a8.572,8.572,0,0,0-.85,2.05,8.659,8.659,0,0,0-.3,2.288H1.125A9.967,9.967,0,0,1,2.913-.993,9.762,9.762,0,0,1,4.985-3.148,10.081,10.081,0,0,1,7.7-4.625,6.985,6.985,0,0,1,6.146-5.758,7.059,7.059,0,0,1,4.974-7.241,7.282,7.282,0,0,1,4.23-8.985a7,7,0,0,1-.261-1.905,6.952,6.952,0,0,1,.555-2.772,7.152,7.152,0,0,1,1.522-2.261,7.152,7.152,0,0,1,2.261-1.522A6.952,6.952,0,0,1,11.078-18a6.952,6.952,0,0,1,2.772.555,7.152,7.152,0,0,1,2.261,1.522,7.152,7.152,0,0,1,1.522,2.261,6.952,6.952,0,0,1,.555,2.772,6.939,6.939,0,0,1-.261,1.9,7.2,7.2,0,0,1-.744,1.733,7.355,7.355,0,0,1-1.166,1.483A6.878,6.878,0,0,1,14.478-4.636ZM5.391-10.89a5.476,5.476,0,0,0,.45,2.211A5.8,5.8,0,0,0,7.063-6.875,5.8,5.8,0,0,0,8.868-5.653a5.476,5.476,0,0,0,2.211.45,5.476,5.476,0,0,0,2.211-.45,5.8,5.8,0,0,0,1.805-1.222A5.8,5.8,0,0,0,16.316-8.68a5.476,5.476,0,0,0,.45-2.211,5.476,5.476,0,0,0-.45-2.211,5.8,5.8,0,0,0-1.222-1.805,5.8,5.8,0,0,0-1.805-1.222,5.476,5.476,0,0,0-2.211-.45,5.476,5.476,0,0,0-2.211.45,5.8,5.8,0,0,0-1.805,1.222A5.8,5.8,0,0,0,5.841-13.1,5.476,5.476,0,0,0,5.391-10.89Z' transform='translate(-1.125 18)' fill='%23989898' opacity='0.995'/%3E%3C/svg%3E%0A");
 }
 
 .register-modal .modal-body .form .form-control.icon-mobile {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.558' height='21.693' viewBox='0 0 13.558 21.693'%3E%3Cpath id='Контур_8793' data-name='Контур 8793' d='M15.578-18a1.314,1.314,0,0,1,.53.106,1.378,1.378,0,0,1,.429.291,1.378,1.378,0,0,1,.291.429,1.314,1.314,0,0,1,.106.53V2.338a1.314,1.314,0,0,1-.106.53,1.381,1.381,0,0,1-.72.72,1.314,1.314,0,0,1-.53.106H4.731a1.314,1.314,0,0,1-.53-.106,1.381,1.381,0,0,1-.72-.72,1.314,1.314,0,0,1-.106-.53V-16.644a1.314,1.314,0,0,1,.106-.53,1.378,1.378,0,0,1,.291-.429,1.378,1.378,0,0,1,.429-.291A1.314,1.314,0,0,1,4.731-18Zm0,1.356H4.731V2.338H15.578ZM8.8-.374H11.51V.982H8.8Z' transform='translate(-3.375 18)' fill='%23989898'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.558' height='21.693' viewBox='0 0 13.558 21.693'%3E%3Cpath id='Контур_8793' data-name='Контур 8793' d='M15.578-18a1.314,1.314,0,0,1,.53.106,1.378,1.378,0,0,1,.429.291,1.378,1.378,0,0,1,.291.429,1.314,1.314,0,0,1,.106.53V2.338a1.314,1.314,0,0,1-.106.53,1.381,1.381,0,0,1-.72.72,1.314,1.314,0,0,1-.53.106H4.731a1.314,1.314,0,0,1-.53-.106,1.381,1.381,0,0,1-.72-.72,1.314,1.314,0,0,1-.106-.53V-16.644a1.314,1.314,0,0,1,.106-.53,1.378,1.378,0,0,1,.291-.429,1.378,1.378,0,0,1,.429-.291A1.314,1.314,0,0,1,4.731-18Zm0,1.356H4.731V2.338H15.578ZM8.8-.374H11.51V.982H8.8Z' transform='translate(-3.375 18)' fill='%23989898'/%3E%3C/svg%3E%0A");
 }
 
 .register-modal .modal-body .form-check {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .register-modal .modal-body .form-check-input {
-	position: absolute;
-	left    : 0;
-	opacity : 0;
+  position: absolute;
+  left: 0;
+  opacity: 0;
 }
 
 .register-modal .modal-body .form-check-label {
-	padding-left: 25px;
-	position    : relative;
-	cursor      : pointer;
+  padding-left: 25px;
+  position: relative;
+  cursor: pointer;
 
-	font-weight: normal;
-	font-size  : 18px;
-	text-align : left;
-	color      : #989898;
-
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #989898;
 }
 
 .register-modal .modal-body .form-check-label::before {
-	content  : '';
-	display  : block;
-	width    : 20px;
-	height   : 20px;
-	border   : 1px solid #989898;
-	position : absolute;
-	top      : 50%;
-	left     : 0;
-	transform: translateY(-50%);
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #989898;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 .register-modal .modal-body .form-check-label::after {
-	content      : none;
-	display      : block;
-	width        : 15px;
-	height       : 5px;
-	border-bottom: 1px solid #2B88D8;
-	border-left  : 1px solid #2B88D8;
-	transform    : rotate(-45deg);
-	position     : absolute;
-	top          : 10px;
-	left         : 3px;
+  content: none;
+  display: block;
+  width: 15px;
+  height: 5px;
+  border-bottom: 1px solid #2b88d8;
+  border-left: 1px solid #2b88d8;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 10px;
+  left: 3px;
 }
 
-.register-modal .modal-body .form-check-input:checked+.form-check-label::after {
-	content: '';
+.register-modal
+  .modal-body
+  .form-check-input:checked
+  + .form-check-label::after {
+  content: "";
 }
 
-.register-modal .modal-body .form-check-input:checked+.form-check-label::before {
-	border-color: #2B88D8;
+.register-modal
+  .modal-body
+  .form-check-input:checked
+  + .form-check-label::before {
+  border-color: #2b88d8;
 }
 
 .register-modal .modal-body .forgot_link {
-	text-decoration: none;
-	font-weight    : normal;
-	font-size      : 18px;
-	text-align     : left;
-	color          : #989898;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #989898;
 }
 
 .register-modal .modal-body .btn {
-	display       : block;
-	text-align    : center;
-	width         : 100%;
-	padding       : 20px;
-	border-radius : 5px;
-	background    : #2B88D8;
-	text-align    : center;
-	text-transform: uppercase;
-	font-weight   : 500;
-	font-size     : 18px;
-	color         : #fff;
-
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background: #2b88d8;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
 }
 
 .register-modal .modal-body .btn:hover {
-	background: #187fd8;
+  background: #187fd8;
 }
 
 .modal-backdrop.show {
-	opacity: 0.83;
+  opacity: 0.83;
 }
 
 .main__nav .nav-link {
-	border-bottom: 2px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
 .range__dropdown {
-	min-width: 30rem;
-	padding  : 10px;
+  min-width: 30rem;
+  padding: 10px;
 }
 
 .range__dropdown .irs--big .irs-line {
-	height: 6px;
-	top   : 15px;
+  height: 6px;
+  top: 15px;
 }
 
 .range__dropdown .irs--big .irs-bar {
-	height    : 6px;
-	background: #2B88D8;
-	top       : 15px;
-	border    : transparent;
+  height: 6px;
+  background: #2b88d8;
+  top: 15px;
+  border: transparent;
 }
 
 .irs--big.irs-with-grid {
-	height: 55px;
+  height: 55px;
 }
 
 .range__dropdown .irs--big .irs-handle {
-	height      : 16px;
-	width       : 16px;
-	top         : 28px;
-	background  : #2B88D8;
-	box-shadow  : none;
-	border-color: #2B88D8;
-	top         : 10px;
+  height: 16px;
+  width: 16px;
+  top: 28px;
+  background: #2b88d8;
+  box-shadow: none;
+  border-color: #2b88d8;
+  top: 10px;
 }
 
 .range__dropdown .irs-grid {
-	bottom: 10px;
+  bottom: 10px;
 }
 
 .range__dropdown .irs-grid-text {
-	font-family: "Roboto";
-	font-weight: normal;
-	font-size  : 14px;
-	text-align : left;
-	color      : #23272a;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+  color: #23272a;
 }
 .range__dropdown .irs-grid-pol {
-	display: none;
+  display: none;
+}
+
+.placeModal .nav-link {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  padding: 28px 22px 22px 22px;
+  background: #38393d;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
+.placeModal .nav-link.active {
+  background: #2b88d8;
+}
+.placeModal .modal-header .btn-close {
+  width: 80px;
+  height: 100%;
+}
+.placeModal .offcanvas-header {
+  background: #2b88d8;
+  color: white;
+}
+.cart__item {
+  font-size: 13px;
+}
+.cart__table:hover .cart__delete {
+  visibility: visible;
+}
+.cart__title {
+  background: #23272a;
+  color: white;
+  padding: 1rem;
+}
+.cart__wrapper {
+  flex: 1 0 auto;
+  margin-bottom: 1rem;
+  overflow-y: auto;
+  height: calc(100% - 300px);
+}
+
+.cart__time {
+  padding: 0.5rem 1rem;
+}
+.placeModal .offcanvas-body {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.cart__table {
+  padding: 0.5rem 1.5rem;
+  border-bottom: 1px solid #2b88d8;
+  position: relative;
+}
+.cart__total {
+  /* margin-top: auto; */
+  font-size: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.cart__total--promo {
+  margin-bottom: 15px;
+}
+.cart__total--promo .btn-danger {
+  background: #d83b20;
+}
+.cart__total--promo .form-control:focus {
+  box-shadow: none;
+}
+.cart__total--table td:nth-child(2) {
+  text-align: right;
+}
+.cart__total--footer {
+  display: flex;
+}
+.cart__total--footer .btn-danger {
+  flex: 1 0 auto;
+}
+.cart__delete {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  visibility: hidden;
 }
