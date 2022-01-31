@@ -31,29 +31,33 @@
 /* FONTS LOAD SECTION */
 
 @font-face {
-  src: url("../fonts/roboto-regular-webfont.woff2") format("woff2");
-  font-family: "roboto-st";
+  src: url("../fonts/roboto-regular.woff") format("woff"),
+    url("../fonts/roboto-regular.woff2") format("woff2"),
+    url("../fonts/roboto-regular.ttf") format("ttf");
+  font-family: "Roboto";
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  src: url("../fonts/roboto-italic-webfont.woff2") format("woff2");
-  font-family: "roboto-st";
+  src: url("../fonts/roboto-italic.woff2") format("woff2");
+  font-family: "Roboto";
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  src: url("../fonts/roboto-bold-webfont.woff2") format("woff2");
-  font-family: "roboto-st";
+  src: url("../fonts/roboto-bold.woff2") format("woff2"),
+    url("../fonts/roboto-bold.woff2") format("woff2"),
+    url("../fonts/roboto-bold.ttf") format("ttf");
+  font-family: "Roboto";
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2");
-  font-family: "roboto-st";
+  src: url("../fonts/roboto-bolditalic.woff2") format("woff2");
+  font-family: "Roboto";
   font-weight: 700;
   font-style: italic;
 }
@@ -2410,7 +2414,7 @@ body {
 }
 .ticket_timer__title .timer {
   padding-left: 25px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='17' viewBox='0 0 16 17'%3E%3Ctext id='_' data-name='' transform='translate(16 16)' fill='%23707070' font-size='16' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets' letter-spacing='-0.025em'%3E%3Ctspan x='-16' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath id='Контур_8870' data-name='Контур 8870' d='M-8-12v4.289l2.852,2.859-.7.7L-9-7.289V-12Zm7.375.883A8.028,8.028,0,0,1,0-8,8.028,8.028,0,0,1-.625-4.883,7.993,7.993,0,0,1-2.344-2.344,7.993,7.993,0,0,1-4.883-.625,8.028,8.028,0,0,1-8,0a7.852,7.852,0,0,1-2.625-.445,7.956,7.956,0,0,1-2.258-1.219,8.1,8.1,0,0,1-1.742-1.859,7.744,7.744,0,0,1-.637-1.125A7.808,7.808,0,0,1-15.7-5.867l.961-.266a6.827,6.827,0,0,0,.965,2.078A7.1,7.1,0,0,0-12.234-2.43a7,7,0,0,0,1.977,1.055A6.868,6.868,0,0,0-8-1a6.861,6.861,0,0,0,1.855-.25,7,7,0,0,0,1.672-.707,7.053,7.053,0,0,0,1.418-1.1,7.053,7.053,0,0,0,1.1-1.418A7.017,7.017,0,0,0-1.25-6.141,6.848,6.848,0,0,0-1-8a6.861,6.861,0,0,0-.25-1.855,7,7,0,0,0-.707-1.672,7.053,7.053,0,0,0-1.1-1.418,7.053,7.053,0,0,0-1.418-1.1,7,7,0,0,0-1.672-.707A6.861,6.861,0,0,0-8-15a6.832,6.832,0,0,0-1.969.285,7.087,7.087,0,0,0-1.777.809,7.063,7.063,0,0,0-1.484,1.262A6.866,6.866,0,0,0-14.32-11H-12v1h-4v-4h1v2.141q.133-.25.289-.488t.328-.465A8,8,0,0,1-12.664-14.5a8.106,8.106,0,0,1,2.211-1.117A7.9,7.9,0,0,1-8-16a8.028,8.028,0,0,1,3.117.625,7.993,7.993,0,0,1,2.539,1.719A7.993,7.993,0,0,1-.625-11.117Z' transform='translate(16 16)' fill='%23707070'/%3E%3C/svg%3E%0A");
   background-repeat: no-repeat;
   background-position: 0;
 }
@@ -2421,7 +2425,7 @@ body {
   letter-spacing: -0.02em;
   text-align: left;
   color: #23272a;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='17' viewBox='0 0 16 17'%3E%3Ctext id='_' data-name='' transform='translate(16 16)' fill='%23707070' font-size='16' font-family='FabricExternalMDL2Assets, Fabric External MDL2 Assets' letter-spacing='-0.025em'%3E%3Ctspan x='-16' y='0'%3E%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='16' viewBox='0 0 13 16'%3E%3Cpath id='Контур_8869' data-name='Контур 8869' d='M-2-13H-3V-1.5a1.472,1.472,0,0,1-.117.586,1.5,1.5,0,0,1-.32.477,1.5,1.5,0,0,1-.477.32A1.472,1.472,0,0,1-4.5,0h-8a1.472,1.472,0,0,1-.586-.117,1.5,1.5,0,0,1-.477-.32,1.5,1.5,0,0,1-.32-.477A1.472,1.472,0,0,1-14-1.5V-13h-1v-1h4v-1a.969.969,0,0,1,.078-.391,1.016,1.016,0,0,1,.215-.316,1.016,1.016,0,0,1,.316-.215A.969.969,0,0,1-10-16h3a.969.969,0,0,1,.391.078,1.016,1.016,0,0,1,.316.215,1.016,1.016,0,0,1,.215.316A.969.969,0,0,1-6-15v1h4Zm-8-1h3v-1h-3Zm6,1h-9V-1.5a.481.481,0,0,0,.148.352A.481.481,0,0,0-12.5-1h8a.481.481,0,0,0,.352-.148A.481.481,0,0,0-4-1.5ZM-10-3h-1v-8h1Zm2,0H-9v-8h1Zm2,0H-7v-8h1Z' transform='translate(15 16)' fill='%23707070'/%3E%3C/svg%3E%0A");
   background-repeat: no-repeat;
   background-position: 0;
   padding-left: 25px;

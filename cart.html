@@ -159,7 +159,6 @@
                   </ul>
                 </div>
                 <div class="cart_section__body">
-                
                   <div class="tab-content" id="myTabContent">
                     <div
                       class="tab-pane fade show active"
@@ -167,7 +166,7 @@
                       role="tabpanel"
                       aria-labelledby="home-tab"
                     >
-                    <div class="ticket_timer" >
+                      <div class="ticket_timer">
                         <div class="ticket_timer__title">
                           <div class="title">
                             Оставшееся время для завершение заказа
@@ -668,15 +667,18 @@
     <script src="libs/progressbar.min.js"></script>
     <script>
       (function timer() {
-        var bar = new ProgressBar.Line(document.querySelector('.ticket_timer__slider'), {
-          strokeWidth: 4,
-          easing: "easeInOut",
-          duration: 3000,
-          color: "#2B88D8",
-          trailColor: "#707070",
-          trailWidth: 4,
-          svgStyle: { width: "100%", height: "100%" },
-        });
+        var bar = new ProgressBar.Line(
+          document.querySelector(".ticket_timer__slider"),
+          {
+            strokeWidth: 4,
+            easing: "easeInOut",
+            duration: 3000,
+            color: "#2B88D8",
+            trailColor: "#707070",
+            trailWidth: 4,
+            svgStyle: { width: "100%", height: "100%" },
+          }
+        );
         bar.animate(1.0);
       })();
     </script>
