@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154" height="57" viewBox="0 0 154 57">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_14547" data-name="Прямоугольник 14547" width="154" height="57" transform="translate(22 751)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Прямоугольник_14545" data-name="Прямоугольник 14545" width="175.748" height="56.693" transform="translate(11.339 751.181)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Прямоугольник_14546" data-name="Прямоугольник 14546" width="56.693" height="56.693" transform="translate(31.181 751.181)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Группа_масок_2" data-name="Группа масок 2" transform="translate(-22 -751)" clip-path="url(#clip-path)">
+    <g id="Сгруппировать_10830" data-name="Сгруппировать 10830">
+      <g id="Сгруппировать_10823" data-name="Сгруппировать 10823">
+        <g id="Сгруппировать_10822" data-name="Сгруппировать 10822" clip-path="url(#clip-path-2)">
+          <rect id="Прямоугольник_14544" data-name="Прямоугольник 14544" width="152.934" height="55.836" transform="translate(22.746 751.61)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.856"/>
+        </g>
+      </g>
+      <g id="Сгруппировать_10825" data-name="Сгруппировать 10825">
+        <g id="Сгруппировать_10824" data-name="Сгруппировать 10824" clip-path="url(#clip-path-3)">
+          <path id="Контур_8939" data-name="Контур 8939" d="M72.92,765.351a1.093,1.093,0,0,1-1.094,1.093h-24.6a1.093,1.093,0,0,1,0-2.187h24.6A1.093,1.093,0,0,1,72.92,765.351Z" fill="#646766"/>
+          <path id="Контур_8940" data-name="Контур 8940" d="M57.63,767.623l3.877-.016.318,2.1-4.537.025.342-2.11,3.877-.016" fill="#b5b5b6"/>
+          <path id="Контур_8941" data-name="Контур 8941" d="M56.623,790.606l5.3.013.487,2.443-6.42.03.629-2.485,5.3.013" fill="#b5b5b6"/>
+          <line id="Линия_457" data-name="Линия 457" y1="29.83" x2="5.33" transform="translate(47.961 765.094)" fill="none" stroke="#646766" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.435" stroke-dasharray="1.739 1.739"/>
+          <line id="Линия_458" data-name="Линия 458" x1="5.33" y1="29.829" transform="translate(66.07 765.231)" fill="none" stroke="#646766" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.435" stroke-dasharray="1.739 1.739"/>
+          <line id="Линия_459" data-name="Линия 459" x2="12.744" y2="0.017" transform="translate(53.325 765.113)" fill="none" stroke="#646766" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.435"/>
+          <line id="Линия_460" data-name="Линия 460" x2="23.952" y2="0.017" transform="translate(47.705 795.932)" fill="none" stroke="#646766" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.435"/>
+        </g>
+      </g>
+      <text id="Kirishda_ko_rsatish_uchun" data-name="Kirishda ko&apos;rsatish uchun" transform="translate(96.378 765.766)" font-size="6" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="0">Kirishda ko&apos;rsatish uchun</tspan></text>
+      <text id="chiptani_olib_keling." data-name="chiptani olib keling." transform="translate(96.378 773.266)" font-size="6" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="0">chiptani olib keling.</tspan></text>
+      <text id="Принесите_билет_чтобы" data-name="Принесите билет, чтобы" transform="translate(96.378 788.266)" font-size="6" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="0">Принесите билет, чтобы</tspan></text>
+      <text id="показать_на_входе." data-name="показать на входе." transform="translate(96.378 795.766)" font-size="6" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="0">показать на входе.</tspan></text>
+    </g>
+  </g>
+</svg>

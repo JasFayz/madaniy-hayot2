@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154" height="57" viewBox="0 0 154 57">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Прямоугольник_14547" data-name="Прямоугольник 14547" width="154" height="57" transform="translate(22 680)" fill="none" />
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <rect id="Прямоугольник_14542" data-name="Прямоугольник 14542" width="175.748" height="56.693" transform="translate(11.339 680.315)" fill="none" />
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <rect id="Прямоугольник_14543" data-name="Прямоугольник 14543" width="56.693" height="56.693" transform="translate(31.181 680.315)" fill="none" />
+        </clipPath>
+    </defs>
+    <g id="Группа_масок_2" data-name="Группа масок 2" transform="translate(-22 -680)" clip-path="url(#clip-path)">
+        <g id="Сгруппировать_10818" data-name="Сгруппировать 10818" clip-path="url(#clip-path-2)">
+            <rect id="Прямоугольник_14541" data-name="Прямоугольник 14541" width="152.934" height="55.836" transform="translate(22.746 680.744)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.856" />
+        </g>
+        <g id="Сгруппировать_10820" data-name="Сгруппировать 10820" clip-path="url(#clip-path-3)">
+            <path id="Контур_8932" data-name="Контур 8932" d="M83.526,714.487s4.174,2.261,3.913,6.87A6.276,6.276,0,0,1,82.4,727.1" fill="none" stroke="#b7b7b7" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.435" />
+            <path id="Контур_8933" data-name="Контур 8933" d="M82.831,725.965a2.453,2.453,0,0,1-.783.957c-.435.347-.608.347-.608.347a2.99,2.99,0,0,1,1.739.522" fill="none" stroke="#b7b7b7" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.435" />
+            <path id="Контур_8934" data-name="Контур 8934" d="M84.483,713.966a2.589,2.589,0,0,1-1.217.174c-.609-.087-.7-.174-.7-.174a3.207,3.207,0,0,1,.956,1.478" fill="none" stroke="#b7b7b7" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.435" />
+            <path id="Контур_8935" data-name="Контур 8935" d="M37.876,701.184l-1.913-1.826,4.348-2.435,1.826,1.739-4.261,2.522-1.913-1.826" fill="#b5b5b6" />
+            <path id="Контур_8936" data-name="Контур 8936" d="M59.962,722.922,58.136,721.1l4.522-3.13,1.913,1.826-4.608,3.13L58.136,721.1" fill="#b5b5b6" />
+            <path id="Контур_8937" data-name="Контур 8937" d="M69.44,716.313l-1.913-1.826,4.608-3.13,1.913,1.826-4.608,3.13-1.913-1.826" fill="#b5b5b6" />
+            <line id="Линия_454" data-name="Линия 454" x1="25.912" y1="25.303" transform="translate(31.703 700.749)" fill="none" stroke="#646766" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.435" stroke-dasharray="1.739 1.739" />
+            <line id="Линия_455" data-name="Линия 455" x1="25.825" y1="25.39" transform="translate(42.572 694.488)" fill="none" stroke="#646766" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.435" stroke-dasharray="1.739 1.739" />
+            <line id="Линия_456" data-name="Линия 456" x1="9.391" y1="9.391" transform="translate(67.788 719.27)" fill="none" stroke="#646766" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.435" stroke-dasharray="1.739 1.739" />
+            <path id="Контур_8938" data-name="Контур 8938" d="M31.616,700.662l21.042-12L77.266,712.4l-9.478,6.7-9.826,6.956,19.13,2.522" fill="none" stroke="#646766" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.435" />
+        </g>
+        <text id="Chipta_shtrix_kodi_yuqorida" data-name="Chipta shtrix kodi yuqorida" transform="translate(96.378 692.065)" font-size="6" font-family="Roboto-Light, Roboto" font-weight="300">
+            <tspan x="0" y="0">Chipta shtrix kodi yuqorida</tspan>
+        </text>
+        <text id="bo_lgan_holatda_taxlang." data-name="bo'lgan holatda taxlang." transform="translate(96.378 699.565)" font-size="6" font-family="Roboto-Light, Roboto" font-weight="300">
+            <tspan x="0" y="0">bo&apos;lgan holatda taxlang.</tspan>
+        </text>
+        <text id="Cложите_билет_таким" data-name="Cложите билет таким" transform="translate(96.378 714.565)" font-size="6" font-family="Roboto-Light, Roboto" font-weight="300">
+            <tspan x="0" y="0">Cложите билет таким</tspan>
+        </text>
+        <text id="образом_чтобы_штрих-код" data-name="образом, чтобы штрих-код" transform="translate(96.378 722.065)" font-size="6" font-family="Roboto-Light, Roboto" font-weight="300">
+            <tspan x="0" y="0">образом, чтобы штрих-код</tspan>
+        </text>
+        <text id="был_на_вершине." data-name="был на вершине." transform="translate(96.378 729.565)" font-size="6" font-family="Roboto-Light, Roboto" font-weight="300">
+            <tspan x="0" y="0">был на вершине.</tspan>
+        </text>
+    </g>
+</svg>
