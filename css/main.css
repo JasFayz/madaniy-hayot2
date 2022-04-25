@@ -3083,3 +3083,42 @@ body {
 .track__item .actions .btn:hover svg {
   transform: scale(1.1);
 }
+
+.checkbox__el {
+  display: inline-flex;
+  width: 45px;
+  height: 18px;
+  background-color: rgb(13, 111, 150);
+  border-radius: 25rem;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+.checkbox__el span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 18px;
+  font-size: 16px;
+  line-height: 1;
+}
+.checkbox__el.active::before {
+  transform: translateX(25px);
+}
+.checkbox__el::before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  transition: all 0.15s linear;
+}
+
+.checkbox__button {
+  width: 6em !important;
+}

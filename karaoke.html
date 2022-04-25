@@ -1230,7 +1230,6 @@
               </div>
             </div>
           </div>
-         
         </div>
       </div>
 
@@ -1767,6 +1766,18 @@
         hide_from_to: true,
         // grid_margin: false
       });
+
+      var player = videojs("my-video");
+      var myButton = player.controlBar.addChild("button");
+      var myButtonDom = myButton.el();
+      myButtonDom.classList.add("checkbox__button");
+      myButtonDom.innerHTML = `<div class="checkbox__el">
+        <span>+</span>
+        <span>-</span>
+        </div>`;
+      myButtonDom.onclick = function () {
+       this.querySelector('.checkbox__el').classList.toggle('active')
+      };
     </script>
   </body>
 </html>
