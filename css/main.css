@@ -2666,7 +2666,7 @@ body {
 .cart_total__table td {
   padding: 10px;
   border-bottom: 1px solid #e8e8e8;
-  font-family: "Roboto";
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -3121,4 +3121,78 @@ body {
 
 .checkbox__button {
   width: 6em !important;
+}
+.cart_total__table {
+  table-layout: fixed;
+}
+.cart_total__table.payment td {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+}
+.payment_type {
+  list-style: none;
+  padding: 16px;
+  margin: 0;
+}
+.payment_type__link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
+  min-height: 90px;
+  text-decoration: none;
+  color: #23272a;
+}
+.payment_type__link:hover,
+.payment_type__link.active {
+  color: #23272a;
+  background-color: rgba(13, 111, 150, 0.1);
+}
+
+.payment_type__icon {
+  flex: 0 0 76px;
+  text-align: center;
+}
+
+.payment_type__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+.payment_type__title {
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+.payment_type__subtitle {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.payment_btn--cancel {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg id='Сгруппировать_10953' data-name='Сгруппировать 10953' transform='translate(-284 -1278)'%3E%3Ccircle id='Эллипс_3075' data-name='Эллипс 3075' cx='10' cy='10' r='10' transform='translate(284 1278)' fill='%23c1c1c1'/%3E%3Cpath id='Контур_15667' data-name='Контур 15667' d='M8-16a7.88,7.88,0,0,1,2.125.285,7.922,7.922,0,0,1,1.91.809,8.105,8.105,0,0,1,1.617,1.254,8.105,8.105,0,0,1,1.254,1.617,7.922,7.922,0,0,1,.809,1.91A7.88,7.88,0,0,1,16-8a7.88,7.88,0,0,1-.285,2.125,7.922,7.922,0,0,1-.809,1.91,8.105,8.105,0,0,1-1.254,1.617,8.106,8.106,0,0,1-1.617,1.254,7.922,7.922,0,0,1-1.91.809A7.88,7.88,0,0,1,8,0,7.88,7.88,0,0,1,5.875-.285a7.922,7.922,0,0,1-1.91-.809A8.105,8.105,0,0,1,2.348-2.348,8.105,8.105,0,0,1,1.094-3.965a7.922,7.922,0,0,1-.809-1.91A7.88,7.88,0,0,1,0-8a7.88,7.88,0,0,1,.285-2.125,7.922,7.922,0,0,1,.809-1.91,8.106,8.106,0,0,1,1.254-1.617,8.105,8.105,0,0,1,1.617-1.254,7.922,7.922,0,0,1,1.91-.809A7.88,7.88,0,0,1,8-16ZM8-1a6.89,6.89,0,0,0,1.863-.25,7,7,0,0,0,1.672-.707,7.032,7.032,0,0,0,1.414-1.094,7.032,7.032,0,0,0,1.094-1.414,7,7,0,0,0,.707-1.672A6.89,6.89,0,0,0,15-8a6.89,6.89,0,0,0-.25-1.863,7,7,0,0,0-.707-1.672,7.032,7.032,0,0,0-1.094-1.414,7.032,7.032,0,0,0-1.414-1.094,7,7,0,0,0-1.672-.707A6.89,6.89,0,0,0,8-15a6.89,6.89,0,0,0-1.863.25,7,7,0,0,0-1.672.707,7.032,7.032,0,0,0-1.414,1.094,7.032,7.032,0,0,0-1.094,1.414A7,7,0,0,0,1.25-9.863,6.89,6.89,0,0,0,1-8a6.89,6.89,0,0,0,.25,1.863,7,7,0,0,0,.707,1.672A7.032,7.032,0,0,0,3.051-3.051,7.032,7.032,0,0,0,4.465-1.957a7,7,0,0,0,1.672.707A6.89,6.89,0,0,0,8-1Zm3.461-9.758L8.711-8l2.75,2.758-.7.7L8-7.289,5.242-4.539l-.7-.7L7.289-8l-2.75-2.758.7-.7L8-8.711l2.758-2.75Z' transform='translate(286 1296)' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  padding-left: 40px;
+}
+.payment_btn {
+  padding: 13px 50px;
+}
+.payment_btn--cancel:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+.payment_btn--finish {
+  background-color: #2b88d8;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+}
+.payment_btn--finish:hover {
+  color: white;
+  background-color: rgba(13, 111, 150, .85);
 }
